@@ -58,12 +58,23 @@ nav {
 .button {
     margin-bottom: 7rem;
 }
+.button-link {
+    text-decoration: none;
+    color: white;
+    
+}
+.button-link:hover {
+    color: rgb(109, 33, 46);
+}
 button {
     padding: 1rem;
     border-radius: 10px;
     background-color: rgb(165, 112, 42);
-    color: var(--primary-color);
+    border-color: rgb(165, 112, 42);
+    border-style: none;
+
 }
+
 .div1-contained {
     margin-right: 2rem;
 }
