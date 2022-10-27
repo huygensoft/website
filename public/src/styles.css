@@ -49,8 +49,8 @@ nav {
     color: rgb(159, 159, 168);
 }
 .header-image {
-    max-width: 49%;
-    max-height: 30%;
+    max-width: 53vw;
+    max-height: 100vh;
     border-radius: 10px;
 
     
@@ -146,6 +146,14 @@ button {
     padding: 1rem;
 }
 
+/* Footer */
+footer {
+    text-align: center;
+    background-color: rgb(104, 72, 30);
+    max-width: 100vw;
+    padding: 1.2rem;
+}
+
 
 
 /* Mobile */
@@ -214,6 +222,9 @@ button {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     body {
         padding: 1rem;
+    }
+    .header-image {
+        max-width: 45vw;
     }
     .hr-focus {
         margin: auto 115px;
