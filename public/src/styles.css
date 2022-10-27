@@ -145,6 +145,14 @@ button {
     margin: 2rem;
     padding: 1rem;
 }
+.address-paragraph a {
+    text-decoration: none;
+    color: white;
+}
+.address-paragraph a:hover {
+    text-decoration: underline;
+}
+
 
 /* Footer */
 footer {
