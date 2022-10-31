@@ -145,11 +145,11 @@ button {
     margin: 2rem;
     padding: 1rem;
 }
-.address-paragraph a {
+.address-paragraph a, .telephone a {
     text-decoration: none;
     color: white;
 }
-.address-paragraph a:hover {
+.address-paragraph a:hover , .telephone a:hover {
     text-decoration: underline;
     opacity: 0.7;
 }
@@ -175,6 +175,7 @@ footer {
     font-size: 1.2rem;
     margin-bottom: 0;
 }
+
 .social-icons li {
     padding: 0.7rem;
 }
