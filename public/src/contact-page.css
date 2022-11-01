@@ -1,0 +1,80 @@
+/* Resets */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Body */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 2.5rem;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* CSS Variables */
+:root {
+    --primary-color: rgb(235, 235, 238);
+    --secondary-color: rgb(21, 21, 27);
+    --normal-font: ;
+    --bold-font: ;
+}
+
+
+/* Navigation */
+nav {
+    margin-top: 0.5rem;
+    
+}
+.logo {
+    margin-left: -2.4rem;
+    height: 4rem;
+}
+
+/* Form Grid container */
+.form-grid-container {
+    display: grid;
+    grid-template-columns: 25em 25em;
+    margin-top: 2rem;
+    min-height: 55vh;
+}
+/* Title section */
+.title-container {
+
+    
+}
+
+.title-container p {
+    font-size: 4rem;
+    margin-top: 0;
+}
+
+/* form-container */
+.form-container {
+    background-color: rgb(41, 179, 160);
+    border-radius: 12px;
+    padding: 0 1.5rem;
+    padding-bottom: 3rem;
+
+}
+input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border-style: none;
+    /* width: 25rem; */
+}
+.form-paragraph {
+    margin-block-end: 0.3rem;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.message-box {
+    height: 80px;
+}
