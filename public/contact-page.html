@@ -14,7 +14,7 @@
     </nav>
 
     <!--  Form Grid container -->
-<div class="form-grid-container">
+<div class="form-grid-container mobile-flex">
     <!-- Title -->
     <div class="title-container">
         <p>
@@ -23,18 +23,18 @@
     </div>
 
     <div class="form-container">
-        <form action="">
-            <p class="form-paragraph">Full Name</p>
-                <input type="text" id="" name="" placeholder="" >
+        <form action="" method="post">
+            <p class="form-paragraph"><label for="fullname">Full Name</label></p>
+                <input type="text" id="fullname" name="" placeholder="" >
             
-            <p class="form-paragraph">Email</p> 
-                <input type="text">
+            <p class="form-paragraph"><label for="email">Email</label></p> 
+                <input type="email" id="email" name="" placeholder="">
         
-            <p class="form-paragraph">Message</p>
-                <textarea id="" name="" placeholder="" cols="10" rows="7" class="message-box"></textarea>
+            <p class="form-paragraph"><label for="message">Message</label></p>
+                <textarea id="message" name="" placeholder="" cols="10" rows="7" class="message-box"></textarea>
             <br>
 
-            <p><button>Submit</button></p>
+            <input type="submit" value="Submit" class="btn">
         </form>
     </div>
 </div>
