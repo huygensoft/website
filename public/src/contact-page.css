@@ -40,30 +40,32 @@ nav {
 /* Form Grid container */
 .form-grid-container {
     display: grid;
-    grid-template-columns: 25em 25em;
+    grid-template-columns: 1fr 1fr;
     margin-top: 2rem;
-    min-height: 55vh;
+    min-height: 49vh;
 }
 /* Title section */
-.title-container {
-
-    
-}
 
 .title-container p {
     font-size: 4rem;
     margin-top: 0;
+    color: rgb(165, 112, 42);
 }
 
 /* form-container */
 .form-container {
-    background-color: rgb(41, 179, 160);
+    background-color: rgb(63, 63, 71);
     border-radius: 12px;
     padding: 0 1.5rem;
     padding-bottom: 3rem;
+    
 
 }
-input {
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
     padding: 0.5rem;
     font-size: 1.2rem;
     border-radius: 5px;
@@ -75,6 +77,46 @@ input {
     font-size: 1.2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.message-box {
-    height: 80px;
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border-color: white;
+    border-style: none;
+    background-color: rgb(165, 112, 42);
+    color: var(--primary-color);
+    box-shadow: 5px 5px 4px 0px rgb(0, 0, 0, 0.75);
+
+}
+button:hover {
+    color: rgb(109, 33, 46);
+}
+
+/* Media Queries */
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+}
+
+/* Tablet  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* Laptop */
+@media screen and (min-width: 1440px) {
+
+}
+
+/*  Small desktop*/
+@media screen and (min-wdth: 980px) and (max-width: 1023px) {
+    
+}
+
+
+/*  Large desktop*/
+@media screen and (min-wdth: 1200px) {
+    
 }
