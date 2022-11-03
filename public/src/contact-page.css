@@ -54,7 +54,7 @@ nav {
 
 /* form-container */
 .form-container {
-    background-color: rgba(80, 80, 90, 0.425);
+    background-color: rgba(80, 80, 90, 0.375);
     border-radius: 12px;
     padding: 0 1.5rem;
     padding-bottom: 3rem;
@@ -73,6 +73,7 @@ input, textarea {
     background-color: rgba(239, 239, 240, 0.829);
 }
 .form-paragraph {
+    margin-top: 2.2rem;
     margin-block-end: 0.3rem;
     font-size: 1.2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -116,7 +117,7 @@ input, textarea {
         text-align: center;
     }
     .title-container p {
-        font-size: 3.4rem;
+        font-size: 2.5rem;
         padding: 1.5rem 0.4rem;
         color: white;
         margin-bottom: 1rem;
