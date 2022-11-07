@@ -23,23 +23,38 @@
     </div>
 
     <div class="form-container">
-        <form action="" method="post">
-            <p class="form-paragraph"><label for="fullname">Full Name</label></p>
-                <input type="text" id="fullname" name="" placeholder="" >
+        <form id="contact" target="my-response-iframe" onsubmit="" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhrBS-cqFHnONVG94gS0orHRCN5wVUrko4zlWeLvsre49kDw/formResponse" method="post">
+            <p class="form-paragraph"><label for="Fullname">Full Name</label></p>
+                <input type="text" id="Fullname" name="entry.194226687" placeholder="" >
             
-            <p class="form-paragraph"><label for="email">Email</label></p> 
-                <input type="email" id="email" name="" placeholder="" required>
+            <p class="form-paragraph"><label for="Email">Email</label></p> 
+                <input type="email" id="Email" name="entry.139376568" placeholder="" required>
 
-            <p class="form-paragraph"><label for="phone-no">Phone Number</label></p> 
-                <input type="tel" name="" id="phone-no" placeholder="" required>
+            <p class="form-paragraph"><label for="Phone">Phone Number</label></p> 
+                <input type="tel" name="entry.750808430" id="Phone" placeholder="" required>
 
-            <p class="form-paragraph"><label for="message">Message</label></p>
-                <textarea id="message" name="" placeholder="" cols="10" rows="7" class="message-box"></textarea>
+            <p class="form-paragraph"><label for="Message">Message</label></p>
+                <textarea id="Message" name="entry.1041691875" placeholder="" cols="10" rows="7" class="message-box"></textarea>
             <br>
 
             <input type="submit" value="Submit" class="btn">
         </form>
+        <iframe id="contact" name="my-response-iframe"></iframe>
+
+        <script type="text/javascript">
+            //set the target on the form to point to the hidden iframe
+            document.getElementById('contact').target = 'my-response-iframe';
+
+            //to detect when iframe reloads
+            var iframe = document.getElementById('my-response-iframe');
+            if (iframe) {
+                iframe.onload = function() {
+                    alert('successful');
+                }
+            }
+        </script>
     </div>
 </div>
+    
 </body>
 </html>

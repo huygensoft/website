@@ -96,6 +96,12 @@ input, textarea {
     
 }
 
+/* iframe */
+iframe {
+    visibility: hidden;
+    height: 1px;
+}
+
 /* Media Queries */
 
 /* Mobile */
