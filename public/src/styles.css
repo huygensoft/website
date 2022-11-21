@@ -133,9 +133,11 @@ button {
     font-weight: 100;
     margin: 1.5rem;
     padding: 2rem;
+    margin-top: 2rem;
     border-radius: 12px;
     border-color: rgb(63, 63, 71);
     line-height: 2rem;
+    height: 60%;
 }
 
 /* Address Section */
@@ -202,6 +204,9 @@ footer ul {
     body {
         padding: 1rem;
     }
+    .logo {
+        margin-left: -0.2rem;
+    }
     .flex-header {
         flex-direction: column;
     }
@@ -247,7 +252,7 @@ footer ul {
         padding: 1rem;
     }
     .grid4-margin {
-        margin-top: 0;
+        margin-top: 1.2rem;
     }
     .grid-1, .grid-2, .grid-3, .grid-4 {
         padding: 0;
@@ -281,30 +286,31 @@ footer ul {
         padding: 1rem;
         margin: 1rem;
         font-size: 1.4rem;
+        
     }
     .grid-paragraph {
         margin: 0.5rem;
         padding: 1rem;
-
+    
     }
     .grid4-margin {
-        margin-top: 5rem;
+        margin-top: 2.8rem;
     }
     .grid-4 {
-        padding-top: 2rem;
+        padding-top: 4rem;
     }
 }
 
 /* Laptop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
     .header-div1 {
         margin-right: 2rem;
     }
     .header-image {
         max-width: 80vw;
-
+    }
     .grid4-margin {
-        margin-top:3rem;
+        margin-top: 3rem;
     }
     .grid-4 {
         padding-top: 2rem;
@@ -318,6 +324,6 @@ footer ul {
 
 
 /*  Large desktop*/
-@media screen and (min-wdth: 1200px) {
+@media screen and (min-wdth: 1440px) {
     
 }
