@@ -294,10 +294,10 @@ footer ul {
     
     }
     .grid4-margin {
-        margin-top: 2.8rem;
+        margin-top: 2.2rem;
     }
     .grid-4 {
-        padding-top: 4rem;
+        padding-top: 2rem;
     }
 }
 
@@ -310,10 +310,10 @@ footer ul {
         max-width: 80vw;
     }
     .grid4-margin {
-        margin-top: 3rem;
+        /* margin-top: 3rem; */
     }
     .grid-4 {
-        padding-top: 2rem;
+        /* padding-top: 2rem; */
     }
 }
 
