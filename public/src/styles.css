@@ -196,6 +196,32 @@ footer ul {
     padding: 1.5rem;
 }
 
+/* Cookie Banner Section */
+.cookie-banner-container {
+    background-color: rgba(80, 80, 90, 0.275);
+    padding: 0.5rem 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    transition: 500ms;
+}
+.cookie-banner-container.active {
+    bottom: 0;
+}
+.cookie-paragraph {
+
+}
+.cookie-button {
+    padding: 0.6rem;
+    color: white;
+    word-spacing: 0.3rem;
+}
+.cookie-link {
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
