@@ -65,17 +65,24 @@
       <nav>
         <img class="nav-img" src="src/images/logo.svg" alt="company's logo">
         <div class="nav-menu"> 
-          <div class="nav-menu-item"><a href="./index.html" class="">Home</a></div>
-          <div class="nav-menu-item"><a href="src/pages/about.html" class="">About Us</a></div>
-          <div class="nav-menu-item">Services</div>
-          <button class="nav-menu-btn"><a href="src/pages/contact-page.html" class="">Contact Us</a></button>
+          <div class="nav-menu-item"><a href="./index.html" class="link menu-link">Home</a></div>
+          <div class="nav-menu-item"><a href="src/pages/about.html" class="link menu-link">About Us</a></div>
+          <div class="nav-menu-item"><a href="#" class="link menu-link">Services</a></div>
+          <button class="nav-menu-btn"><a href="src/pages/contact-page.html" class="nav-link menu-link">Contact Us</a></button>
+        </div>
+
+        <!-- mobile bars -->
+        <div class="bar-container" id="bar-container">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
         </div>
       </nav>
 
       <div class="header-tag-container">
         <div class="header-inner-container">
           <h2 class="header-tag">You Are Our <br>Focus</h2>
-          <button class="header-tag-btn"><a href="src/pages/contact-page.html" class="button-link">Contact Us</a></button>
+          <button class="header-tag-btn"><a href="src/pages/contact-page.html" class="btn-link">Contact Us</a></button>
         </div> 
       </div>
   </header>
@@ -91,7 +98,7 @@
           businesses, accelerates their growth and their <br>
           performance to become benchmarks for global <br>
           standard.</p>
-        <button class="about-btn"><a href="src/pages/contact-page.html" class="">Contact Us</a></button>
+        <button class="about-btn"><a href="src/pages/contact-page.html" class="btn-link">Contact Us</a></button>
     </div>
 
     <div class="about-item-right">
@@ -146,7 +153,7 @@
         <div class="service-emp2"></div>
 
         <div class="service-btn-container">
-            <button class="service-btn"><a href="src/pages/contact-page.html" class="">Contact Us</a></button>
+            <button class="service-btn"><a href="src/pages/contact-page.html" class="btn-link">Contact Us</a></button>
         </div>
     </div>
 </section>
@@ -236,10 +243,10 @@
           <div class="footer-flex-item q-link">
               <h3 class="flex-item-tag">Quick Links</h3>
               <div class="footer-flex-link-container">
-                <span><a href="./index.html" class="">Home</a></span>
-                <span><a href="src/pages/about.html" class="">About Us</a></span>
+                <span><a href="./index.html" class="link">Home</a></span>
+                <span><a href="src/pages/about.html" class="link">About Us</a></span>
                 <span>Our Services</span>
-                <span><a href="src/pages/contact-page.html" class="">Contact Us</a></span>
+                <span><a href="src/pages/contact-page.html" class="link">Contact Us</a></span>
               </div>
           </div>
 
@@ -279,10 +286,10 @@
         <!-- <p>Copyright &copy;<script>document.write(new Date().getFullYear())</script> Huygensoft</p> -->
       </div>
       <div class="footer-social-icons">
-        <span><a href="#"><img src="src/images/fb-icon.svg" alt="" class="twitter-icon"></a></span>
-        <span><a href="#"><img src="src/images/whatsapp-icon.svg" alt=""></a></span>
-        <span><a href="#"><img src="src/images/instagram-icon.svg" alt=""></a></span>
-        <span><a href="https://twitter.com/huygensoft"><img src="src/images/twitter -icon.svg" alt=""></a></span>
+        <span><a href="#"><img src="src/images/fb-icon.svg" alt="" class="btn-link"></a></span>
+        <span><a href="#"><img src="src/images/whatsapp-icon.svg" alt="" class="btn-link"></a></span>
+        <span><a href="#"><img src="src/images/instagram-icon.svg" alt="" class="btn-link"></a></span>
+        <span><a href="https://twitter.com/huygensoft"><img src="src/images/twitter -icon.svg" alt="" class="btn-link"></a></span>
       </div>
   </div>
   
@@ -301,24 +308,24 @@
     <div class="mobile-footer-container">
         <!-- logo -->
         <div>
-          <img src="src/images/logo.svg" alt="company's logo">
+          <a href="./index.html" class="link"><img src="src/images/logo.svg" alt="company's logo"></a>
         </div>
 
         <!-- quick links & services -->
-        <div>
+        <div class="mobile-quick-links">
           <div>
-            <h3 class="flex-item-tag">Quick Links</h3>
-            <div class="footer-flex-link-container">
-              <span><a href="./index.html" class="">Home</a></span>
-              <span><a href="src/pages/about.html" class="">About Us</a></span>
+            <h3 class="mobile-flex-item-tag">Quick Links</h3>
+            <div class="mobile-footer-flex-link-container">
+              <span><a href="./index.html" class="link">Home</a></span>
+              <span><a href="src/pages/about.html" class="link">About Us</a></span>
               <span>Our Services</span>
-              <span><a href="src/pages/contact-page.html" class="">Contact Us</a></span>
+              <span><a href="src/pages/contact-page.html" class="link">Contact Us</a></span>
             </div>
           </div>
 
           <div>
-            <h3 class="flex-item-tag">Services</h3>
-                <div class="footer-flex-link-container">
+            <h3 class="mobile-flex-item-tag">Services</h3>
+                <div class="mobile-footer-flex-link-container">
                   <span>software engineering</span>
                   <span>websites development</span>
                   <span>user focused designs</span>
@@ -329,8 +336,8 @@
 
         <!-- address -->
         <div>
-          <h3 class="flex-item-tag ">Address</h3>
-              <div class="footer-address"><a href="https://goo.gl/maps/H3ZATeNMD2AstAmd9" target="_blank">1, Providence House, Admiralty way
+          <h3 class="mobile-flex-item-tag ">Address</h3>
+              <div class="mobile-footer-address"><a class="link" href="https://goo.gl/maps/H3ZATeNMD2AstAmd9" target="_blank">1, Providence House, Admiralty way
                   Lekki Phase 1, Lekki, Lagos State</a>
               </div>
         </div>
@@ -344,8 +351,8 @@
         </div>
 
         <!-- social icons -->
-        <div>
-          <span><a href="#"><img src="src/images/fb-icon.svg" alt="" class="twitter-icon"></a></span>
+        <div class="mobile-social">
+          <span><a href="#"><img src="src/images/fb-icon.svg" alt="" class=""></a></span>
           <span><a href="#"><img src="src/images/whatsapp-icon.svg" alt=""></a></span>
           <span><a href="#"><img src="src/images/instagram-icon.svg" alt=""></a></span>
           <span><a href="https://twitter.com/huygensoft"><img src="src/images/twitter -icon.svg" alt=""></a></span>
