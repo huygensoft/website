@@ -17,7 +17,7 @@
       <div class="nav-menu"> 
         <div class="nav-menu-item"><a href="../../index.html" class="link">Home</a></div>
         <div class="nav-menu-item"><a href="./about.html" class="link">About Us</a></div>
-        <div class="nav-menu-item" class='link'>Services</div>
+        <!-- <div class="nav-menu-item" class='link'>Services</div> -->
         <button class="nav-menu-btn"><a href="../pages/contact-page.html" class="header-link">Contact Us</a></button>
       </div>
     </nav>
@@ -53,35 +53,37 @@
     <div class="contact-map-container">
         <h2 class="contact-tag1">CONTACT US</h2>
         <div class="contact-tag2">Get in Touch</div>
-        <div class="contact-map"></div>
+        <div class="contact-map">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.5778022484483!2d3.46653452279688!3d6.448213710923372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf44febeed03f%3A0xadce619e2dbfa36c!2sProvidence%20House%2C%20Admiralty%20Way%2C%20Lekki%20Phase%20I%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1679920061999!5m2!1sen!2sng" width="1330" height="390" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 
-    <!-- form -->
+    <!-- form container -->
     <div class="contact-form-container">
-        <div>Send Us A Message</div>
+        <div class="form-tag">Send Us A Message</div>
 
         <!-- form -->
         <form action="#">
             <div class="form-layer1">
-                <div>
+                <div class="layer1-email">
                   <label for="email"> Email</label> <br>
-                  <input type="text">
+                  <input type="text" class="email-input">
                 </div>
     
-                <div>
+                <div class="layer1-pnumber">
                   <label for="p-number">Phone Number</label> <br>
-                  <input type="number">
+                  <input type="number" class="pnumber-input">
                 </div>
             </div>
 
             <div class="form-layer2">
               <label for="p-number">Full Name</label> <br>
-              <input type="number">
+              <input type="text" class="name-input">
             </div>
 
             <div class="form-layer3">
               <label for="p-number">Message</label> <br>
-              <input type="number">
+              <input type="number" class="msg-input">
             </div>
 
             <div class="form-btn">Send Message</div>
