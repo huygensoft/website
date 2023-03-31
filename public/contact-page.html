@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-630H8XK398"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-630H8XK398');
+    </script>
+    
+    
+        <!-- Google Analytics ends -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <!-- Favicons -->
+    <link rel="icon" href="src/images/favicon16.ico" sizes="16x16" type="image/x-icon">
+    <link rel="icon" href="src/images/favicon32.ico" sizes="32x32" type="image/x-icon">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./src/css/contact-page.css">
+</head>
+<body>
+    
+        <!-- Header section -->
+<header>
+    <!-- Navigation -->
+    <nav>
+      <img class="nav-img" src="./src/images/logo.svg" alt="company's logo">
+      <div class="nav-menu"> 
+        <div class="nav-menu-item"><a href="./index.html" class="link menu-link">Home</a></div>
+        <div class="nav-menu-item"><a href="./about.html" class="link menu-link">About Us</a></div>
+        <!-- <div class="nav-menu-item" class='link'>Services</div> -->
+        <button class="nav-menu-btn"><a href="./contact-page.html" class="header-link menu-link">Contact Us</a></button>
+      </div>
+
+        <!-- mobile bars -->
+        <div class="bar-container" id="bar-container">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+    </nav>
+
+    <div class="header-tag-container">
+      <div class="header-inner-container">
+        <div class="header-tag1">ABOUT US</div>
+        <h2 class="header-tag2">
+          Get in touch
+          <br>
+          We are 
+          <span class="header-tag2-span">closer</span>
+          than ever
+        </h2>
+
+        <div class="header-icon-container">
+            <img src="./src/images/fb-icon.svg" alt="facebook icon">
+            <img src="./src/images/whatsapp-icon.svg" alt="whatsapp icon">
+            <img src="./src/images/instagram-icon.svg" alt="instagram icon">
+            <img src="./src/images/twitter -icon.svg" alt="twitter icon">
+        </div>
+
+        <div class="header-tag-arrow-container">
+            <img class="header-tag-arrow" src="./src/images/arrow-down.svg" alt="arrow downward">
+        </div>
+      </div> 
+    </div>
+</header>
+
+
+<!-- Contact section -->
+<section class="contact-container">
+    <div class="contact-map-container">
+        <h2 class="contact-tag1">CONTACT US</h2>
+        <div class="contact-tag2">Get in Touch</div>
+        <div class="contact-map">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.5778022484483!2d3.46653452279688!3d6.448213710923372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf44febeed03f%3A0xadce619e2dbfa36c!2sProvidence%20House%2C%20Admiralty%20Way%2C%20Lekki%20Phase%20I%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1679920061999!5m2!1sen!2sng" width="1330" height="390" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!-- form container -->
+    <div class="contact-form-container">
+        <div class="form-tag">Send Us A Message</div>
+
+        <!-- form -->
+        <form id="contact" target="my-response-iframe" onsubmit="" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhrBS-cqFHnONVG94gS0orHRCN5wVUrko4zlWeLvsre49kDw/formResponse" method="post">
+            <div class="form-layer1">
+                <div class="layer1-email">
+                  <label for="Email"> Email</label> <br>
+                  <input type="email" class="email-input" id="Email" name="entry.139376568" required>
+                </div>
+    
+                <div class="layer1-pnumber">
+                  <label for="Phone">Phone Number</label> <br>
+                  <input type="tel" class="pnumber-input"  name="entry.750808430" id="Phone" placeholder="" required>
+                </div>
+            </div>
+
+            <div class="form-layer2">
+              <label for="Fullname">Full Name</label> <br>
+              <input type="text" class="name-input" id="Fullname" name="entry.194226687">
+            </div>
+
+            <div class="form-layer3">
+              <label for="Message">Message</label> <br>
+              <textarea id="Message" name="entry.1041691875" placeholder="" cols="5" rows="5" class="msg-input"></textarea>
+            </div>
+
+            <button type="submit" class="form-btn">Send Message</button>
+        </form>
+        <iframe id="contact" name="my-response-iframe"></iframe>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<main-footer></main-footer>
+
+
+
+<!-- Form script -->
+<script type="text/javascript">
+  //set the target on the form to point to the hidden iframe
+  document.getElementById('contact').target = 'my-response-iframe';
+
+  //to detect when iframe reloads
+  var iframe = document.getElementById('my-response-iframe');
+  if (iframe) {
+      iframe.onload = function() {
+          alert('successful');
+      }
+  }
+</script>
+
+
+<script src="./src/js/component.js"></script>
+<script>
+  // Footer date
+window.onload = function() {
+    let date = new Date().getFullYear();
+    document.getElementById("footer-year").innerHTML = date;
+
+     // Mobile Navigation
+    // Hamburger starts
+    const hamburger = document.getElementById("bar-container");
+    const menu = document.querySelector(".nav-menu");
+    const menuLink = document.querySelectorAll(".menu-link");
+
+    hamburger.addEventListener("click", showMenu);
+
+    function showMenu() {
+        hamburger.classList.toggle("active");
+        menu.classList.toggle("active");
+    }
+    menuLink.forEach(n => n.addEventListener("click", closeMenu));
+
+    function closeMenu() {
+        hamburger.classList.remove("active");
+        menu.classList.remove("active");
+    }
+    // Hamburger ends
+}
+</script>
+</body>
+</html>

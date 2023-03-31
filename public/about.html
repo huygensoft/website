@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+ <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-630H8XK398"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-630H8XK398');
+    </script>
+    
+    
+        <!-- Google Analytics ends -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="../css/about.css">
+
+    <!-- Favicons -->
+    <link rel="icon" href="src/images/favicon16.ico" sizes="16x16" type="image/x-icon">
+    <link rel="icon" href="src/images/favicon32.ico" sizes="32x32" type="image/x-icon">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./src/css/about.css">
 </head>
 <body>
     
@@ -13,13 +34,20 @@
   <header>
     <!-- Navigation -->
     <nav>
-      <img class="nav-img" src="../images/logo.svg" alt="company's logo">
+      <img class="nav-img" src="./src/images/logo.svg" alt="company's logo">
       <div class="nav-menu"> 
-        <div class="nav-menu-item"><a href="../../index.html" class="link">Home</a></div>
-        <div class="nav-menu-item"><a href="./about.html" class="link">About Us</a></div>
+        <div class="nav-menu-item"><a href="./index.html" class="link menu-link">Home</a></div>
+        <div class="nav-menu-item"><a href="./about.html" class="link menu-link">About Us</a></div>
         <!-- <div class="nav-menu-item" class='link'>Services</div> -->
-        <button class="nav-menu-btn"><a href="../pages/contact-page.html" class="header-link">Contact Us</a></button>
+        <button class="nav-menu-btn"><a href="./contact-page.html" class="header-link menu-link">Contact Us</a></button>
       </div>
+
+        <!-- mobile bars -->
+        <div class="bar-container" id="bar-container">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
     </nav>
 
     <div class="header-tag-container">
@@ -31,7 +59,7 @@
           <span class="header-tag2-span">Technology Platforms</span>
         </h2>
         <div class="header-tag-arrow-container">
-            <img class="header-tag-arrow" src="../images/arrow-down.svg" alt="arrow downward">
+            <img class="header-tag-arrow" src="./src/images/arrow-down.svg" alt="arrow downward">
         </div>
       </div> 
     </div>
@@ -49,7 +77,7 @@
               <br>
               <span class="about-item1-tag2-span">Technology Platforms</span>
             </h2>
-            <img class="about-item1-img2" src="../images/about-img2.svg" alt="">
+            <img class="about-item1-img2" src="./src/images/about-img2.svg" alt="">
         </div>
       
         <!--  -->
@@ -87,10 +115,17 @@
         
         <!--  -->
         <div class="about-grid-item item4">
-            <img src="../images/about-img3.svg" alt="image">
+            <img src="./src/images/about-img3.svg" alt="image" class="about-item4-img">
         </div>
     </div>
 
+    <img src="./src/images/blue-dot.svg" class="blue-dot1">
+    <img src="./src/images/blue-dot.svg" class="blue-dot2">
+    <img src="./src/images/blue-dot.svg" class="blue-dot3">
+    <img src="./src/images/blue-dot.svg" class="blue-dot4">
+    <img src="./src/images/blue-dot.svg" class="blue-dot5">
+    <div class="orange-border"></div>
+    <div class="blue-box"></div>
 </section>
 
 
@@ -98,11 +133,11 @@
 <!-- Mission section -->
 <section class="mission-container">
     <div class="mission-grid">
-      <img class="mission-img" src="../images/about-img4.svg" alt="">
+      <img class="mission-img" src="./src/images/about-img4.svg" alt="">
       
       <div class="mission-grid-right">
           <div class="mission-grid-right-item">
-              <img class="mission-grid-right-img" src="../images/about-mission-icon.svg" alt="">
+              <img class="mission-grid-right-img" src="./src/images/about-mission-icon.svg" alt="">
               <h2 class="mission-grid-right-tag">our mission</h2>
               <p class="mission-grid-right-paragraph">
                 We identify business challenges, conduct analysis and develop 
@@ -111,7 +146,7 @@
           </div>
 
           <div class="mission-grid-right-item">
-            <img class="mission-grid-right-img" src="../images/about-vision-icon.svg" alt="">
+            <img class="mission-grid-right-img" src="./src/images/about-vision-icon.svg" alt="">
             <h2 class="mission-grid-right-tag">our vision</h2>
             <p class="mission-grid-right-paragraph">
               Solution <br>
@@ -137,79 +172,36 @@
 
 
 <!-- Footer -->
-<footer>
-
-    <div class="footer-container">
-        <div class="footer-link-container">
-            <div class="footer-flex-item">
-              <img src="../images/logo.svg" alt="company's logo">
-            </div>
-  
-            <div class="footer-flex-item q-link">
-                <h3 class="flex-item-tag">Quick Links</h3>
-                <div class="footer-flex-link-container">
-                  <span><a href="../../index.html" class="link">Home</a></span>
-                  <span><a href="../pages/about.html" class="link">About Us</a></span>
-                  <span>Our Services</span>
-                  <span><a href="../pages/contact-page.html" class="link">Contact Us</a></span>
-                </div>
-            </div>
-  
-            <div class="footer-flex-item">
-                  <h3 class="flex-item-tag">Services</h3>
-                  <div class="footer-flex-link-container">
-                    <span>software engineering</span>
-                    <span>websites development</span>
-                    <span>user focused designs</span>
-                    <span>business development <br> services</span>
-                  </div>
-            </div>
-  
-  
-            <div class="footer-flex-item">
-                  <h3 class="flex-item-tag ">Address</h3>
-                  <div class="footer-flex-link-container flex-address">
-                    <div class="footer-address"><a href="https://goo.gl/maps/H3ZATeNMD2AstAmd9" target="_blank">1, Providence House, Admiralty way
-                       Lekki Phase 1, Lekki, Lagos State</a>
-                    </div>
-                    
-                    <div>
-                      <h3 class="footer-contact-info">Contact Information</h3>
-                      <span class="footer-telephone"><a href="tel:+2349035883528">Tel : +234-903-588-3528</a></span>
-                      <span>support@huygensoft.com</span>
-                    </div>
-                  </div>
-            </div>
-        </div>
-  
-    </div>
-  
-  
-    <div class="footer-socials-container">
-        <div>
-          <p class="copyright">Copyright &copy;<span id="footer-year"></span> | All Rights Reserved</p>
-          <!-- <p>Copyright &copy;<script>document.write(new Date().getFullYear())</script> Huygensoft</p> -->
-        </div>
-        <div class="footer-social-icons">
-          <span><a href="#"><img src="../images/fb-icon.svg" alt="" class="twitter-icon"></a></span>
-          <span><a href="#"><img src="../images/whatsapp-icon.svg" alt=""></a></span>
-          <span><a href="#"><img src="../images/instagram-icon.svg" alt=""></a></span>
-          <span><a href="https://twitter.com/huygensoft"><img src="../images/twitter -icon.svg" alt=""></a></span>
-        </div>
-    </div>
-    
-      <!-- Cookie Banner -->
-      <!-- <div class="cookie-banner-container" id="cookie">
-        <p class="cookie-paragraph"> We use cookies to deliver the best experience on our website.
-        By using our website, you agree to the use of cookies.
-        </p>
-        <button class="cookie-button">I Agree</button>
-        <span><a href="#" class="cookie-link">Learn more...</a></span>
-      </div> -->
-    </footer>
-  
+<main-footer></main-footer>
   
 
+<script src="./src/js/component.js"></script>
+<script>
+  // Footer date
+    window.onload = function() {
+    let date = new Date().getFullYear();
+    document.getElementById("footer-year").innerHTML = date;
 
+    // Mobile Navigation
+    // Hamburger starts
+    const hamburger = document.getElementById("bar-container");
+    const menu = document.querySelector(".nav-menu");
+    const menuLink = document.querySelectorAll(".menu-link");
+
+    hamburger.addEventListener("click", showMenu);
+
+    function showMenu() {
+        hamburger.classList.toggle("active");
+        menu.classList.toggle("active");
+    }
+    menuLink.forEach(n => n.addEventListener("click", closeMenu));
+
+    function closeMenu() {
+        hamburger.classList.remove("active");
+        menu.classList.remove("active");
+    }
+    // Hamburger ends
+}
+</script>
 </body>
 </html>
