@@ -254,7 +254,7 @@ input {
     margin-top: 30px;
     color: var(--text-white);
 }
-iframe {
+#contact {
     visibility: hidden;
     height: 1px;
 }
