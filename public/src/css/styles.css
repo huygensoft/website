@@ -29,9 +29,10 @@ body {
     --text-white: #FFFFFF;
     --logo-orange: #F55F1D;
 }
-.link, .btn-link {
+.link, .btn-link, .top-link {
     text-decoration: none;
     color: var(--text-white);
+    cursor: pointer;
   }
 .nav-link {
     text-decoration: none;
@@ -41,7 +42,7 @@ body {
     opacity: 0.7;
     /* color: var(--primary-second); */
   }
-.link:hover, .nav-link:hover {
+.active, .link:hover, .nav-link:hover, .top-link:hover {
     /* opacity: 0.7; */
     color: var(--accent-color);
   }
@@ -409,18 +410,13 @@ header {
 .client-name {
     font-weight: 700;
     font-size: 18px;
-} 
-
-
-/* Footer */
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin-top: 0.8rem;
-    
 }
+.mobile-test-card-container {
+  display: none;
+ }
+
+
+
 /* Cookie Banner Section */
 .cookie-banner-container {
     background-color: rgba(83, 83, 88, 0.795);
@@ -431,6 +427,9 @@ header {
     bottom: 0;
     z-index: 1;
     display: none;
+    color: #fff;
+    text-align: center;
+    height: 6rem;
 }
 /* .cookie-paragraph {
 
@@ -439,7 +438,7 @@ header {
     border-radius: 5px;
     padding: 0.6rem 1.5rem;
     margin-right: 1rem;
-    color: white;
+    color: var(--accent-color);
     word-spacing: 0.3rem;
     font-size: 1rem;
     cursor: pointer;
@@ -451,6 +450,10 @@ header {
 .cookie-link:hover {
     opacity: 0.4;
 }
+.cookie-button-container {
+  margin-top: 10px;
+}
+
 
 
 
@@ -631,13 +634,17 @@ header {
 
    /* Test section */
    .test-container {
-
+      height: 32rem;
    }
    .test-container br {
         display: none;
    }
+   .test-tag1 {
+      font-size: 14px;
+   }
    .test-tag2 {
-        font-size: 32px;
+        font-size: 28px;
+        line-height: 33px;
    }
    .test-tag-right {
         display: none;
@@ -645,8 +652,51 @@ header {
    .test-card-slide-container {
         display: none;
    }
-
-
+   /* Mobile Card */
+.mobile-test-card-container {
+  /* border: 1px solid black; */
+  height: 20rem;
+  margin-top: 35px;
+  display: block;
+}
+.m-card {
+  /* border: 1px solid black; */
+  background: var(--text-white);
+  height: 17rem;
+  width: 100%;
+  border-radius: 10px;
+  padding: 24px;
+  color: #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.m-card-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  
+}
+.m-card-client-info-container {
+  margin-top: 49px;
+  display: flex;
+}
+.m-card-client-image {
+  border-radius: 50%;
+}
+.m-card-client-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: center;
+}
+.m-client-name {
+  font-weight: 700;
+  font-size: 18px;
+}
+.cookie-banner-container {
+  height: 9rem;
+  padding: 1rem;
+}
+   
 
 
 
@@ -654,25 +704,184 @@ header {
 
 /*  Tablet*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    header {
+        padding: 35px 42px;
+        height: 38rem;
+    }
+    .nav-img {
+        height: 3rem;
+      }
+      .nav-menu {
+        width: 53%;
+        font-size: 13.5px;
+      }
+      .nav-menu-btn {
+        height: 37px;
+        width: 109px;
+        font-size: 14px;
+      }
+      .header-tag2 {
+        font-size: 2.5rem;
+        line-height: 42px;
+        margin-top: 13px;
+      }
+      .header-tag-btn, .about-btn, .service-btn {
+        width: 141px;
+        height: 45px;
+        padding: 10px 26px;
+      }
+
+      /* About section */
+      .about-container {
+        padding: 35px 42px;
+        height: 37rem;
+      }
+      .about-item-left {
+        width: 49%;
+      }
+      .about-tagline br {
+        display: none;
+      }
+      .about-tag {
+        font-size: 14px;
+      }
+      .about-tagline {
+        font-size: 28px;
+      }
+      .about-paragraph {
+        font-size: 14px;
+        line-height: 22px;
+      }
+      .about-image {
+        height: 28rem;
+        right: 3%;
+      }
+      .about-blue-box {
+        top: 19%;
+        right: 34%;
+      }
+      .about-orange-box, .about-blue-box {
+        width: 125px;
+        height: 120px;
+      }
+      .about-orange-box {
+        top: 72%;
+        right: 1%;
+      }
+      .about-dot-blue {
+        height: 5rem;
+      }
+      .about-dot-orange {
+        height: 3rem;
+        left: 7%;
+      }
     
-    
+      /* Service section */
+      .service-container {
+        padding: 70px 42px;
+        height: 52rem;
+      }
+      .service-grid {
+        grid-template-rows: 5rem 15rem 15rem 8rem;
+        grid-column-gap: 20px;
+      }
+      .service-tag1 {
+        font-size: 14px;
+      }
+      .service-tag2 {
+        font-size: 24px;
+      }
+      .grid-image {
+        height: 3.4rem;
+      }
+      .grid-tag {
+        font-size: 17px;
+        height: 1.5rem;
+      }
+      .grid-paragraph br {
+        display: none;
+      }
+      .grid-paragraph {
+        font-size: 13px;
+        height: 9rem;
+      }
+      .service-biz .grid-tag {
+        height: 3rem;
+      }
+      .biz-img {
+        height: 4rem;
+      }
+
+      /* Testimonial section */
+      .test-container {
+        padding: 40px 0 40px 42px;
+        height: 33rem;
+      }
+      .test-tag1 {
+        font-size: 14px;
+      }
+      .test-tag2 {
+        font-size: 28px;
+      }
+      .test-tag-right {
+        margin-right: 1rem;
+        width: 138px;
+      }
+      .test-nav-left, .test-nav-right {
+        width: 62px;
+        height: 57px;
+      }
+      .card{
+        padding: 16px;
+        width: 31%;
+      }
+      .card-paragraph {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .card-client-image {
+        height: 3rem;
+      }
+      .client-name {
+        font-size: 14px;
+      }
+      .card-client-title {
+        font-size: 12px;
+      }
+
+
 }
 
 /* Laptop */
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
     /* Header */
-    .nav-menu {
-        width: 54%;
-    }
-    .nav-menu-btn {
-        width: 148px;
-    }
     header {
-        padding: 30px 65px;
+        padding: 35px 65px;
+        height: 41rem;
     }
-    .header-tag-btn {
-        height: 50px;
-    }
+    .nav-img {
+        height: 3rem;
+      }
+      .nav-menu {
+        width: 53%;
+        font-size: 13.5px;
+      }
+      .nav-menu-btn {
+        height: 37px;
+        width: 109px;
+        font-size: 14px;
+      }
+      .header-tag2 {
+        font-size: 2.5rem;
+        line-height: 42px;
+        margin-top: 13px;
+      }
+      .header-tag-btn, .about-btn, .service-btn {
+        width: 141px;
+        height: 45px;
+        padding: 10px 26px;
+      }
+
 
     /* About section */
     .about-container {
@@ -737,17 +946,45 @@ header {
 
     /* Test */
     .test-container {
-        padding: 35px 65px;
-    }
+    padding: 40px 0 40px 65px;
+    height: 33rem;
+  }
+  .test-tag1 {
+    font-size: 14px;
+  }
+  .test-tag2 {
+    font-size: 32px;
+  }
+  .test-tag-right {
+    margin-right: 1rem;
+    width: 138px;
+  }
+  .test-nav-left, .test-nav-right {
+    width: 62px;
+    height: 57px;
+  }
+  .card{
+    padding: 22px;
+    width: 30%;
+  }
+  .card-client-info-container {
+    margin-top: 42px;
+  }
+  .card-paragraph {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .card-client-image {
+    height: 3rem;
+  }
+  .client-name {
+    font-size: 16px;
+  }
+  .card-client-title {
+    font-size: 12px;
+  }
+
+
 }
 
- /* Small desktop
-@media screen and (min-width: 980px) and (max-width: 1023px) {
-    
-} */
 
-
-/*  Large desktop*/
-/* @media screen and (min-width: 1440px) {
-    
-} */
