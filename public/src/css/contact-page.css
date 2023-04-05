@@ -28,15 +28,16 @@ body {
   --text-white: #FFFFFF;
   --logo-orange: #F55F1D;
 }
-.link {
+.link, .top-link {
   text-decoration: none;
   color: var(--text-white);
+  cursor: pointer;
 }
 .header-link {
   text-decoration: none;
   color: var(--primary-second);
 }
-.link:hover, .header-link:hover {
+.active, .link:hover, .header-link:hover {
   /* opacity: 0.7; */
   color: var(--accent-color);
 }
@@ -260,6 +261,10 @@ input {
 }
 
 
+
+
+
+
 /* ------------------------------------------------------------------------- */
 /* Media Queries */
 
@@ -400,6 +405,51 @@ input {
 /* ---------------------------------------------------------- */
 /* Tablet  */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    header {
+      padding: 35px 42px;
+    }
+    .nav-img {
+      height: 3rem;
+    }
+    .nav-menu {
+      width: 42%;
+      font-size: 13.5px;
+    }
+    .nav-menu-btn {
+      height: 37px;
+      width: 109px;
+      font-size: 14px;
+    }
+    .header-tag2 {
+      font-size: 2.2rem;
+      line-height: 42px;
+      margin-top: 13px;
+      height: 7rem;
+    }
+    .header-tag-arrow {
+      height: 6rem;
+    }
+    
+    .header-tag1 {
+      font-size: 14px;
+      height: 1rem;
+    }
+
+    /* Contact section */
+    .contact-container {
+      padding: 35px 42px;
+    }
+    .contact-tag1 {
+      font-size: 14px;
+    }
+    .contact-tag2 {
+      font-size: 2.2rem;
+    }
+    .form-btn{
+       width: 141px;
+      height: 45px;
+      padding: 10px 26px;
+    }
     
 }
 
@@ -407,11 +457,52 @@ input {
 
 /*  Small desktop*/
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    
+  header {
+    padding: 40px 50px;
+  }
+  .nav-img {
+    height: 3.5rem;
+  }
+  .nav-menu {
+    width: 42%;
+    font-size: 13.5px;
+  }
+  .nav-menu-btn {
+    height: 37px;
+    width: 109px;
+    font-size: 14px;
+  }
+  .header-tag2 {
+    font-size: 2.8rem;
+    line-height: 48px;
+    margin-top: 13px;
+    height: 9rem;
+  }
+  .header-tag-arrow {
+    height: 6rem;
+  }
+  
+  .header-tag1 {
+    font-size: 14px;
+    height: 1rem;
+  }
+
+  /* Contact section */
+  .contact-container {
+    padding: 70px 50px;
+  }
+  .contact-tag1 {
+    font-size: 14px;
+  }
+  .contact-tag2 {
+    font-size: 2.2rem;
+  }
+  .form-btn{
+     width: 141px;
+    height: 45px;
+    padding: 10px 26px;
+  }    
 }
 
-/* Laptop */
-@media screen and (min-width: 1440px) {
-    
-}
+
 

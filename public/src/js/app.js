@@ -17,54 +17,45 @@ function closeMenu() {
     menu.classList.remove("active");
 }
 // Hamburger ends
+// ---------------------------------------------------------------------
 
 
 
-// Footer date
-window.onload = function() {
-    let date = new Date().getFullYear();
-    document.getElementById("footer-year").innerHTML = date;
-}
+
+// for mobile
+// window.onload = function() {
+//     let date = new Date().getFullYear();
+//     document.getElementById("m-footer-year").innerHTML = date;
+// }
 
 
-//Cookies Banner
-const cookieContainer = document.querySelector("#cookie");
-const cookieButton = document.querySelector(".cookie-button");
-
-// Set cookie
-setCookie = (cName, cValue, expDays) => {
-    let date = new Date();
-    date.setTime(date.getTime() + (expDays * 24 * 60 * 60 * 1000));
-    const expires = "expires=" + date.toUTCString();
-    document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
-}
-
-// Get cookie 
-getCookie = (cName) => {
-    const name  = cName + "=";
-    const cDecoded = decodeURIComponent(document.cookie);
-    const cArr = cDecoded.split("; ");
-    let value;
-    cArr.forEach(val => {
-        if(val.indexOf(name) === 0) value = val.substring(name.length);
-    })
-
-    return value;
-}
+// Add Active To Current Page
+let links = document
 
 
-// Cookie Button clicked
-cookieButton.addEventListener("click", () => {
-    cookieContainer.style.display = "none";
 
-    setCookie("cookie", true, 30);
-});
+// document.querySelector(`a[href^=' ${location.pathname.split('/'[1])}'] `).className = 'active';
+// activeLink[0].classList.add('active');
 
 
-// 
-cookieMessage = () => {
-    if(!getCookie("cookie")) 
-    document.querySelector("#cookie").style.display = "block";
-}
+// (function () {
+//     let current = location.pathname.split('/')[1];
+//     if (current === '') return;
+//     let menuItems = document.querySelectorAll('.nav-menu a');
+//     for (let i = 0, len = menuItems.length; i < len; i++) {
+//         if (menuItems[i].getAttribute('href').indexOf(current) !== -1) {
+//             menuItems[i].className += 'is-active';
+//         }
+//     }
+// })();
 
-window.addEventListener("load", cookieMessage);
+
+// let navContainer = document.getElementById('navs');
+// let btns =navContainer.getElementsByClassName('top-link');
+// for (let i = 0; i < btns; i++) {
+//     btns[i].addEventListener('click', function() {
+//         let current = document.getElementsByClassName('active');
+//         current[0].className = current[0].className.replace(" active", '');
+//         this.className += ' active';
+//     });
+// }
