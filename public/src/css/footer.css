@@ -60,11 +60,11 @@ footer {
 .flex-address {
     height: 13rem;
 }
-.footer-address a, .footer-telephone a {
+.footer-address a, .footer-telephone a, .footer-mail a {
     text-decoration: none;
     color: white;
 }
-.footer-address a:hover , .footer-telephone a:hover {
+.footer-address a:hover , .footer-telephone a:hover, .footer-mail a:hover {
     text-decoration: underline;
     color: var(--accent-color);
 }

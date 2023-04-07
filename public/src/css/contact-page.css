@@ -102,7 +102,7 @@ nav {
 header {
   /* border: 1px solid red; */
   height: 42rem;
-  background: url('../images/contact-img.svg');
+  background: url('../images/contact-1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -255,6 +255,11 @@ input {
     margin-top: 30px;
     color: var(--text-white);
 }
+.form-btn:hover, .form-btn:focus {
+  opacity: 0.9;
+  cursor: pointer;
+  color: #181c20;
+}
 .form-iframe {
     visibility: hidden;
     height: 1px;
@@ -397,6 +402,11 @@ input {
   width: 99%;
   top: 58%;
   right: 1%;
+}
+.form-btn {
+  width: 157px;
+  height: 50px;
+  padding: 18px 24px;
 }
 
 }
