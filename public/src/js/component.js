@@ -28,8 +28,8 @@ class Favicon extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         
-        <link rel="icon" href="src/images/favicon16.ico" sizes="16x16" type="image/x-icon">
-        <link rel="icon" href="src/images/favicon32.ico" sizes="32x32" type="image/x-icon">
+        <link rel="icon" href="./src/images/favicon16.ico" sizes="16x16" type="image/x-icon">
+        <link rel="icon" href="./src/images/favicon32.ico" sizes="32x32" type="image/x-icon">
 
         `;
     }
@@ -47,7 +47,7 @@ class Footer extends HTMLElement {
   <div class="footer-container">
       <div class="footer-link-container">
           <div class="footer-flex-item item-1">
-            <img src="src/images/logo.svg" alt="company's logo" class='footer-logo'>
+            <a href='./index.html'><img src="src/images/logo.svg" alt="company's logo" class='footer-logo'> </a>
           </div>
 
           <div class="footer-flex-item q-link">
@@ -82,7 +82,7 @@ class Footer extends HTMLElement {
                   <div>
                     <h3 class="footer-contact-info">Contact Information</h3>
                     <span class="footer-telephone"><a href="tel:+2349035883528">Tel : +234-903-588-3528</a></span>
-                    <span>support@huygensoft.com</span>
+                    <span class="footer-mail"><a href='mailto: '>support@huygensoft.com</a></span>
                   </div>
                 </div>
           </div>
@@ -153,7 +153,7 @@ class Footer extends HTMLElement {
       <div>
         <h3 class="footer-contact-info">Contact Information</h3>
         <span class="footer-telephone"><a href="tel:+2349035883528">Tel : +234-903-588-3528</a></span>
-        <span>support@huygensoft.com</span>
+        <span class="footer-mail"><a href='mailto:'>support@huygensoft.com</a></span>
       </div>
 
       <!-- social icons -->

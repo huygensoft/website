@@ -103,7 +103,7 @@ nav {
 header {
   /* border: 1px solid red; */
   height: 42rem;
-  background: url('../images/about-img.svg');
+  background: url('../images/about-1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -340,7 +340,7 @@ header {
  }
  header {
     padding: 35px 21px;
-    background: url('../images/mobile-home1.svg');
+    background: url('../images/m-about-1.jpg');
  }
  .nav-img {
       height: 3rem;
