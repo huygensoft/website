@@ -467,7 +467,8 @@ header {
    }
    header {
       padding: 35px 21px;
-      background: url('../images/m-home-1.jpg');
+      /* background: url('../images/m-home-1.jpg'); */
+      background-position: 48%;
    }
    .nav-img {
         height: 3rem;
@@ -579,7 +580,7 @@ header {
     }
     .about-image {
         height: 26rem;
-        right: 5%;
+        right: 8%;
     }
     .about-orange-box {
         width: 103px;
@@ -591,7 +592,7 @@ header {
         width: 105px;
         height: 105px;
         top: 450px;
-        right: 247px;
+        right: 70%;
     }
     .about-container br {
         display: none;

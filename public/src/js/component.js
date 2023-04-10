@@ -82,7 +82,7 @@ class Footer extends HTMLElement {
                   <div>
                     <h3 class="footer-contact-info">Contact Information</h3>
                     <span class="footer-telephone"><a href="tel:+2349035883528">Tel : +234-903-588-3528</a></span>
-                    <span class="footer-mail"><a href='mailto: '>support@huygensoft.com</a></span>
+                    <span class="footer-mail"><a href='mailto:reach@huygensoft.com'>support@huygensoft.com</a></span>
                   </div>
                 </div>
           </div>
@@ -153,7 +153,7 @@ class Footer extends HTMLElement {
       <div>
         <h3 class="footer-contact-info">Contact Information</h3>
         <span class="footer-telephone"><a href="tel:+2349035883528">Tel : +234-903-588-3528</a></span>
-        <span class="footer-mail"><a href='mailto:'>support@huygensoft.com</a></span>
+        <span class="footer-mail"><a href='mailto:reach@huygensoft.com'>support@huygensoft.com</a></span>
       </div>
 
       <!-- social icons -->
