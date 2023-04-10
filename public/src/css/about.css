@@ -340,7 +340,8 @@ header {
  }
  header {
     padding: 35px 21px;
-    background: url('../images/m-about-1.jpg');
+    /* background: url('../images/m-about-1.jpg'); */
+    background-position: 57%;
  }
  .nav-img {
       height: 3rem;
@@ -524,7 +525,7 @@ header {
   /* Mission section */
   .mission-container {
     padding: 57px 21px;
-    height: 43rem;
+    height: 70rem;
     /* border: 1px solid black; */
   }
   .mission-grid {
@@ -532,18 +533,23 @@ header {
     flex-direction: column;
     height: 40rem;
   }
-  .mission-img {
+  /* .mission-img {
     display: none;
-  }
+  } */
   .mission-grid-right-tag {
     font-size: 1.6rem;
   }
   .mission-grid-right-item {
     width: 96%;
+    height: 14rem;
+  }
+  .item-vision {
+    height: 10rem;
   }
   .mission-grid-right {
     justify-content: space-between;
-    height: 35rem;
+    height: 45rem;
+    margin-top: 3.5rem;
   }
 
 }
