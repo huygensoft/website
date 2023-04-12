@@ -71,6 +71,7 @@ footer {
 .footer-mail {
     display: inline-block;
     margin-top: 7px;
+    text-transform: lowercase;
 }
 
 /* mobile footer */
