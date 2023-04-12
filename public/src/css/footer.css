@@ -55,7 +55,7 @@ footer {
 }
 .footer-social-icons {
     text-align-last: justify;
-    width: 13%;
+    width: 5%;
 }
 .flex-address {
     height: 13rem;
@@ -67,6 +67,10 @@ footer {
 .footer-address a:hover , .footer-telephone a:hover, .footer-mail a:hover {
     text-decoration: underline;
     color: var(--accent-color);
+}
+.footer-mail {
+    display: inline-block;
+    margin-top: 7px;
 }
 
 /* mobile footer */
@@ -133,10 +137,13 @@ footer {
     .mobile-footer-address a:hover {
         opacity: 0.5;
     } */
+    .footer-contact-info {
+        margin-bottom: 15px;
+    }
     .mobile-social {
         display: flex;
         justify-content: space-between;
-        width: 46%;
+        width: 18%;
     }
 
     .mobile-copyright {
@@ -186,7 +193,7 @@ footer {
         font-size: 13px;
     }
     .footer-social-icons {
-        width: 26%;
+        width: 9%;
     }
     .s-span {
         height: 2rem;
@@ -232,7 +239,7 @@ footer {
         font-size: 13px;
     }
     .footer-social-icons {
-        width: 17%;
+        width: 6%;
     }
     .s-span {
         height: 2rem;

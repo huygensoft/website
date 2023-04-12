@@ -321,6 +321,7 @@ header {
 
 /* Testimonial section */
 .test-container {
+  display: none;
     height: 36rem;
     padding: 50px 0 50px 121px;
     background-color: #F7F7FC;
