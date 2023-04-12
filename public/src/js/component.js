@@ -82,7 +82,7 @@ class Footer extends HTMLElement {
                   <div>
                     <h3 class="footer-contact-info">Contact Information</h3>
                     <span class="footer-telephone"><a href="tel:+2349035883528">Tel : +234-903-588-3528</a></span>
-                    <span class="footer-mail"><a href='mailto:reach@huygensoft.com'>support@huygensoft.com</a></span>
+                    <span class="footer-mail"><a href='mailto:reach@huygensoft.com'>Reach@huygensoft.com</a></span>
                   </div>
                 </div>
           </div>
@@ -97,9 +97,9 @@ class Footer extends HTMLElement {
         <!-- <p>Copyright &copy;<script>document.write(new Date().getFullYear())</script> | All Rights Reserved</p> -->   
       </div>
       <div class="footer-social-icons">
-        <span><a href="#"><img src="./src/images/fb-icon.svg" alt="" class="btn-link"></a></span>
-        <span><a href="#"><img src="./src/images/whatsapp-icon.svg" alt="" class="btn-link"></a></span>
-        <span><a href="#"><img src="./src/images/instagram-icon.svg" alt="" class="btn-link"></a></span>
+        <!-- <span><a href="#"><img src="./src/images/fb-icon.svg" alt="" class="btn-link"></a></span> -->
+        <!-- <span><a href="#"><img src="./src/images/whatsapp-icon.svg" alt="" class="btn-link"></a></span> -->
+        <!-- <span><a href="#"><img src="./src/images/instagram-icon.svg" alt="" class="btn-link"></a></span> -->
         <span><a href="https://twitter.com/huygensoft"><img src="./src/images/twitter -icon.svg" alt="" class="btn-link"></a></span>
       </div>
   </div>
@@ -153,14 +153,14 @@ class Footer extends HTMLElement {
       <div>
         <h3 class="footer-contact-info">Contact Information</h3>
         <span class="footer-telephone"><a href="tel:+2349035883528">Tel : +234-903-588-3528</a></span>
-        <span class="footer-mail"><a href='mailto:reach@huygensoft.com'>support@huygensoft.com</a></span>
+        <span class="footer-mail"><a href='mailto:reach@huygensoft.com'>Reach@huygensoft.com</a></span>
       </div>
 
       <!-- social icons -->
       <div class="mobile-social">
-        <span><a href="#"><img src="./src/images/fb-icon.svg" alt="" class=""></a></span>
-        <span><a href="#"><img src="./src/images/whatsapp-icon.svg" alt=""></a></span>
-        <span><a href="#"><img src="./src/images/instagram-icon.svg" alt=""></a></span>
+        <!-- <span><a href="#"><img src="./src/images/fb-icon.svg" alt="" class=""></a></span> -->
+        <!-- <span><a href="#"><img src="./src/images/whatsapp-icon.svg" alt=""></a></span> -->
+        <!-- <span><a href="#"><img src="./src/images/instagram-icon.svg" alt=""></a></span> -->
         <span><a href="https://twitter.com/huygensoft"><img src="./src/images/twitter -icon.svg" alt=""></a></span>
       </div>
   </div>
