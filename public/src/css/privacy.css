@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary-color: #0E625F;
+  }
+  
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f3f3f3;
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    text-align: center;
+    color: var(--primary-color);
+  }
+  
+  div {
+    padding: 0 10rem;
+  }
+  
+  p, ul {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+  
+  footer {
+    margin-block-start: 12rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .footer-social img {
+    margin: 0 7px;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    body {
+      padding: 1rem;
+    }
+    h1 {
+      font-size: 1.2rem;
+    }
+    div {
+      padding: 0;
+    }
+    p, ul {
+      font-weight: 400;
+      font-size: 1rem;
+    }
+    footer {
+      font-size: 0.9rem;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    div {
+      padding: 0 3rem;
+    }
+  }
+  
+  /*# sourceMappingURL=policy.css.map */
+  

@@ -1,60 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+ <!-- Google Analytics -->
+    <main-analytics></main-analytics>  
+<!-- Google Analytics ends -->
+
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <link rel="stylesheet" href="src/contact-page.css">
-</head>
+    <title>Contact Us</title>
+
+    <!-- Favicons -->
+    <main-favicon></main-favicon>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./src/css/contact-page.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+  </head>
 <body>
-    <!-- Navigation Section -->
+    
+        <!-- Header section -->
+<header>
+    <!-- Navigation -->
     <nav>
-       <a href="index.html"> <img src="images/logowhite-withtext.png" alt="company's logo" class="logo"></a>
+      <a href='./index.html'><img class="nav-img" src="./src/images/logo.svg" alt="company's logo"></a>
+      <div class="nav-menu" id="navs"> 
+        <div class="nav-menu-item"><a href="./index.html" class="top-link menu-link">Home</a></div>
+        <div class="nav-menu-item"><a href="./about.html" class="top-link menu-link">About Us</a></div>
+        <!-- <div class="nav-menu-item" class='link'>Services</div> -->
+        <!-- <button class="nav-menu-btn"><a href="./contact-page.html" class="top-link header-link menu-link">Contact Us</a></button> -->
+      </div>
+
+        <!-- mobile bars -->
+        <div class="bar-container" id="bar-container">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
     </nav>
 
-    <!--  Form Grid container -->
-<div class="form-grid-container mobile-flex">
-    <!-- Title -->
-    <div class="title-container">
-        <p>
-            Contact Us...
-        </p>
+    <div class="header-tag-container">
+      <div class="header-inner-container">
+        <div class="header-tag1">ABOUT US</div>
+        <h2 class="header-tag2">
+          Get in touch
+          <br>
+          We are 
+          <span class="header-tag2-span">closer</span>
+          than ever
+        </h2>
+
+        <div class="header-icon-container">
+            <!-- <img src="./src/images/fb-icon.svg" alt="facebook icon"> -->
+            <!-- <img src="./src/images/whatsapp-icon.svg" alt="whatsapp icon"> -->
+            <!-- <img src="./src/images/instagram-icon.svg" alt="instagram icon"> -->
+            <a href="https://twitter.com/huygensoft" ><img src="./src/images/twitter -icon.svg" alt="twitter icon"></a>
+        </div>
+
+        <div class="header-tag-arrow-container">
+            <img class="header-tag-arrow" src="./src/images/arrow-down.svg" alt="arrow downward">
+        </div>
+      </div> 
+    </div>
+</header>
+
+
+<!-- Contact section -->
+<section class="contact-container">
+    <div class="contact-map-container">
+        <h2 class="contact-tag1">CONTACT US</h2>
+        <div class="contact-tag2">Get in Touch</div>
+        <div class="contact-map">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.5778022484483!2d3.46653452279688!3d6.448213710923372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf44febeed03f%3A0xadce619e2dbfa36c!2sProvidence%20House%2C%20Admiralty%20Way%2C%20Lekki%20Phase%20I%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1679920061999!5m2!1sen!2sng" width="1330" height="390" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 
-    <div class="form-container">
+    <!-- form container -->
+    <div class="contact-form-container">
+        <div class="form-tag">Send Us A Message</div>
+
+        <!-- form -->
         <form id="contact" target="my-response-iframe" onsubmit="" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhrBS-cqFHnONVG94gS0orHRCN5wVUrko4zlWeLvsre49kDw/formResponse" method="post">
-            <p class="form-paragraph"><label for="Fullname">Full Name</label></p>
-                <input type="text" id="Fullname" name="entry.194226687" placeholder="" >
-            
-            <p class="form-paragraph"><label for="Email">Email <span>&#10033</span></label></p> 
-                <input type="email" id="Email" name="entry.139376568" placeholder="" required>
-
-            <p class="form-paragraph"><label for="Phone">Phone Number <span>&#10033</span></label></p> 
-                <input type="tel" name="entry.750808430" id="Phone" placeholder="" required>
-
-            <p class="form-paragraph"><label for="Message">Message</label></p>
-                <textarea id="Message" name="entry.1041691875" placeholder="" cols="10" rows="7" class="message-box"></textarea>
-            <br>
-
-            <input type="submit" value="Submit" class="btn">
-        </form>
-        <iframe id="contact" name="my-response-iframe"></iframe>
-
-        <script type="text/javascript">
-            //set the target on the form to point to the hidden iframe
-            document.getElementById('contact').target = 'my-response-iframe';
-
-            //to detect when iframe reloads
-            var iframe = document.getElementById('my-response-iframe');
-            if (iframe) {
-                iframe.onload = function() {
-                    alert('successful');
-                }
-            }
-        </script>
-    </div>
-</div>
+            <div class="form-layer1">
+                <div class="layer1-email">
+                  <label for="Email"> Email <span class="asterik">*</span></label> <br>
+                  <input type="email" class="email-input" id="Email" name="entry.139376568" required>
+                </div>
     
+                <div class="layer1-pnumber">
+                  <label for="Phone">Phone Number <span class="asterik">*</span></label> <br>
+                  <input type="tel" class="pnumber-input"  name="entry.750808430" id="Phone" placeholder="" required>
+                </div>
+            </div>
+
+            <div class="form-layer2">
+              <label for="Fullname">Full Name <span class="asterik">*</span></label> <br>
+              <input type="text" class="name-input" id="Fullname" name="entry.194226687" required>
+            </div>
+
+            <div class="form-layer3">
+              <label for="Message">Message</label> <br>
+              <textarea id="Message" name="entry.1041691875" placeholder="" cols="5" rows="5" class="msg-input"></textarea>
+            </div>
+
+            
+            <button type="submit" class="form-btn" id="form-btn">Send Message</button>
+            <span class="response-positive" id="response-positive">Message Sent.</span>
+            <span class="response-negative" id="response-negative">Please fill in the boxes.</span>
+            
+          </form>
+        <iframe id="contact" name="my-response-iframe" class="form-iframe"></iframe>
+    </div>
+  </section>
+
+
+<!-- Footer -->
+<main-footer></main-footer>
+
+
+<!-- Form Submit Response Script -->
+<script>
+  const btn = document.getElementById('form-btn');
+  const responsePositive = document.getElementById('response-positive');
+  const responseNegative = document.getElementById('response-negative');
+  const inputName = document.getElementById('Fullname');
+  const inputEmail = document.getElementById('Email');
+  const inputNo = document.getElementById('Phone');
+  
+  btn.addEventListener('click', function () {
+    if (inputName.value != '' && inputEmail.value != '' && inputNo.value != '') {
+      responsePositive.style.display = 'inline-block';
+      responseNegative.style.display = 'none';
+      
+    } else {
+      responsePositive.style.display = 'none';
+      responseNegative.style.display = 'inline-block';
+    }
+
+  })
+</script>
+
+
+<!-- Form script -->
+<script type="text/javascript">
+  //set the target on the form to point to the hidden iframe
+  document.getElementById('contact').target = 'my-response-iframe';
+
+  //to detect when iframe reloads
+  var iframe = document.getElementById('my-response-iframe');
+  if (iframe) {
+      iframe.onload = function() {
+          alert('successful');
+      }
+  }
+</script>
+
+<script src="src/js/app.js"></script>
+<script src="src/js/component.js"></script>
+
 </body>
 </html>

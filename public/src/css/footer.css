@@ -1,0 +1,253 @@
+
+footer {
+    height: 38rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    color: var(--text-white);
+}
+.footer-container {
+    padding: 86px 121px;
+    background: var(--primary-second);
+}
+.footer-link-container {
+    /* border: 1px solid white; */
+    display: flex;
+    height: 25rem;
+}
+.footer-flex-item {
+    /* border: 1px solid white; */
+    width: 28%;
+    
+}
+.flex-item-tag {
+    font-weight: 700;
+    font-size: 27px;
+}
+.q-link {
+    width: 23%;
+}
+.footer-flex-link-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: space-between;
+    height: 13rem;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 0.6px;
+}
+.q-span {
+    height: 3rem;
+}
+.footer-contact-info {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.footer-socials-container {
+    background: var(--footer-end-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 121px;
+    height: 70px;
+}
+.footer-social-icons {
+    text-align-last: justify;
+    width: 5%;
+}
+.flex-address {
+    height: 13rem;
+}
+.footer-address a, .footer-telephone a, .footer-mail a {
+    text-decoration: none;
+    color: white;
+}
+.footer-address a:hover , .footer-telephone a:hover, .footer-mail a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+.footer-mail {
+    display: inline-block;
+    margin-top: 7px;
+    text-transform: lowercase;
+}
+
+/* mobile footer */
+.mobile-footer-container, .mobile-copyright {
+    display: none;
+}
+
+
+
+/* ------------------------------------------------------------- */
+/* Media Queries */
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    footer {
+        height: 55rem;
+    }
+    .footer-container, .footer-socials-container {
+        display: none;
+    }
+
+    .mobile-footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: var(--primary-second);
+        height: 51rem;
+        padding: 52px 21px;
+    }
+    .mobile-quick-links {
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobile-flex-item-tag {
+        font-size: 23px;
+    }
+    .mobile-quick-links span {
+        font-size: 0.8rem;
+        height: 2rem;
+        color: var(--text-font-color);
+    }
+    .mobile-footer-flex-link-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: space-between;
+        height: 10rem;
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: capitalize;
+        letter-spacing: 0.6px;
+    }
+    .mobile-flex-item-tag {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .mobile-footer-address {
+        margin-top: 10px;
+    }
+    /* .mobile-footer-address a {
+        text-decoration: none;
+        color: var(--text-font-color);
+    }
+    .mobile-footer-address a:hover {
+        opacity: 0.5;
+    } */
+    .footer-contact-info {
+        margin-bottom: 15px;
+    }
+    .mobile-social {
+        display: flex;
+        justify-content: space-between;
+        width: 18%;
+    }
+
+    .mobile-copyright {
+        background-color: var(--footer-end-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+    }
+    .copyright {
+        font-size: 0.9rem;
+    }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer-container {
+        padding: 40px 42px;
+    }
+    .footer-logo {
+        height: 3rem;
+    }
+    .item-1 {
+        width: 30%;
+    }
+    .q-link {
+        width: 31%;
+    }
+    .item-3 {
+        width: 40%;
+    }
+    .item-4 {
+        width: 40%;
+    }
+    .flex-item-tag {
+        font-size: 22px;
+    }
+    .footer-flex-link-container {
+        font-size: 13px;
+        height: 10rem;
+    }
+    .footer-socials-container {
+        padding: 0 42px;
+    }
+    .copyright {
+        font-size: 13px;
+    }
+    .footer-social-icons {
+        width: 9%;
+    }
+    .s-span {
+        height: 2rem;
+    }
+    .footer-contact-info {
+        font-size: 17px;
+    }
+
+}
+
+
+/* Small Laptop */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .footer-container {
+        padding: 40px 50px;
+    }
+    .footer-logo {
+        height: 3rem;
+    }
+    .item-1 {
+        width: 30%;
+    }
+    .q-link {
+        width: 31%;
+    }
+    .item-3 {
+        width: 40%;
+    }
+    .item-4 {
+        width: 40%;
+    }
+    .flex-item-tag {
+        font-size: 22px;
+    }
+    .footer-flex-link-container {
+        font-size: 13px;
+        height: 10rem;
+    }
+    .footer-socials-container {
+        padding: 0 50px;
+    }
+    .copyright {
+        font-size: 13px;
+    }
+    .footer-social-icons {
+        width: 6%;
+    }
+    .s-span {
+        height: 2rem;
+    }
+    .footer-contact-info {
+        font-size: 17px;
+    }
+       
+
+}

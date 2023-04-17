@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <!-- Google Analytics -->
+    <main-analytics></main-analytics>
+    <!-- Google Analytics ends -->
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="HuygenSoft">
     <!-- Open graphs -->
     <meta property="og:title" content="Huygensoft Home">
-    <meta property="og:image" content="public/images/">
-    <meta property="og:description" content="">
+    <meta property="og:image" content="src/images/logo.svg">
+    <meta property="og:description" content="HuygenSoft is a leading innovative firm in Nigeria
+    that offers creative solutions that transforms clients 
+    businesses, accelerates their growth and their 
+    performance to become benchmarks for global 
+    standard.">
     <meta property="og:url" content="https://www.huygensoft.com">
     <meta property="og:type" content="Website">
     <meta property="og:locale" content="">
     <meta property="og:image:width" content="">
     <meta property="og:image:height" content="">
     <meta property="og:image:alt" content="">
-    <meta property="twitter:card" content="summary">
-    <meta property="twitter:image" content="">
-    <meta property="twtter:site" content="@huygensoft">
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Huygensoft Home">
+    <meta name="twitter:image" content="src/images/logo.svg">
+    <meta name="twitter:site" content="@huygensoft">
+    <meta name="twitter:description" content=" HuygenSoft is a leading innovative firm in Nigeria
+    that offers creative solutions that transforms clients 
+    businesses, accelerates their growth and their 
+    performance to become benchmarks for global 
+    standard.">
 
     <title>Huygensoft Home</title>
+
+
     <!-- Favicons -->
-    <link rel="icon" href="images/favicon16.ico" sizes="16x16" type="image/x-icon">
-    <link rel="icon" href="images/favicon32.ico" sizes="32x32" type="image/x-icon">
+    <main-favicon></main-favicon>
+
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/9.9.3/firebase-app-compat.js"></script>
     <!-- include only the Firebase features as you need -->
@@ -53,86 +73,209 @@
 </script>
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/footer.css">
 
+    <!-- jsdelivr -->
+<script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
   </head>
 
-
   <body>
-    
-  <!-- Navigation section -->
-<nav>
-    <picture>
-      <source srcset="images/banner-image-white-mobile-360x240.png" media="(max-width: 767px)">
-      <source srcset="" media="(min-width: 768px) and (max-width: 1023px)">
-
-    <img src="images/logowhite-withtext.png" alt="logo" class="logo"> 
-    </picture>
-</nav>
-
-<!-- Header -->
-<header class="flex-header">
-  <div class="header-div1">
-    <div class="div1-contained">
-      <h2>BUILDING DYNAMIC <br>DIGITAL & TECHNOLOGY PLATFORMS</h2>
-      <P>To accelerate business growth and performance</P>
-      <div class="button">
-      <button><a href="contact-page.html" class="button-link">Contact Us</a></button>
-      </div>  
-    </div>
-  </div>
-
   
-    <img src="images/banner-image-white-640x427.png" alt="company's logo" class="header-image">
+  <!-- Header section -->
+  <header>
+      <!-- Navigation -->
+      <nav>
+        <a href='./index.html'><img class="nav-img" src="./src/images/logo.svg" alt="company's logo"></a>
+        <div class="nav-menu" id="navs"> 
+          <div class="nav-menu-item"><a href="./index.html" class="top-link menu-link">Home</a></div>
+          <div class="nav-menu-item"><a href="./about.html" class="top-link menu-link">About Us</a></div>
+          <div class="nav-menu-item"><a href="#service" class="link menu-link">Services</a></div>
+          <button class="nav-menu-btn"><a href="./contact-page.html" class="top-link menu-link nav-link">Contact Us</a></button>
+        </div>
 
-</header>
+        <!-- mobile bars -->
+        <div class="bar-container" id="bar-container">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
 
-<!-- Company"s focus -->
-<div class="focus">
-  What We Do 
-  <hr class="hr-focus">
-</div>
+      <div class="header-tag-container">
+        <div class="header-inner-container">
+          <h2 class="header-tag">Innovative Solutions For <br> Everyone: Our Tech Services </h2>
+          <button class="header-tag-btn"><a href="./contact-page.html" class="btn-link">Contact Us</a></button>
+        </div> 
+      </div>
+  </header>
+  
 
-<section class="grid-container mobile-flex">
-  <div class="grid-1">
-    <div><span class="grid-title">Software <br> Engineering</span> </div> 
-    <div class="grid-paragraph">We design, develop and maintain technology platforms that provide functionality  
-    to support business growth and performance</div>
-  </div> <br>
+<!-- About Us Section -->
+<section class="about-container">
+    <div class="about-item-left">
+        <h2 class="about-tag">ABOUT US</h2>
+        <div class="about-tagline">Building Dynamic Digital <br> & Technology Platforms</div>
+        <p class="about-paragraph">HuygenSoft is a leading innovative firm in Nigeria <br>
+          that offers creative solutions that transforms clients <br>
+          businesses, accelerates their growth and their <br>
+          performance to become benchmarks for global <br>
+          standard.</p>
+        <button class="about-btn"><a href="./contact-page.html" class="btn-link">Contact Us</a></button>
+    </div>
 
-  <div class="grid-2">
-    <div>  <span class="grid-title">Websites <br> Development</span></div>
-    <div class="grid-paragraph">We build digital platforms that ensure seamless exchange of goods, services and 
-    informations between a business and consumers accross the globe</div>
-  </div> <br>
-
-  <div class="grid-3">
-    <div> <span class="grid-title">Business <br> Development Services</span></div>
-    <div class="grid-paragraph">We provide business consulting services to make your business thrive</div>
-  </div> <br>
-
-  <div class="grid-4">
-    <div> <span class="grid-title">User <br> Focused</span></div> 
-    <div class="grid-paragraph grid4-margin">Our services are specialized to each client's needs</div>
-  </div>
+    <div class="about-item-right">
+        <div class="about-orange-box"></div>
+        <div class="about-blue-box"></div>
+        <img class="about-dot-orange" src="./src/images/orange-dot.svg" alt="">
+        <img class="about-dot-blue" src="./src/images/blue-dot.svg" alt="">
+        <img class="about-image" src="./src/images/m-home-2.jpg" alt="">
+    </div>
 </section>
 
-<hr>
+<!-- Service section -->
+<section class="service-container" id="service">
+    <div class="service-grid">
+        <div class="service-tag-container">
+          <h2 class="service-tag1">OUR SERVICES</h2>
+          <div class="service-tag2">Services We Render</div>
+        </div>
 
-<!-- footer -->
-<footer>
-  <p class="address-paragraph"><a href="https://goo.gl/maps/H3ZATeNMD2AstAmd9" target="_blank">Address: 1, Providence House, Admiralty way Lekki Phase 1, Lekki, Lagos State</a></p>
-  <p class="telephone"><a href="tel:+2349035883528">Tel : +234-903-588-3528</a></p>
-  <ul class="social-icons">
-    <li><a href="https://twitter.com/huygensoft"><img src="images/twitter-icon.png" alt="" class="twitter-icon"></a></li>
-    <li><a href="https://github.com/huygensoft/website"><img src="images/github-icon.png" alt=""></a></li>
-    <li><a href="https://thehuygen.com"><img src="images/hash-icon.png" alt=""></a></li>
-    
-  </ul>
+        <div class="service-user">
+            <img class="grid-image" src="./src/images/user-focused-icon.svg" alt="icon">
+            <h2 class="grid-tag">User Focused Designs</h2>
+            <p class="grid-paragraph">We proffer our expert services specialized to <br>
+               each customer’s and user needs </p>
+        </div>
+
+        <div class="service-web">
+            <img class="grid-image" src="./src/images/web-dev-icon.svg" alt="">
+            <h2 class="grid-tag">Websites Development</h2>
+            <p class="grid-paragraph">We build digital platforms that ensure 
+               seamless <br> exchange of goods, services 
+                and information <br> between a business and 
+                consumers across the globe</p>
+        </div>
+
+        <div class="service-biz">
+            <img class="grid-image biz-img" src="./src/images/biz-dev-icon.svg" alt="">
+            <h2 class="grid-tag">Business Development Services</h2>
+            <p class="grid-paragraph biz-paragraph">We provide business consulting services to <br>
+               make your business thrive in the market.</p>
+        </div>
+
+        <div class="service-software">
+            <img class="grid-image" src="./src/images/soft-eng-icon.svg" alt="">
+            <h2 class="grid-tag">Software Engineering</h2>
+            <p class="grid-paragraph">We design, develop and maintain technology <br>
+               platforms that provide functionality to support <br>
+                business growth and performance</p>
+        </div>
+
+        <div class="service-emp1"></div>
+        <div class="service-emp2"></div>
+
+        <div class="service-btn-container">
+            <button class="service-btn"><a href="./contact-page.html" class="btn-link">Contact Us</a></button>
+        </div>
+    </div>
+</section>
 
 
-  <p class="copyright">Copyright &copy;<span id="footer-year"></span> Huygensoft</p>
-    <!-- <p>Copyright &copy;<script>document.write(new Date().getFullYear())</script> Huygensoft</p> -->
+<!--Testimonial section  -->
+<section class="test-container">
+    <div class="test-tag-container">
+        <div class="test-tag-left">
+            <h4 class="test-tag1">TESTIMONIALS</h4>
+            <div class="test-tag2">testimonies from honoured <br> clients</div>
+        </div>
+
+        <div class="test-tag-right">
+            <span class="test-nav-left">&#60</span>
+            <span class="test-nav-right">&#62</span>
+        </div>
+    </div>
+
+    <div class="test-card-slide-container">
+        <!-- box 1 -->
+        <div class="card">
+            <div class="card-paragraph">
+                <p>Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my 
+                  business and its all thanks to your amazing service
+                </p>
+            </div>
+
+            <div class="card-client-info-container">
+                <img class="card-client-image" src="./src/images/testimonial-image.svg" alt="">
+                <div class="card-client-info">
+                  <p class="client-name">Olamigoke Adeniyi</p>
+                  <p class="card-client-title">CEO Marketing Booksrite</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 2 -->
+        <div class="card">
+            <div class="card-paragraph">
+              <p>Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my 
+                business and its all thanks to your amazing service
+              </p>
+          </div>
+
+          <div class="card-client-info-container">
+              <img class="card-client-image" src="./src/images/testimonial-image.svg" alt="">
+              <div class="card-client-info">
+                <p class="client-name">Olamigoke Adeniyi</p>
+                <p class="card-client-title">CEO Marketing Booksrite</p>
+              </div>
+          </div>
+        </div>
+
+        <!-- box 3 -->
+        <div class="card">
+          <div class="card-paragraph">
+              <p>Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my 
+                business and its all thanks to your amazing service
+              </p>
+          </div>
+
+          <div class="card-client-info-container">
+              <img class="card-client-image" src="./src/images/testimonial-image.svg" alt="">
+              <div class="card-client-info">
+                <p class="client-name">Olamigoke Adeniyi</p>
+                <p class="card-client-title">CEO Marketing Booksrite</p>
+              </div>
+          </div>
+        </div>
+
+
+    </div>
+
+    <!-- Mobile -->
+    <div class="mobile-test-card-container">
+        <!-- box 1 -->
+        <div class="m-card">
+          <div class="m-card-paragraph">
+              <p>Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my 
+                business and its all thanks to your amazing service
+              </p>
+          </div>
+
+          <div class="m-card-client-info-container">
+              <img class="m-card-client-image" src="./src/images/testimonial-image.svg" alt="">
+              <div class="m-card-client-info">
+                <p class="m-client-name">Olamigoke Adeniyi</p>
+                <p class="m-card-client-title">CEO Marketing Booksrite</p>
+              </div>
+          </div>
+      </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<main-footer></main-footer>
+
 
 
     <!-- Cookie Banner -->
@@ -140,14 +283,24 @@
       <p class="cookie-paragraph"> We use cookies to deliver the best experience on our website.
       By using our website, you agree to the use of cookies.
       </p>
-      <button class="cookie-button">I Agree</button>
-      <span><a href="#" class="cookie-link">Learn more...</a></span>
+      <div class="cookie-button-container">
+        <button class="cookie-button">I Agree</button>
+      </div>
     </div>
-  </footer>
 
+
+
+  
 
 <!-- Script -->
-<script src="src/app.js"></script>
+<!-- <script>
+  barba.init({
+    // ...
+  })
+</script> -->
+<script src="./src/js/component.js"></script>
+<script src="./src/js/consent.js"></script>
+<script src="./src/js/app.js"></script>
 
 
     <script>

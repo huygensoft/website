@@ -1,10 +1,3 @@
-// Footer date
-window.onload = function() {
-    let date = new Date().getFullYear();
-    document.getElementById("footer-year").innerHTML = date;
-}
-
-
 //Cookies Banner
 const cookieContainer = document.querySelector("#cookie");
 const cookieButton = document.querySelector(".cookie-button");
