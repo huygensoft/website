@@ -1,0 +1,689 @@
+What's included
+$1,000
+CRM Integration with 3cX
+Integrate your Custom CRM with 3cX for Contact lookup as a basic feature
+
+Delivery Time
+
+Project details
+Integrating 3cX into your Custom CRM solution might be quite challenging. You'll get a stable, fast, extendable API to manage your VoIP solution.
+Programming Languages
+ASP.NET, C#
+Coding Expertise
+Performance Optimization, Security
+
+What's included
+These options are included with the project scope.
+
+$1,000
+Delivery Time
+3 days
+Number of Revisions
+3
+Source Code
+Optional add-ons
+You can add these on the next page.
+Click to Call (+ 1 Day)
++$500
+Call history logging
++$800
+Call Recording (+ 2 Days)
++$500
+
+
+Frequently asked questions
+
+Is 3cX deployed on Windows Supported
+
+Is 3cX deployed on Linux Supported
+
+Do I need Enterprize License to integrate?
+No
+
+
+You will get an API to make calls, monitor calls and control your 3cX PBX
+
+Project details
+• You will get an HTTP Rest API backend to call defined endpoints to control 3cX to make calls, hangup, create IVR, transfer calls, and many other functions.
+ • If you prefer to have a listener, this project can also implement the Microsoft Signal R socket service so you can receive live call updates in realtime.
+ • You'll also get an adequately documented codebase.
+ • You can get a CDR, CFD and Custom Softphone integration
+Programming Languages
+ASP.NET, C#
+Coding Expertise
+Performance Optimization, Security
+What's included
+Service Tiers	Starter
+$2,000
+Standard
+$5,000
+Advanced
+$8,000
+Delivery Time	3 days	10 days	30 days
+Number of Revisions
+3	5	9
+Design Customization
+-
+-
+-
+Content Upload
+-
+-
+-
+Responsive Design
+-
+-
+-
+Source Code
+Optional add-ons
+You can add these on the next page.
+Fast Delivery
++$2,000 - $5,000
+Call Flow Design (CFD) (+ 3 Days)
++$1,500
+Custom Dashboard Development (+ 10 Days)
++$2,000
+Employee Training
++$400
+
+Frequently asked questions
+
+Can I get API for Older 3cX versions
+
+Can I listed to Signal R from NodeJS or other non-Microsoft tech stack
+
+Can I automate Make Call while my agents are using the Web Clients.
+
+
+
+Project Plan: 3CX Integration with Alt Bank's Custom CRM
+Project Objective: This project is focused on building a tailored API middleware that seamlessly connects the 3CX system with Alt Bank’s internal custom CRM. The solution will be designed specifically with the bank’s unique processes, compliance needs, and system architecture in mind, ensuring smooth, secure, and reliable integration at the backend for day-to-day operations.
+Duration: The entire project is planned for 8 - 10 weeks. Sprint Length: Each sprint is 2 weeks. This means the project will span approximately 4 - 5  sprints to fully achieve all deliverables.
+Technology & Integration Details: The integration will be developed using either C# or Node.js. 
+Responsibility Matrix: Roles and General Responsibilities
+The project team comprises the following roles:
+1 Project Manager
+2 Software Developers
+1 QA Engineer
+1 CRM Administrator
+1 DevOps Engineer
+Here is an overview of their general responsibilities:
+Project Manager:
+
+
+Overall Project Oversight: Manages the 13-week project duration, coordinating all team members and ensuring alignment with the project objective.
+Stakeholder & Client Liaison: Facilitates communication with Alt Bank, gathers feedback, and secures final sign-off.
+Planning & Prioritisation: Defines sprint goals, manages scope, and ensures deliverables are met within timelines.
+Risk Management: Identifies potential blockers and devises mitigation strategies.
+Documentation Oversight: Ensures creation of user guides and training materials.
+Software Developers (2):
+
+
+Core API Middleware Development: Responsible for building the tailored API middleware to connect 3CX with Alt Bank's CRM.
+3CX Integration: Utilises the 3CX Call Control API (RESTful and WebSocket) to implement all required call functionalities programmatically (initiate, answer, transfer, terminate calls).
+Feature Implementation: Develops agent and supervisor account creation, real-time call monitoring and logging, call routing, reporting capabilities, and in-call experience features.
+Bug Fixing: Addresses identified defects during internal QA and UAT.
+Code Quality & Best Practices: Ensures secure, reliable, and maintainable code.
+QA Engineer:
+
+
+Comprehensive Testing: Conducts thorough testing of all modules and integrated functionalities.
+Bug Identification & Reporting: Identifies defects and works with developers for resolution.
+Regression Testing: Ensures new changes do not negatively impact existing functionalities.
+UAT Support: Assists the client team during User Acceptance Testing.
+CRM Administrator:
+
+
+CRM System Expertise: Provides insights into Alt Bank’s custom CRM system, its processes, and data architecture.
+Requirements Definition: Collaborates with the Project Manager and Developers to ensure the integration meets the bank's unique CRM needs and compliance requirements.
+User Acceptance Testing (UAT): Actively participates in testing the integrated solution from a user perspective, providing critical feedback.
+Configuration: Potentially involved in configuring aspects within the Alt Bank CRM to utilise the new API middleware.
+DevOps Engineer:
+
+
+Deployment & Environment Setup: Responsible for deploying the call solution to the production environment and configuring necessary infrastructure.
+Backend Integration Security & Reliability: Ensures the backend integration is secure, stable, and performs reliably for day-to-day operations.
+Monitoring Infrastructure: Sets up and maintains systems for real-time monitoring of the integrated solution.
+API Configuration: Assists with the initial configuration of the 3CX API within the Admin Console, including obtaining API keys.
+Integration Partner:
+Implementation of specific features within the scope of 3cX integration.
+Bank Technical Team:
+Implementation of specific features outside the scope of 3cX integration. 
+
+
+Sprint-by-Sprint Plan & Required Contributions
+The project will proceed through sprints, building on the initial 4-sprint plan and extending to complete the 13-week duration.
+Sprint 1: User & Call Management, Core Call Functionality, In-Call Experience (Weeks 1-2)
+Sprint Goal: Establish foundational user and call management, including core call capabilities and in-call features.
+What is Required:
+Development: Implement the ability to manage agent and supervisor accounts (add, edit, deactivate). Configure initial call routing and assignment rules, and set call recording policies. Develop functionality for agents to initiate, receive, and end calls, with automatic logging of details. Implement in-call experience features like adding notes, transferring calls, and managing calls (hold, mute, message other agents). Integrate 3CX Call Control API endpoints for programmatic call actions.
+Testing: Conduct initial unit and integration testing of account management and core call functionalities.
+Requirements Refinement: Confirm detailed requirements for call routing, recording policies, and CRM interaction for call initiation/logging.
+Who is Responsible:
+Software Developers (Primary): Development and initial integration of 3CX Call Control API.
+CRM Administrator: Provide specific requirements for agent/supervisor accounts within Alt Bank's CRM context, and validation of CRM-related logging.
+QA Engineer: Test account management, call initiation, receiving, ending, and transfer functionalities.
+Project Manager: Oversee sprint progress, ensure alignment with Alt Bank's operational needs, and manage any scope adjustments.
+Integration Partner: API Development for 3cX Core interactive features. 
+Bank Technical Team: Frontend and Policy documentation.
+Cost Allocation for Sprint 1: 4,000,000 Naira (20% of total budget)
+Sprint 2: Call Logs/Dashboard, Monitoring & Call Logs, Break Management (Weeks 3-4)
+Sprint Goal: Develop capabilities for real-time call monitoring and comprehensive call logging.
+What is Required:
+Development: Implement viewing of call log dashboards and detailed call logs, including filtering, searching, pagination, listening to recordings, tagging, categorising, and exporting. Develop real-time call monitoring for live calls and active agents. Integrate 3CX Call Control API's WebSocket for real-time call state updates and event delivery. Implement agent break time management.
+Testing: Test call log accuracy, real-time monitoring functionality, and break management features.
+Infrastructure: Ensure backend infrastructure can support real-time data flow for monitoring and logging.
+Who is Responsible:
+Software Developers (Primary): Development of logging, dashboard, and real-time monitoring features using 3CX API.
+DevOps Engineer: Set up infrastructure for real-time data processing and potentially monitoring tools.
+QA Engineer: Rigorous testing of data accuracy in logs and real-time dashboard updates.
+CRM Administrator: Validate that logged call data is relevant and accurate for CRM purposes.
+Project Manager: Review dashboard and reporting requirements, ensure alignment with business KPIs.
+Integration Partner: API Development for 3cX Core interactive features. 
+Bank Technical Team: Dashboard and Call data manipulation and export. 
+Cost Allocation for Sprint 2: 4,000,000 Naira (20% of total budget)
+Sprint 3: Reporting and Escalations (Weeks 5-6)
+Sprint Goal: Establish mechanisms for call intervention, escalation management, and performance reporting.
+What is Required:
+Development: Implement call intervention and barging capabilities. Develop features for managing escalations and interventions based on call events. Generate comprehensive call performance reports. Utilise 3CX Call Control API to attach data to participant and party connections for enhanced tracking and reporting.
+Testing: Test intervention functionalities, escalation workflows, and the accuracy and comprehensiveness of generated reports.
+Who is Responsible:
+Software Developers (Primary): Development of reporting logic and escalation features, leveraging API data attachment.
+QA Engineer: Test the functionality and data integrity of reports and escalation processes.
+Project Manager: Define specific report metrics and escalation workflows required by Alt Bank.
+Integration Partner: API Development for 3cX Core interactive features. 
+Bank Technical Team: Reporting, Escalations & Interventions
+Cost Allocation for Sprint 3: 3,600,000 Naira (18% of total budget)
+Sprint 4: Internal QA & Bug Fixing (Weeks 7-8)
+Sprint Goal: Conduct comprehensive internal testing and resolve all identified defects to prepare for client UAT.
+What is Required:
+Testing: Execute comprehensive internal QA and bug fixing across all integrated modules, including regression testing. This involves thorough testing of all previously developed features to ensure stability and quality.
+Development: Prioritise and fix all identified bugs and performance issues.
+Review: Internal review of user guides and training materials drafted in parallel.
+Who is Responsible:
+QA Engineer (Primary): Lead all testing activities, manage bug tracking, and provide detailed reports.
+Software Developers (Primary): Focus on bug fixing and re-testing resolved issues.
+Project Manager: Monitor bug resolution progress and assess readiness for UAT.
+Integration Partner: Fine-tuning API Development for 3cX Core interactive features. 
+Bank Technical Team: Testing
+Cost Allocation for Sprint 4: 3,400,000 Naira (17% of total budget)
+Subsequent Sprints (Weeks 9-10, extending beyond initial 4 sprints): User Acceptance Testing (UAT), Deployment & Documentation
+Sprint Goal: Facilitate client testing, gather final feedback, obtain sign-off, and deploy the solution to production.
+What is Required:
+Testing: Client team conducts User Acceptance Testing (UAT) of the complete call solution.
+Feedback & Refinement: Gather and address user feedback, making necessary refinements to the solution.
+Sign-off: Obtain final sign-off from Alt Bank for deployment.
+Deployment: Deploy the tailored API middleware and the integrated call solution to the production environment.
+Documentation & Training: Finalise and deliver user guides and training materials. Provide instructions for configuring the 3CX API integration.
+Review: Conduct a sprint retrospective to review the sprint and overall project progress.
+Who is Responsible:
+Project Manager (Primary): Coordinate UAT, manage client feedback, facilitate sign-off, and oversee deployment.
+CRM Administrator (Primary): Key participant in UAT, representing the end-user perspective.
+QA Engineer: Support UAT, verify reported issues, and confirm fixes.
+Software Developers: Implement UAT feedback, final bug fixes, and support deployment.
+DevOps Engineer: Perform production deployment, configure environments, and ensure system stability post-deployment.
+Integration Partner:
+Bank Technical Team:
+Cost Allocation for Subsequent Sprints: 5,000,000 Naira (25% of total budget)
+
+General Project Requirements & Considerations:
+Authentication: Authentication is mandatory for all 3CX API interactions. An API key, obtained during client application creation in the 3CX Admin Console, must be saved and provided in the header for all requests.
+3CX License: An 8SC+ Enterprise license is required to use the 3CX Call Control API.
+API Usage: Developers must be proficient in utilising both RESTful API endpoints (for specific data retrieval and actions) and WebSocket (for real-time updates and event delivery) as needed.
+Custom CRM Alignment: Throughout the project, all team members, especially Developers and the CRM Administrator, must ensure the integration aligns perfectly with Alt Bank's unique processes and system architecture to provide a seamless and secure backend solution.
+Data Integrity & Security: Given the financial institution context, robust measures for data integrity, privacy, and security must be embedded at every stage of development and deployment.
+
+
+
+Project Cost Allocation by Sprint and Timeline
+
+
+Milestone
+Cost (₦)
+Sprint 1 – User & Call Management, Core Call Functionality, In-Call Experience
+4,000,000
+Sprint 2 – Call Logs/Dashboard, Monitoring & Break Management
+4,000,000
+Sprint 3 – Reporting and Escalations
+3,600,000
+Sprint 4 – Internal QA & Bug Fixing
+3,400,000
+Subsequent Sprints – UAT, Deployment & Documentation
+5,000,000
+Total
+20,000,000
+
+
+
+3CX Call Flow Designer (CFD) is a visual tool that allows you to create and automate call flows and voice applications without programming knowledge.
+Overview
+The 3CX Call Flow Designer enables businesses to design custom voice applications and call routing workflows using a drag-and-drop interface, eliminating the need for scripting or coding. It is integrated with the 3CX phone system and requires a 3CX PRO license to deploy call flow applications. 
+3CX
++1
+Key Features
+Visual Call Flow Creation: Build callflows and dialers visually, with one callflow per project and optional dialers for continuous call handling. 
+1
+Advanced Routing: CFD v20 includes a DateTime component for time-based routing, allowing calls to be directed based on office hours, holidays, or custom schedules. 
+1
+CRM and ERP Integration: Connect callflows to CRM or ERP systems to personalize caller experiences using real-time customer data. 
+1
+Automation: Automate complex workflows such as database lookups, payment processing, VIP routing, and IVR menus to reduce manual handling and wait times. 
+1
+Caller ID Control and Digital Receptionist: Manage incoming calls efficiently and provide personalized interactions for callers. 
+1
+
+
+2 Sources
+How It Works
+Create a Project: Start a new project in CFD, which automatically generates a main callflow file (Main.flow) and optionally a dialer. 
+1
+Design Callflows: Use the drag-and-drop interface to add components like prompts, menus, database queries, and routing logic. 
+2
+Configure Variables: Define variables in the Variable Collection Editor to store and manipulate data during call processing. 
+1
+Build and Upload: Once the callflow is complete, build the project and upload it to 3CX via the Management Console under Advanced > Call Flow Apps. 
+1
+Route Calls: Configure inbound rules in 3CX to direct calls to the CFD application, activating the callflow or dialer as needed. 
+1
+
+
+3 Sources
+Practical Applications
+Customer Support: Route calls based on customer type or priority.
+Sales and Marketing: Automate outbound campaigns with dialers.
+Healthcare, Retail, Hospitality: Provide personalized IVR menus and reduce wait times.
+Business Efficiency: Minimize missed calls, optimize staff workload, and improve customer satisfaction. 
+1
+
+1 Source
+Resources
+Official CFD Manual: 3CX Call Flow Designer Manual
+Sample Projects: GitHub CFD Demos
+CFD Overview and Features: 3CX Call Flow Solutions
+The 3CX CFD is ideal for businesses looking to streamline call handling, automate workflows, and enhance customer interactions without requiring programming expertise.
+
+3CX Call Flow Designer Assistance Needed
+Network Administration Posted Jun 15, 2025
+We are seeking an experienced freelancer to assist us with designing call flows in 3CX Call Flow Designer. The ideal candidate should have a solid understanding of call flow concepts and be able to implement custom call flows based on our specifications. Your expertise will help us optimize our telephony system and improve our customer interactions. If you have a proven track record in using 3CX and can provide examples of your previous work, we would love to hear from you! lessMore/Less about
+
+Hi Steven,
+I trust you're good. I am experienced with 3cX, and I can assist with designing your CFDs.
+You'll receive a custom-built product tailored to your specifications. I have good expertise as I blog a lot about building integrations for 3cX and have completed dozens of telephony projects.
+
+Blog: http://hashnode.com/@olorunfemidavis .
+I have examples of my past work on GitHub with the Call Control API and also here on Upwork.
+I would love to have a brief chat to learn about what you need to automate.
+
+Regards,
+Davis
+
+Job details
+3CX Programming Specialist Needed for Business Setup
+Systems Administration Posted Jan 22, 2025
+We are seeking an experienced 3CX programming specialist to configure and customize 3CX for our business requirements. The ideal candidate will have a strong understanding of 3CX systems, including setup, programming, and troubleshooting. You will be responsible for ensuring our telephony systems operate efficiently and meet our operational needs. If you have proven experience in 3CX programming and can deliver results promptly, we want to hear from you! lessMore/Less about
+
+
+Cover letter
+Hello,
+
+I am your 3cX programming specialist.
+You want to monitor calls , fetch call recordings, call journaling , click to dial . Predictive dialing, power dialing, call flow designs (CFD) and all sort of automated tasks .
+
+I have done this dozens of times and I wrote blog posts on hashnode on integration using the Call Control API and other options.
+
+With v20 and above , 3cX introduces their own APi which can perform basic functions as well.
+
+Let me know your specific requirements and server versions and the type of license you have .
+
+
+Regards ,
+Olorunfemi
+
+
+CRM Setup for 3CX Dialing Integration
+Solution Architecture Posted Jan 7, 2025
+We are seeking an experienced freelancer to assist with the setup of a CRM system integrated with 3CX. The ideal candidate will enable dialing directly from the CRM and implement features for adding comments on records. This project requires a comprehensive understanding of CRM systems and telephony integrations. If you have experience with 3CX and CRM customization, we would love to hear from you.
+
+
+3CX v20 Scripting Expert Needed for Call Recording API Integration
+Scripting & Automation Posted Jan 16, 2025
+We are seeking a skilled developer with experience in 3CX v20 to create a script that facilitates the transmission of call recordings to a specified API. The ideal candidate will have a strong understanding of 3CX scripting and API integrations. You will work closely with our team to ensure the script functions seamlessly and adheres to our specifications. If you have a knack for problem-solving and can deliver high-quality code, we would love to hear from you!
+
+**Required Skills:**
+- 3CX scripting
+- API integration
+- Call recording management
+- Strong problem-solving skills
+- Knowledge of programming languages used in 3CX lessMore/Less about
+
+3CX to Pipeline API Integration
+Scripting & Automation Posted Dec 18, 2024
+We use Pipeline CRM (NOT PipeDrive) and need to integrate 3CX.
+
+3CX has an integration with PipeDrive for reference.
+
+Pipeline has an API that we can use to send "Activities". We want to capture 3CX text messages and phone calls. It would be good to provide a link in Pipeline to a transcript of the 3CX call.
+
+We would also be interested in potentially using AI to create a summary of the call and include the summary in Pipeline.
+
+Here are some links for consideration and review.
+
+https://app.pipelinecrm.com/api/docs/web_to_leads#tag/Activities-(Notes)/paths/~1notes/post
+
+https://www.3cx.com/docs/pipedrive-pbx-crm-integration/ 
+
+Integration Specialist Needed for 3CX and HubSpot
+Marketing Automation Posted Nov 25, 2024
+We are seeking an experienced integration specialist to connect 3CX with HubSpot. The primary task is to ensure that transcriptions from Whisper AI, integrated within 3CX, are seamlessly transferred to HubSpot for effective customer relationship management. The ideal candidate will have a strong understanding of both platforms and experience with API integrations. If you are detail-oriented and capable of delivering reliable solutions, we want to hear from you! lessMore/Less about
+
+
+3CX and JobAdder Integration Specialist Needed
+Scripting & Automation Posted Nov 26, 2024
+Job Summary:
+
+We are seeking an experienced integration specialist to join our team on a project-by-project basis. As a telecommunications supplier specializing in 3CX cloud-based solutions, we cater to various businesses, including recruitment agencies utilizing JobAdder software. Our clients require seamless integration of 3CX with JobAdder, focusing on four primary levels: click-to-call, call logging, call recording, and screen pops.
+
+Responsibilities:
+
+-Design, develop, and implement integrations between 3CX and JobAdder for various clients
+-Collaborate with our team to understand client requirements and deliver tailored solutions
+-Work independently to complete integration projects, ensuring timely and high-quality delivery
+-Troubleshoot and resolve integration issues, providing excellent customer support
+-Document integration processes and provide knowledge transfer to our team as needed
+
+Requirements:
+
+-Proven experience with 3CX and JobAdder integration, specifically with the four primary levels of integration
+-Strong programming skills in languages such as Python, JavaScript, or C#
+-Excellent understanding of API integration, JSON/XML, webhooks, and RESTful APIs
+-Ability to work independently and collaboratively as part of a team
+-Effective communication and interpersonal skills
+-Strong problem-solving and troubleshooting abilities
+-Self-motivated and proactive, with a strong initiative to deliver high-quality results
+
+Preferred Qualifications:
+-Previous experience working with recruitment agencies or similar industries
+-Familiarity with cloud-based systems and version control systems like Git
+-References from previous clients or employers, showcasing successful integration projects
+
+Work Arrangement:
+-Project-based work arrangement, with varying hours and duration depending on client requirements
+-Flexible working hours, with the ability to work independently and remotely
+-Competitive hourly rate, negotiable based on project complexity, time, and skills required
+
+If you're a skilled integration specialist with experience in 3CX and JobAdder integration, we encourage you to apply. Please submit your resume, cover letter, and any relevant references or portfolio samples. lessMore/Less about
+
+3CX Integration Specialist
+Systems Administration Invite Only Posted May 22, 2024
+We are seeking a highly skilled 3CX Integration Specialist to assist us with integrating 3CX with Rest API for call pops and call journalling. The successful candidate will have a deep understanding of 3CX and Rest API, and will be responsible for configuring the system to ensure seamless call pops and accurate call journalling. The ideal candidate will have experience working with 3CX and Rest API integration projects, as well as a strong background in VoIP and telecommunication systems.
+
+Incoming Call Pop:
+Based on the phone number, it would bring up the bring up the right client and/or agent from our industry specific software,
+what they chose on the IVR, person's name (clickable to open them in the industry specific software), all inspection/job addresses that person is associated sorted by recency based on creation date (click to open that inspection/job), if they are a client or an agent, last 5 interactions (call/text/msgs) with that person from 3CX (date&timestamp, agent, call journaling title).
+
+Industry specific software is Inspection Support Network.
+(link removed)/
+
+Call journaling / Wrap-up menu:
+Timestamp
+Agent
+Textbox for Order ID
+Dropdown or Radio buttons for type of call
+Drop down or radio button for original agent
+Checkbox area for type of inspection/service(s)
+Medium textbox for notes
+
+Responsibilities:
+- Configure 3CX and Rest API integration for call pops and call journalling
+- Troubleshoot and resolve any integration issues
+- Ensure seamless integration between 3CX and Rest API
+- Document the integration process and provide support to the team
+
+Skills:
+- Expertise in 3CX configuration and administration
+- Proficiency in Rest API integration
+- Strong understanding of VoIP and telecommunication systems
+- Excellent troubleshooting and problem-solving skills
+- Attention to detail and ability to work independently
+
+This is a medium-sized project expected to be completed within 1 to 3 months. We are looking for an intermediate-level expert who can hit the ground running and deliver results. If you have the required skills and experience, please apply with your relevant portfolio and examples of previous 3CX integration projects. lessMore/Less about
+
+3CX call flow Integration
+Scripting & Automation Posted May 21, 2024
+We are looking to create a call flow which will work as follows:
+
+- We have a system which contains the statuses of multi million records
+- We receive a lot of calls so clients can know what are their record status
+- we will ask the caller to insert their record id and id number
+- they will receive an OTP
+- after they insert the OTP
+- the api will return with two values ( status-id and department-id ) each id is related to a voice message which will be played for the customer lessMore/Less about
+
+Integrate 3CX API for real-time call routing to a call agent via CRM
+Scripting & Automation Posted May 14, 2024
+We use LeadSquared CRM to manage leads. The agents use Leadsquared lead status to call leads via 3CX. We need to automate this process by integrating 3CX API with LeadSquared. The automation will enable real-time outbound call to agent and the lead
+
+3CX CFD design for a Outbound Dialer
+Network Administration Posted Dec 21, 2022
+We have a 3CX system which we want to use 3CX Call flow manager to create an outbound dialer to call customers and ask them if they want to confirm their Appointments, if they click yes, it will call a http request, if they didn't reply, it will send another http request,
+The HTTP requests are already made and tested, we only want to create the call flow
+
+
+3CX Call Flow
+Network Administration Posted Dec 20, 2022
+Design 3cx call flow to accept csrd payments to CRM via digital reception. Etc etc.
+
+
+Job details
+Integrate 3cx to my Activix CRM using their API's
+Scripting & Automation Invite Only Posted May 13, 2023
+Could be a very straight forward operation.
+
+Looking to integrate our CRM ( (link removed)/ ) RESTful API with the 3CX phone system ( (link removed) )
+
+We use the Activix CRM to call our customers. It uses a click to call feature, which calls our phone number and calls the customer. There's currently a huge lag between both speakers as there's a 3rd party SIP involved. We're hoping to integrate 3CX to our CRM and use them as the caller, directly to the customer, but all while recording the call and keeping all the CRM caracteristics.
+
+Our CRM logs the number of calls we do to customers, interactions, etc.
+
+This is a car dealership operation.
+
+Ex.; someone calls in to the dealer ship and wants more information on a new car. The process is currently as follows ;
+
+1- Customer asks to speak to a sales rep ( we have four departments ).
+
+2- The receptionnist or IVR sends the call to a outside phone number the CRM manages. So, caller gets forwarded to another phone number on the public phone system, which in turn calls all of our sales reps that are assigned to that position.
+
+3- The CRM rings all their phones ( calls their individual DID's ), and first to answer is connected to the customer.
+
+4- the call is recorded to that salesperson's CRM profile with CallerID data, if available.
+
+That creates a huge delay in converstions, making them sometimes very difficult to follow. That process records the call within the CRM for further training.
+
+We're looking to have a CRM to 3CX direct link to take the CRM's own SIP provider out of the equation, to allow better phone call quality.
+
+Skills and expertise
+APIAPI IntegrationRESTful APIAPI DevelopmentCustomer Relationship Management3CXApplication IntegrationAutomation
+
+Create 3CX CRM Middleware
+Business Applications Development Posted Oct 4, 2023
+Create a middleware app that allows 3CX (https://www.3cx.com/docs/crm-integration/) to connect to for the purposes of a contact lookup database.
+
+The software should also be able to connect to multiple instances of Freshdesk (using the Freshdesk API) and import all the contacts into the app database, which will then be used as the contact lookup source for 3CX.
+
+The app will require an interface to allow for local contact management (create/edit/delete) and can create local users to manage the app (with security roles such as full admin/contact admin/contact viewer).
+
+The app will need to sync with Freshdesk at regular intervals and import the contacts to the app, normalise the data to ensure that duplicate companies\contacts do not exist, and refresh data that may have been deleted or updated.
+
+The primary purpose of the app is to interface with Freshdesk but it should be developed with the view that other CRMs or contact databases may need to be integrated in the future. lessMore/Less about
+View job posting
+Expert
+Experience level
+$1,200
+Fixed-price
+November 3, 2023
+Delivery by
+1 to 3 months
+Project length
+Skills and expertise
+Software IntegrationCustom AppExtension & Module DevelopmentCRM SoftwareAPI3CXRESTful APIAPI IntegrationAPI DevelopmentWeb Service
+
+Job details
+3CX VoIP PBX Technician with MS Office 365 Experience
+Systems Administration Posted Oct 11, 2023
+We are looking for an experienced 3CX VoIP PBX Technician to efficiently integrate our 3CX system with MS Office 365 for contact synchronization. The role is vital for enhancing our communication infrastructure to provide streamlined and effective solutions. This is a shortterm position.
+
+Responsibilities:
+- Configure and maintain 3CX PBX system.
+- Integrate 3CX with MS Office 365 for contact synchronization.
+- Monitor the system for anomalies and issues.
+- Provide training to internal teams on the usage of the integrated system.
+- Follow lean principles to ensure a highly efficient and reliable system.
+
+Qualifications:
+- experience in VoIP technologies, preferably in 3CX.
+- Previous experience in MS Office 365 integration.
+- Excellent troubleshooting skills.
+- Strong knowledge of networking protocols.
+- Lean methodology experience is a plus.
+- Strong communication skills. lessMore/Less about
+View job posting
+Expert
+Experience level
+$40.00 - $75.00
+Hourly range
+More than 30 hrs/week
+Hourly
+1 to 3 months
+Project length
+Skills and expertise
+VoIPFreePBXVoIP Software3CX
+
+Job details
+3CX VoIP PBX Technician with MS Office 365 Experience
+Systems Administration Posted Oct 11, 2023
+We are looking for an experienced 3CX VoIP PBX Technician to efficiently integrate our 3CX system with MS Office 365 for contact synchronization. The role is vital for enhancing our communication infrastructure to provide streamlined and effective solutions. This is a shortterm position.
+
+Responsibilities:
+- Configure and maintain 3CX PBX system.
+- Integrate 3CX with MS Office 365 for contact synchronization.
+- Monitor the system for anomalies and issues.
+- Provide training to internal teams on the usage of the integrated system.
+- Follow lean principles to ensure a highly efficient and reliable system.
+
+Qualifications:
+- experience in VoIP technologies, preferably in 3CX.
+- Previous experience in MS Office 365 integration.
+- Excellent troubleshooting skills.
+- Strong knowledge of networking protocols.
+- Lean methodology experience is a plus.
+- Strong communication skills.
+
+Skills and expertise
+VoIPVoIP AdministrationVoIP Software3CX
+
+API integration with 3cx PBX system
+Back-End Development Posted Nov 20, 2023
+We have a cloud hosted 3cx PBX system and need an API key from our custom built CRM integrated and run everyday in 3cx. The key is to capture calls from extensions that are greater than 2 mins in duration and upload the count in CRM.
+View job posting
+Expert
+Experience level
+Less than 30 hrs/week
+Hourly
+Less than 1 month
+Project length
+Skills and expertise
+API3CX
+
+We need to create an integration with 3CX and our ERP/POS system
+Desktop Software Development Posted Nov 16, 2023
+We have our c# .net core erp
+and need to development of integration with the 3CX
+and keep important information to our ERP/POS
+or realize calls and other functions.
+we need someone with experience of this integration
+
+Only expert with 3cx
+View job posting
+Intermediate
+Experience level
+$180
+Fixed-price
+December 16, 2023
+Delivery by
+Less than 1 month
+Project length
+Skills and expertise
+APIAPI IntegrationJavaScriptApplication Integration3CXVoIPVoIP PBX
+
+
+Job details
+3CX API Integration with custom CRM
+Scripting & Automation Posted Nov 2, 2023
+We are looking for a developer who has knowledge of 3CX APIs and help our developers to integrate with our custom CRM system.
+
+The main goal is to exchange data between the two systems in real-time. The developer should have experience with 3CX API integration . The key skills required for this project include:
+
+- 3CX API integration
+- Web services/API integration
+
+The 3CX APIs that we look for:
+1. Click to dial
+2. Agent status
+3. Disposition Code
+4. CDR information
+
+This is a medium-sized project that is expected to last between 3 to 5 days. We are seeking an intermediate level developer who can work closely with our team to ensure seamless integration between 3CX and our CRM system. lessMore/Less about
+View job posting
+Intermediate
+Experience level
+$20.00 - $40.00
+Hourly range
+Less than 30 hrs/week
+Hourly
+Less than 1 month
+Project length
+Skills and expertise
+APIAPI IntegrationRESTful APIAPI Development
+
+Job details
+3CX Setup
+Full Stack Development Posted Feb 1, 2024
+I need urgent help to setup our 3CX system to send a webhook after every call is made or received.
+View job posting
+Intermediate
+Experience level
+Less than 30 hrs/week
+Hourly
+Less than 1 month
+Project length
+Skills and expertise
+TelecommunicationsVoIP PBX3CXAPI IntegrationHubSpotAPI DevelopmentAPI
+
+
+Job details
+3CX Set up - Call back function
+Systems Administration Invite Only Posted May 3, 2024
+Our company is using 3CX and it workds great. We need to add one function which we are not sure how to set it up: when customers are calling us and if we are busy, we want to let customers choose "If you do not want to wait, we can call you back to your phone and you will not lose your position in the queue". Many companies are using this function. lessMore/Less about
+View job posting
+Expert
+Experience level
+$50.00 - $100.00
+Hourly range
+Less than 30 hrs/week
+Hourly
+Less than 1 month
+Project length
+Skills and expertise
+3CXVoIPcallback
+
+3CX - Call Control API
+Status: Offline
+Rogelio Calderon
+United States · Sun 8:26 AM
+Overview
+Timesheet
+Messages
+Contract details
+Description
+We need a service that runs on 3CX and connects to the 3CX Call Control API, in order to make calls and get call information. There is NO documentation available for this API, the developer must be able to get the example code and develop a solution that works. The API is in .NET Other programing languages that may be relevant for the job are PHP and JavaScript. The goal will be to connect to a webservice and send the dial to and dial from numbers to the service so that 3CX can make the call.
+

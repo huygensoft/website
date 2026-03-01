@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
 
@@ -455,8 +454,87 @@ header {
   margin-top: 10px;
 }
 
+/* 3CX & Communication Solutions Expertise Section */
+.expertise-container {
+  background: #f8fafd;
+  padding: 70px 121px;
+  margin: 0 auto;
+}
+.expertise-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.expertise-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.expertise-subtitle {
+  font-size: 1.2rem;
+  color: var(--primary-second);
+  margin-top: 10px;
+}
+.expertise-features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+.expertise-feature {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  padding: 32px 24px;
+  max-width: 320px;
+  flex: 1 1 300px;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+.expertise-feature:hover {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+.expertise-img {
+  height: 64px;
+  margin-bottom: 18px;
+}
+.expertise-feature h3 {
+  font-size: 1.3rem;
+  color: var(--primary-second);
+  margin-bottom: 10px;
+}
+.expertise-feature p {
+  font-size: 1rem;
+  color: #444;
+}
+.expertise-learnmore-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.expertise-learnmore-btn {
+  background: var(--accent-color);
+  color: var(--text-white);
+  padding: 12px 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.expertise-learnmore-btn:hover {
+  background: darken(var(--accent-color), 10%);
+}
 
-
+@media (max-width: 900px) {
+  .expertise-container {
+    padding: 40px 20px;
+  }
+  .expertise-features-grid {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
 
 /* ------------------------------------------------- */
 /* ------------------------------------------------- */

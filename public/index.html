@@ -81,265 +81,140 @@
   </head>
 
   <body>
-  
-  <!-- Header section -->
-  <header>
-      <!-- Navigation -->
+    <!-- Header section -->
+    <header>
       <nav>
         <a href='./index.html'><img class="nav-img" src="./src/images/logo.svg" alt="company's logo"></a>
         <div class="nav-menu" id="navs"> 
-          <div class="nav-menu-item"><a href="./index.html" class="top-link menu-link">Home</a></div>
-          <div class="nav-menu-item"><a href="./about.html" class="top-link menu-link">About Us</a></div>
-          <div class="nav-menu-item"><a href="#service" class="link menu-link">Services</a></div>
-          <button class="nav-menu-btn"><a href="./contact-page.html" class="top-link menu-link nav-link">Contact Us</a></button>
+          <div class="nav-menu-item"><a href="#expertise" class="top-link menu-link">3CX & CRM</a></div>
+          <button class="nav-menu-btn"><a href="mailto:reach@huygensoft.com" class="btn-link">Contact</a></button>
         </div>
-
-        <!-- mobile bars -->
         <div class="bar-container" id="bar-container">
           <div class="bar"></div>
           <div class="bar"></div>
           <div class="bar"></div>
         </div>
       </nav>
-
       <div class="header-tag-container">
         <div class="header-inner-container">
-          <h2 class="header-tag">Innovative Solutions For <br> Everyone: Our Tech Services </h2>
-          <button class="header-tag-btn"><a href="./contact-page.html" class="btn-link">Contact Us</a></button>
+          <h1 class="header-tag">Build. Integrate. Automate.</h1>
+          <p class="header-lead">Custom 3CX, CRM, and AI-powered solutions for modern businesses.</p>
+          <button class="header-tag-btn"><a href="#expertise" class="btn-link">Our Services</a></button>
         </div> 
       </div>
-  </header>
-  
+    </header>
 
-<!-- About Us Section -->
-<section class="about-container">
-    <div class="about-item-left">
-        <h2 class="about-tag">ABOUT US</h2>
-        <div class="about-tagline">Building Dynamic Digital <br> & Technology Platforms</div>
-        <p class="about-paragraph">HuygenSoft is a leading innovative firm in Nigeria <br>
-          that offers creative solutions that transforms clients <br>
-          businesses, accelerates their growth and their <br>
-          performance to become benchmarks for global <br>
-          standard.</p>
-        <button class="about-btn"><a href="./contact-page.html" class="btn-link">Contact Us</a></button>
-    </div>
-
-    <div class="about-item-right">
-        <div class="about-orange-box"></div>
-        <div class="about-blue-box"></div>
-        <img class="about-dot-orange" src="./src/images/orange-dot.svg" alt="">
-        <img class="about-dot-blue" src="./src/images/blue-dot.svg" alt="">
-        <img class="about-image" src="./src/images/m-home-2.jpg" alt="">
-    </div>
-</section>
-
-<!-- Service section -->
-<section class="service-container" id="service">
-    <div class="service-grid">
-        <div class="service-tag-container">
-          <h2 class="service-tag1">OUR SERVICES</h2>
-          <div class="service-tag2">Services We Render</div>
+    <!-- 3CX & Communication Solutions Expertise Section -->
+    <section class="expertise-container" id="expertise">
+      <div class="expertise-header">
+        <h2 class="expertise-title">3CX & Communication Solutions Expertise</h2>
+        <p class="expertise-subtitle">
+          Unlock seamless business communication and automation with our advanced 3CX and custom CRM solutions.
+        </p>
+      </div>
+      <div class="expertise-features-grid">
+        <div class="expertise-feature">
+          <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/cloud-arrow-up.svg" alt="3CX API Integration" class="expertise-img">
+          <h3>Custom 3CX API Development</h3>
+          <p>Connect your CRM, automate call flows, and enable advanced VoIP features tailored to your business needs.</p>
+          <a href="./services/3cx/c3x-api.html" class="expertise-learnmore-btn" style="margin-top:12px; display:inline-block;">Learn more</a>
         </div>
-
-        <div class="service-user">
-            <img class="grid-image" src="./src/images/user-focused-icon.svg" alt="icon">
-            <h2 class="grid-tag">User Focused Designs</h2>
-            <p class="grid-paragraph">We proffer our expert services specialized to <br>
-               each customer’s and user needs </p>
+        <div class="expertise-feature">
+          <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/diagram-3.svg" alt="3CX Call Flow Designer" class="expertise-img">
+          <h3>3CX Call Flow Designer (CFD)</h3>
+          <p>Automate call routing, IVR, and business workflows visually—no coding required.</p>
+          <a href="./services/3cx/c3x-cfd.html" class="expertise-learnmore-btn" style="margin-top:12px; display:inline-block;">Learn more</a>
         </div>
-
-        <div class="service-web">
-            <img class="grid-image" src="./src/images/web-dev-icon.svg" alt="">
-            <h2 class="grid-tag">Websites Development</h2>
-            <p class="grid-paragraph">We build digital platforms that ensure 
-               seamless <br> exchange of goods, services 
-                and information <br> between a business and 
-                consumers across the globe</p>
+        <div class="expertise-feature">
+          <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/telephone-forward.svg" alt="Predictive Dialer" class="expertise-img">
+          <h3>Predictive & Power Dialers</h3>
+          <p>Boost outbound campaigns with intelligent dialers that maximize agent productivity and connect rates.</p>
+          <a href="./3cx-dialer.html" class="expertise-learnmore-btn" style="margin-top:12px; display:inline-block;">Learn more</a>
         </div>
-
-        <div class="service-biz">
-            <img class="grid-image biz-img" src="./src/images/biz-dev-icon.svg" alt="">
-            <h2 class="grid-tag">Business Development Services</h2>
-            <p class="grid-paragraph biz-paragraph">We provide business consulting services to <br>
-               make your business thrive in the market.</p>
+        <div class="expertise-feature">
+          <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/robot.svg" alt="AI Agent" class="expertise-img">
+          <h3>AI Agents & Automation</h3>
+          <p>Deploy AI-powered agents for call handling, customer support, and workflow automation.</p>
+          <a href="./3cx-ai.html" class="expertise-learnmore-btn" style="margin-top:12px; display:inline-block;">Learn more</a>
         </div>
-
-        <div class="service-software">
-            <img class="grid-image" src="./src/images/soft-eng-icon.svg" alt="">
-            <h2 class="grid-tag">Software Engineering</h2>
-            <p class="grid-paragraph">We design, develop and maintain technology <br>
-               platforms that provide functionality to support <br>
-                business growth and performance</p>
+        <div class="expertise-feature">
+          <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/person-badge.svg" alt="Custom CRM Integration" class="expertise-img">
+          <h3>Custom CRM Applications</h3>
+          <p>Integrate CRM solutions that work seamlessly with 3CX, providing real-time data and actionable insights.</p>
+          <a href="./3cx-crm.html" class="expertise-learnmore-btn" style="margin-top:12px; display:inline-block;">Learn more</a>
         </div>
+      </div>
+    </section>
 
-        <div class="service-emp1"></div>
-        <div class="service-emp2"></div>
-
-        <div class="service-btn-container">
-            <button class="service-btn"><a href="./contact-page.html" class="btn-link">Contact Us</a></button>
+    <!-- Smart Locker Section -->
+    <section class="expertise-container" id="locker">
+      <div class="expertise-header">
+        <h2 class="expertise-title">Smart Locker Solutions</h2>
+        <p class="expertise-subtitle">
+          Complete software platforms for managing smart locker hardware and user workflows.
+        </p>
+      </div>
+      <div class="expertise-features-grid">
+        <div class="expertise-feature">
+          <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/lock-fill.svg" alt="Smart Locker Systems" class="expertise-img">
+          <h3>Locker Machine Desktop App</h3>
+          <p>WPF-based desktop application to control locker operations and monitor status.</p>
+          <a href="./locker-read.html" class="expertise-learnmore-btn" style="margin-top:12px; display:inline-block;">Learn more</a>
         </div>
-    </div>
-</section>
+        <div class="expertise-feature">
+          <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/cloud-arrow-up.svg" alt="Locker API" class="expertise-img">
+          <h3>Remote API Services</h3>
+          <p>Expose locker controls via internal or external REST APIs for remote management.</p>
+          <a href="./locker-read.html" class="expertise-learnmore-btn" style="margin-top:12px; display:inline-block;">Learn more</a>
+        </div>
+        <div class="expertise-feature">
+          <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/phone.svg" alt="Mobile Locker App" class="expertise-img">
+          <h3>Mobile Applications</h3>
+          <p>Android/iOS apps for users to receive notifications and generate OTPs for locker access.</p>
+          <a href="./locker-read.html" class="expertise-learnmore-btn" style="margin-top:12px; display:inline-block;">Learn more</a>
+        </div>
+        <div class="expertise-feature">
+          <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/gear-fill.svg" alt="Admin Dashboard" class="expertise-img">
+          <h3>Admin Dashboard</h3>
+          <p>Manage, monitor and update locker networks with a web‑based dashboard.</p>
+          <a href="./locker-read.html" class="expertise-learnmore-btn" style="margin-top:12px; display:inline-block;">Learn more</a>
+        </div>
+      </div>
+    </section>
 
-
-<!--Testimonial section  -->
-<section class="test-container">
-    <div class="test-tag-container">
+    <!--Testimonial section  -->
+    <section class="test-container">
+      <div class="test-tag-container">
         <div class="test-tag-left">
-            <h4 class="test-tag1">TESTIMONIALS</h4>
-            <div class="test-tag2">testimonies from honoured <br> clients</div>
+          <h4 class="test-tag1">TESTIMONIALS</h4>
+          <div class="test-tag2">What our clients say</div>
         </div>
-
         <div class="test-tag-right">
-            <span class="test-nav-left">&#60</span>
-            <span class="test-nav-right">&#62</span>
+          <span class="test-nav-left">&#60</span>
+          <span class="test-nav-right">&#62</span>
         </div>
-    </div>
-
-    <div class="test-card-slide-container">
-        <!-- box 1 -->
-        <div class="card">
-            <div class="card-paragraph">
-                <p>Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my 
-                  business and its all thanks to your amazing service
-                </p>
-            </div>
-
-            <div class="card-client-info-container">
-                <img class="card-client-image" src="./src/images/testimonial-image.svg" alt="">
-                <div class="card-client-info">
-                  <p class="client-name">Olamigoke Adeniyi</p>
-                  <p class="card-client-title">CEO Marketing Booksrite</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- box 2 -->
-        <div class="card">
-            <div class="card-paragraph">
-              <p>Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my 
-                business and its all thanks to your amazing service
-              </p>
-          </div>
-
-          <div class="card-client-info-container">
-              <img class="card-client-image" src="./src/images/testimonial-image.svg" alt="">
-              <div class="card-client-info">
-                <p class="client-name">Olamigoke Adeniyi</p>
-                <p class="card-client-title">CEO Marketing Booksrite</p>
-              </div>
-          </div>
-        </div>
-
-        <!-- box 3 -->
+      </div>
+      <div class="test-card-slide-container">
         <div class="card">
           <div class="card-paragraph">
-              <p>Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my 
-                business and its all thanks to your amazing service
-              </p>
+            <p>“We saw exponential growth in our business thanks to your amazing service.”</p>
           </div>
-
           <div class="card-client-info-container">
-              <img class="card-client-image" src="./src/images/testimonial-image.svg" alt="">
-              <div class="card-client-info">
-                <p class="client-name">Olamigoke Adeniyi</p>
-                <p class="card-client-title">CEO Marketing Booksrite</p>
-              </div>
+            <img class="card-client-image" src="./src/images/testimonial-image.svg" alt="">
+            <div class="card-client-info">
+              <p class="client-name">Olamigoke Adeniyi</p>
+              <p class="card-client-title">CEO Marketing Booksrite</p>
+            </div>
           </div>
         </div>
-
-
-    </div>
-
-    <!-- Mobile -->
-    <div class="mobile-test-card-container">
-        <!-- box 1 -->
-        <div class="m-card">
-          <div class="m-card-paragraph">
-              <p>Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my 
-                business and its all thanks to your amazing service
-              </p>
-          </div>
-
-          <div class="m-card-client-info-container">
-              <img class="m-card-client-image" src="./src/images/testimonial-image.svg" alt="">
-              <div class="m-card-client-info">
-                <p class="m-client-name">Olamigoke Adeniyi</p>
-                <p class="m-card-client-title">CEO Marketing Booksrite</p>
-              </div>
-          </div>
       </div>
-    </div>
-</section>
+    </section>
 
+    <!-- Footer -->
+    <main-footer></main-footer>
 
-<!-- Footer -->
-<main-footer></main-footer>
-
-
-
-    <!-- Cookie Banner -->
-    <div class="cookie-banner-container" id="cookie">
-      <p class="cookie-paragraph"> We use cookies to deliver the best experience on our website.
-      By using our website, you agree to the use of cookies.
-      </p>
-      <div class="cookie-button-container">
-        <button class="cookie-button">I Agree</button>
-      </div>
-    </div>
-
-
-
-  
-
-<!-- Script -->
-<!-- <script>
-  barba.init({
-    // ...
-  })
-</script> -->
-<script src="./src/js/component.js"></script>
-<script src="./src/js/consent.js"></script>
-<script src="./src/js/app.js"></script>
-
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
+    <script src="./src/js/component.js"></script>
+    <script src="./src/js/consent.js"></script>
+    <script src="./src/js/app.js"></script>
   </body>
 </html>
