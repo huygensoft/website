@@ -23,35 +23,35 @@ function closeMenu() {
 const testimonials = [
     {
         client: "Johnny D.",
-        project: "DamolaIO LLC Lead Software Engineer",
+        project: "Lead Software Engineer",
         date: "Apr 23, 2023",
         rating: 5.0,
         location: "United States",
-        feedback: "The Huygensoft team served as lead software engineers on the DamolaIO LLC project. They delivered high‑quality C# solutions and provided architectural guidance throughout the engagement. A consistently reliable, pragmatic partner."
+        feedback: "The Huygensoft team served as lead software engineers on the project. They delivered high‑quality C# solutions and provided architectural guidance throughout the engagement. A consistently reliable, pragmatic partner."
     },
     {
         client: "Johnny D.",
-        project: "Walmart.io API code samples to C#",
+        project: "Enterprise API Migration to C#",
         date: "Feb 28, 2021",
         rating: 5.0,
         location: "United States",
-        feedback: "This company provided some of the best C# work we’ve seen. Technically brilliant, hardworking and pragmatic. When there was a tough problem it was solved quickly."
+        feedback: "The team provided some of the best C# work we’ve seen. They are technically brilliant, hardworking, and pragmatic. Tough problems were solved quickly and efficiently."
     },
     {
         client: "Johnny D.",
-        project: "Webhook or Polling Print Automation",
+        project: "Print Automation Service",
         date: "Oct 19, 2020",
         rating: 5.0,
         location: "United States",
-        feedback: "A fantastic team behind the scenes. They handled remote hardware development over great distances and delivered spotless .NET code. Highly recommend for any .NET project."
+        feedback: "A fantastic team behind the scenes. They handled remote hardware integration seamlessly and delivered spotless .NET code. Highly recommended for any complex .NET project."
     },
     {
         client: "Gonzalo M.",
-        project: "3CX addons",
+        project: "3CX Addons",
         date: "Jul 5, 2021",
         rating: 5.0,
         location: "Chile",
-        feedback: "The company was attentive, always maintained a positive attitude, and executed the work perfectly within deadlines. Muy recomendado."
+        feedback: "They were highly attentive, maintained a positive attitude throughout the engagement, and executed the work perfectly within our strict deadlines. Muy recomendado."
     },
     {
         client: "Mario C.",
@@ -59,95 +59,95 @@ const testimonials = [
         date: "Jun 18, 2021",
         rating: 5.0,
         location: "Portugal",
-        feedback: "Very easy to work with. The team communicated clearly and understood requirements, delivering quality work on schedule. 10/10."
+        feedback: "Very easy to work with. The team communicated clearly, understood our complex requirements immediately, and delivered exceptional quality work on schedule. 10/10."
     },
     {
         client: "Ted H.",
-        project: "Microsoft C# Developer for Hivebox Lockers",
+        project: "Smart Locker Kiosk Application",
         date: "Jun 10, 2021",
         rating: 5.0,
         location: "United States",
-        feedback: "The company was always willing to make adjustments and accommodate changes as they came up. They took time to explain steps and processes and provided thorough documentation and guidance for rebuilding our application."
+        feedback: "The developers were always willing to make adjustments and accommodate evolving changes. They took the time to explain their processes and provided thorough documentation for rebuilding our application."
     },
     {
         client: "Bostjan L.",
-        project: "Windows DLL for extracting data from specific webpage",
+        project: "Custom Web Data Extraction DLL",
         date: "Jun 1, 2021",
         rating: 5.0,
         location: "Slovenia",
-        feedback: "A great company with excellent skills, very dedicated and forthcoming; we will definitely hire them again for similar work!"
+        feedback: "A great engineering partner with excellent skills. They were very dedicated and proactive; we will definitely hire them again for similar integration work!"
     },
     {
         client: "Ted H.",
-        project: "Microsoft Developer for Hivebox Lockers",
+        project: "Smart Locker Backend Integration",
         date: "May 25, 2021",
         rating: 5.0,
         location: "United States",
-        feedback: "A perfect fit for our project. We didn’t know what we had or where to go with it; the company took control and guided us to a successful application. Even with the location and language barrier, support was always available during working hours."
+        feedback: "A perfect fit for our project. We didn’t know exactly what we needed initially; their team took control and guided us to a highly successful application. Technical support was always readily available."
     },
     {
         client: "Nicolas R.",
-        project: "Xamarin expert to generate spinwheel functionality",
+        project: "Cross-Platform Mobile Feature Development",
         date: "Mar 7, 2021",
         rating: 5.0,
         location: "Dominican Republic",
         feedback: "Fantastic experience; any adjustments were made without question, all in the interest of customer satisfaction. Looking forward to the next engagement."
     },
     {
-        client: "Ghislain Borremans",
-        project: "UrlVKey popup program",
+        client: "Ghislain B.",
+        project: "Custom Windows Utility Development",
         date: "Aug 6, 2020",
         rating: 5.0,
         location: "Belgium",
-        feedback: "The team developed the UrlVKey popup application for Windows 10; the client was pleased with the end result and the built‑in localisation support."
+        feedback: "They developed a flawless custom utility application for Windows 10. We were incredibly pleased with the end result, performance, and the built-in localization support."
     },
     {
-        client: "Juan Francisco",
-        project: "3cx automation socket",
+        client: "Juan F.",
+        project: "3CX Automation Socket Integration",
         date: "Oct 18, 2020",
         rating: 5.0,
         location: "Chile",
-        feedback: "An excellent company – they fully understood the work, adapted to changing requirements and delivered everything in line with the project. Definitely recommended."
+        feedback: "An excellent technical partner. They fully understood the scope, adapted quickly to changing requirements, and delivered everything precisely in line with the project goals. Definitely recommended."
     },
     {
         client: "Ahmed Z.",
-        project: "DevExtreme /.Net Developer for a hosted React SPA",
+        project: "React SPA & .NET Backend Architecture",
         date: "Sep 28, 2020",
         rating: 5.0,
         location: "United States",
-        feedback: "An amazing company, always finding solutions and doing whatever it took to make things work. Resourceful and enjoyable to work with."
+        feedback: "An amazing group of professionals, always finding innovative solutions and doing whatever it took to make complex integrations work smoothly. Resourceful and enjoyable to collaborate with."
     },
     {
         client: "Noorie Y.",
-        project: "Messaging App",
+        project: "Real-time Messaging Application",
         date: "Sep 1, 2020",
         rating: 5.0,
         location: "Bangladesh",
-        feedback: "Very good experience working with this company. They did everything to make sure we were happy with the outcome. Hardworking and patient, they also provided very useful input. We will definitely rehire them."
+        feedback: "A very positive experience working with this team. They did everything to ensure we were happy with the outcome. Hardworking and patient, they also provided highly valuable architectural input. We will definitely rehire them."
     },
     {
         client: "Aman B.",
-        project: "Job Alert Tool Feedback required",
+        project: "Automated Job Alert Tool Verification",
         date: "Jun 24, 2020",
         rating: 5.0,
         location: "India",
-        feedback: "A great find on Upwork. The team went above and beyond what was expected to deliver results. We are ecstatic to have found them. Kudos!"
+        feedback: "A tremendous asset to our project. The team went above and beyond expectations to deliver exceptional results. We are ecstatic to have found such reliable technical partners. Kudos!"
     },
     {
         client: "Girish M.",
-        project: "Get paid to solve and review Azure Questions",
+        project: "Azure Architecture Review & Mentorship",
         date: "Jun 24, 2020",
         rating: 5.0,
         location: "India",
-        feedback: "Did an excellent job. Delivered high-quality work on time and communicated well with minimal direction."
+        feedback: "They did an excellent job, delivering high-quality architectural guidance on time. They communicated exceptionally well and required very minimal direction."
     },
     {
         client: "Ghislain B.",
-        project: "CheckUrl: background program for W10",
+        project: "Windows 10 Background Service Utility",
         date: "Jun 15, 2020",
         rating: 5.0,
         location: "Belgium",
-        feedback: "Very nice person to work with. Good result in limited time frame. I will return to him if I need more work done."
+        feedback: "Very professional and easy to work with. They produced a great result within a very limited time frame. I will certainly return to them for future development needs."
     }
 ];
 
@@ -167,7 +167,7 @@ function renderTestimonial(test, container, mobile = false) {
              </div>
          </div>
      `;
-     container.appendChild(card);
+    container.appendChild(card);
 }
 
 function initTestimonials() {

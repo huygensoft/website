@@ -1,0 +1,150 @@
+/* About Us Redesign CSS */
+
+header.about-header {
+    height: auto;
+    background: none;
+}
+
+.about-hero {
+    background: linear-gradient(135deg, var(--primary-second) 0%, var(--primary-color) 100%);
+    padding: 120px 20px 80px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 4rem;
+    /* to account for fixed/absolute nav if any */
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.about-content {
+    padding: 80px 10%;
+    background-color: var(--bg-color);
+    /* Fallback to styles.css variable */
+    color: var(--text-font-color);
+}
+
+.about-intro {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 60px;
+}
+
+.about-intro h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 24px;
+}
+
+.about-intro p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.expertise-card {
+    background: var(--card-bg);
+    /* Theme aware */
+    border-radius: 16px;
+    padding: 40px 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.expertise-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.expertise-card h3 {
+    font-size: 1.5rem;
+    color: var(--primary-second);
+    margin-bottom: 15px;
+}
+
+.expertise-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-font-color);
+    margin: 0;
+}
+
+.mission-vision {
+    padding: 80px 10%;
+    background-color: var(--test-bg);
+    /* Theme aware */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.mv-card {
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    position: relative;
+    overflow: hidden;
+}
+
+.mv-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--accent-color);
+}
+
+.mv-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.mv-card h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.mv-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-font-color);
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .about-hero {
+        padding: 80px 20px 60px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .about-content,
+    .mission-vision {
+        padding: 60px 5%;
+    }
+}
