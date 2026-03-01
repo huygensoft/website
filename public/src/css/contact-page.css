@@ -62,7 +62,7 @@ nav {
   color: var(--accent-color);
 } */
 .nav-menu {
-  width: 13%;
+  margin-left: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;

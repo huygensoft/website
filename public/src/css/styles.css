@@ -64,10 +64,11 @@ nav {
     color: var(--accent-color);
 } */
 .nav-menu {
-    width: 39%;
+    /* right‑align the menu items and space them evenly */
+    margin-left: auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 1.5rem;
     height: 2rem;
     font-size: 14px;
 }

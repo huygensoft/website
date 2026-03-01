@@ -31,8 +31,9 @@ class Favicon extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         
-        <link rel="icon" href="./src/images/favicon16.ico" sizes="16x16" type="image/x-icon">
-        <link rel="icon" href="./src/images/favicon32.ico" sizes="32x32" type="image/x-icon">
+        <link rel="icon" href="/src/images/favicon16.ico" sizes="16x16" type="image/x-icon">
+        <link rel="icon" href="/src/images/favicon32.ico" sizes="32x32" type="image/x-icon">
+        <link rel="shortcut icon" href="/favicon.ico">
 
         `;
     }
