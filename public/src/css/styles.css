@@ -321,7 +321,6 @@ header {
 
 /* Testimonial section */
 .test-container {
-  display: none;
     height: 36rem;
     padding: 50px 0 50px 121px;
     background-color: #F7F7FC;
@@ -376,7 +375,7 @@ header {
     height: 20rem;
     margin-top: 35px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .card {
@@ -411,6 +410,10 @@ header {
 .client-name {
     font-weight: 700;
     font-size: 18px;
+}
+.card-rating {
+    margin-top: 8px;
+    font-size: 1rem;
 }
 .mobile-test-card-container {
   display: none;
