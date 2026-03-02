@@ -13,9 +13,18 @@
 /* Body */
 body {
   font-family: 'DM Sans', sans-serif;
-  background-color: var(--secondary-color);
-  height: 100vh;
+  background-color: var(--primary-color);
+  color: var(--text-font-color);
+  min-height: 100vh;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-white);
 }
 
 /* CSS Variables */
@@ -409,7 +418,7 @@ header {
 .test-tag2 {
   font-weight: 700;
   font-size: 35px;
-  color: var(--primary-color);
+  color: var(--text-white);
   text-transform: capitalize;
   margin-top: 10px;
 }
@@ -428,14 +437,14 @@ header {
 .test-nav-right {
   width: 80px;
   height: 70px;
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--text-white);
   display: inline-block;
   border-radius: 50%;
   font-size: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-color);
+  color: var(--text-white);
 }
 
 .test-nav-left:hover,
@@ -564,13 +573,13 @@ header {
 
 .expertise-title {
   font-size: 2.5rem;
-  color: var(--primary-color);
+  color: var(--text-white);
   font-weight: 700;
 }
 
 .expertise-subtitle {
   font-size: 1.2rem;
-  color: var(--primary-second);
+  color: var(--text-font-color);
   margin-top: 10px;
 }
 
@@ -582,7 +591,7 @@ header {
 }
 
 .expertise-feature {
-  background: #fff;
+  background: var(--card-bg);
   border-radius: 16px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
   padding: 32px 24px;
@@ -603,13 +612,13 @@ header {
 
 .expertise-feature h3 {
   font-size: 1.3rem;
-  color: var(--primary-second);
+  color: var(--text-white);
   margin-bottom: 10px;
 }
 
 .expertise-feature p {
   font-size: 1rem;
-  color: #444;
+  color: var(--text-font-color);
 }
 
 .expertise-learnmore-container {

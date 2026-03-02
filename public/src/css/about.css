@@ -44,7 +44,7 @@ header.about-header {
 
 .about-intro h2 {
     font-size: 2.5rem;
-    color: var(--primary-color);
+    color: var(--text-white);
     margin-bottom: 24px;
 }
 
@@ -76,7 +76,7 @@ header.about-header {
 
 .expertise-card h3 {
     font-size: 1.5rem;
-    color: var(--primary-second);
+    color: var(--text-white);
     margin-bottom: 15px;
 }
 
@@ -123,7 +123,7 @@ header.about-header {
 
 .mv-card h3 {
     font-size: 1.5rem;
-    color: var(--primary-color);
+    color: var(--text-white);
     margin-bottom: 15px;
 }
 
