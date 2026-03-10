@@ -52,6 +52,8 @@ public/
    cd website
    ```
 
+
+http-server ./public -p 8081                                               
 2. Open the `public/index.html` file in your web browser:
    ```bash
    # On macOS
