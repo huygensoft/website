@@ -54,9 +54,8 @@ class Footer extends HTMLElement {
       <div class="footer-mail"><a href='mailto:reach@huygensoft.com' style="color: var(--Logo-orange, #F55F1D); text-decoration: none;">reach@huygensoft.com</a></div>
     </div>
     <div class="footer-content-right" style="display: flex; gap: 15px;">
-      <!-- Social place-holders -->
-      <a href="#" style="color: var(--text-white); text-decoration: none;">LinkedIn</a>
-      <a href="#" style="color: var(--text-white); text-decoration: none;">Twitter</a>
+      <a href="https://www.linkedin.com/company/83504608" target="_blank" style="color: var(--text-white); text-decoration: none;">LinkedIn</a>
+      <a href="https://x.com/huygensoft" target="_blank" style="color: var(--text-white); text-decoration: none;">Twitter</a>
     </div>
   </div>
   <div style="text-align: center; padding: 10px; background-color: var(--footer-end-color); color: var(--text-font-color); font-size: 14px;">

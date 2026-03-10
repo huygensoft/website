@@ -9,9 +9,8 @@ header.about-header {
     background: linear-gradient(135deg, var(--primary-second) 0%, var(--primary-color) 100%);
     padding: 120px 20px 80px;
     text-align: center;
-    color: #ffffff;
+    color: var(--text-white);
     margin-top: 4rem;
-    /* to account for fixed/absolute nav if any */
 }
 
 .hero-title {

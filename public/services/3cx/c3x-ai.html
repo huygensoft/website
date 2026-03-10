@@ -2,81 +2,164 @@
 <html lang="en">
 
 <head>
+  <!-- Google Analytics -->
+  <main-analytics></main-analytics>
+
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>3CX AI Integration & Automation | Huygensoft</title>
   <meta name="description"
     content="Integrate advanced AI Voicebots and conversational assistants directly into your 3CX PBX for automated, intelligent call handling.">
+
+  <!-- Open graphs -->
   <meta property="og:title" content="3CX AI Integration & Automation | Huygensoft">
+  <meta property="og:image" content="/src/images/logo.svg">
   <meta property="og:description"
     content="Integrate advanced AI Voicebots and conversational assistants directly into your 3CX PBX for automated, intelligent call handling.">
-  <meta property="og:image" content="/src/images/logo.svg">
   <meta property="og:url" content="https://www.huygensoft.com/services/3cx/c3x-ai.html">
   <meta property="og:type" content="website">
+
+  <!-- Twitter card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="3CX AI Integration | Huygensoft">
   <meta name="twitter:description" content="Intelligent 3CX Voicebots and AI call handling.">
   <meta name="twitter:image" content="/src/images/logo.svg">
+
+  <!-- Css -->
   <link rel="stylesheet" href="../../src/css/styles.css">
+  <link rel="stylesheet" href="../../src/css/about.css">
   <link rel="stylesheet" href="../../src/css/footer.css">
+
+  <!-- Favicons -->
   <main-favicon></main-favicon>
 </head>
 
 <body>
-  <nav style="display:flex; align-items:center; justify-content:space-between; padding:0 121px;"><a
-      href="../../index.html"><img src="../../src/images/logo.svg" alt="Huygensoft" style="height:40px;"></a></nav>
-  <main style="max-width:900px;margin:0 auto;padding:60px 24px;line-height:1.6;">
-    <h1 style="font-size:2.5rem;text-align:center;margin-bottom:24px;">AI Agents & Automation</h1>
-    <p style="text-align:center;margin-bottom:40px;">Implement intelligent voice and chat agents that handle
-      calls, support, and routine tasks using AI and automation.</p>
-    <section style="margin-bottom:36px;">
-      <h2 style="font-size:1.75rem;margin-bottom:16px;">Capabilities</h2>
-      <ul style="list-style:disc inside;">
-        <li>AI‑powered virtual agents for handling inbound/outbound calls.</li>
-        <li>Speech‑to‑text and natural language understanding for self‑service.</li>
-        <li>Automated workflows triggered by call events (e.g., routing, notifications).</li>
-        <li>Integration with CRM and third‑party APIs for context-aware responses.</li>
-      </ul>
-    </section>
-    <section style="margin-bottom:36px;">
-      <h2 style="font-size:1.75rem;margin-bottom:16px;">Benefits</h2>
-      <ul style="list-style:disc inside;">
-        <li>Reduce human workload on routine inquiries.</li>
-        <li>Improve response times and customer satisfaction.</li>
-        <li>24/7 availability without additional staffing.</li>
-      </ul>
-    </section>
-    <section style="margin-bottom:36px;">
-      <h2 style="font-size:1.75rem;margin-bottom:16px;">Why Choose Our AI & Automation?</h2>
-      <ul style="list-style:disc inside;">
-        <li>We integrate AI agents directly with 3CX call flows and your CRM for context-aware responses.</li>
-        <li>Our implementations support both voice and chat across multiple channels.</li>
-        <li>Custom training data and NLP tuning ensure high accuracy for your domain.</li>
-        <li>Scalable architectures allow you to start small and expand later.</li>
-      </ul>
-    </section>
-    <section style="margin-bottom:36px;">
-      <h2 style="font-size:1.75rem;margin-bottom:16px;">Getting Started</h2>
-      <p>We begin by defining the scope of automation and selecting the appropriate AI provider (Azure, Google,
-        or custom models). Access to call recordings or sample dialogues helps accelerate training.</p>
-    </section>
-    <section style="margin-bottom:36px;">
-      <h2 style="font-size:1.75rem;margin-bottom:16px;">Frequently Asked Questions</h2>
-      <ul style="list-style:disc inside;">
-        <li>Can AI agents handle multiple languages? <strong>Yes, we support multilingual setups using third‑party NLP
-            services.</strong></li>
-        <li>Do agents record conversations? <strong>We can enable recording and transcript storage as needed.</strong>
-        </li>
-      </ul>
-    </section>
-    <div style="text-align:center; margin-top:40px;">
-      <button class="header-tag-btn"><a href="mailto:reach@huygensoft.com" class="btn-link">Get Started</a>
-      </button>
+
+  <!-- Header section -->
+  <header class="about-header">
+    <nav>
+      <a href='/index.html'><img class="nav-img" src="../../src/images/logo.svg" alt="company's logo"></a>
+      <div class="nav-menu" id="navs">
+        <div class="nav-menu-item"><a href="/pages/services.html" class="top-link menu-link">Our Services</a></div>
+        <div class="nav-menu-item"><a href="/pages/about.html" class="top-link menu-link">About Us</a></div>
+        <button class="nav-menu-btn"><a href="mailto:reach@huygensoft.com" class="top-link header-link btn-link">Contact
+            Us</a></button>
+      </div>
+
+      <!-- mobile bars -->
+      <div class="bar-container" id="bar-container">
+        <div class="bar"></div>
+        <div class="bar :active"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="about-hero">
+    <div class="hero-content">
+      <h1 class="hero-title">AI Agents & Automation</h1>
+      <p class="hero-subtitle">Implement intelligent voice and chat agents that handle calls, provide instant support,
+        and automate routine business tasks using state-of-the-art AI.</p>
     </div>
-  </main>
+  </section>
+
+  <section class="about-content">
+    <div class="expertise-header">
+      <h2 class="expertise-title">Intelligent Call Handling</h2>
+      <p class="expertise-subtitle">Leverage natural language understanding and speech-to-text to modernize your
+        customer experience.</p>
+    </div>
+
+    <div class="expertise-features-grid">
+      <div class="expertise-feature">
+        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/robot.svg" alt="AI Agent"
+          class="expertise-img">
+        <h3>Virtual AI Agents</h3>
+        <p>Sophisticated virtual agents capable of handling inbound and outbound calls with human-like interactions.</p>
+      </div>
+      <div class="expertise-feature">
+        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/chat-quote.svg" alt="NLP"
+          class="expertise-img">
+        <h3>NLP & Voice Recognition</h3>
+        <p>Advanced natural language processing (NLP) to understand caller intent and provide context-aware
+          self-service.</p>
+      </div>
+      <div class="expertise-feature">
+        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/lightning-charge.svg" alt="Workflow"
+          class="expertise-img">
+        <h3>Event-Driven Workflows</h3>
+        <p>Automated business processes triggered by specific call events, such as smart routing based on caller
+          sentiment.</p>
+      </div>
+      <div class="expertise-feature">
+        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/translate.svg" alt="Multilingual"
+          class="expertise-img">
+        <h3>Multilingual Support</h3>
+        <p>Deploy AI agents that can seamlessly interact with your customers in multiple languages across voice and
+          chat.</p>
+      </div>
+    </div>
+
+    <div class="about-intro" style="margin-top: 80px;">
+      <h2>The Benefits of PBX Automation</h2>
+      <p>Free your human agents from repetitive inquiries and provide instant, 24/7 service without increasing
+        operational costs.</p>
+    </div>
+
+    <div class="mission-vision" style="padding: 0; margin-top: 40px; background: none;">
+      <div class="mv-card">
+        <div class="mv-icon">📉</div>
+        <h3>Reduce Load</h3>
+        <p>Handle up to 70% of routine inquiries automatically, allowing agents to focus on complex cases.</p>
+      </div>
+      <div class="mv-card">
+        <div class="mv-icon">🕐</div>
+        <h3>Zero Wait Time</h3>
+        <p>Provide immediate responses to every caller, improving CSAT and reducing abandonment rates.</p>
+      </div>
+      <div class="mv-card">
+        <div class="mv-icon">📈</div>
+        <h3>Infinite Scalability</h3>
+        <p>Handle sudden call spikes effortlessly with virtual agents that scale on-demand in the cloud.</p>
+      </div>
+    </div>
+
+    <section style="margin-top: 80px; text-align: center; max-width: 800px; margin-left: auto; margin-right: auto;">
+      <h2 class="expertise-title" style="font-size: 2rem;">Frequently Asked Questions</h2>
+      <div style="text-align: left; margin-top: 30px;">
+        <details
+          style="margin-bottom: 20px; padding: 20px; background: var(--card-bg); border-radius: 12px; cursor: pointer;">
+          <summary style="font-weight: 700; font-size: 1.1rem; color: var(--text-white);">Which AI providers do you
+            support?</summary>
+          <p style="margin-top: 10px; color: var(--text-font-color);">We integrate with leading providers including
+            Microsoft Azure AI, Google Vertex AI, and custom models like OpenAI's Whisper and GPT via API.</p>
+        </details>
+        <details
+          style="margin-bottom: 20px; padding: 20px; background: var(--card-bg); border-radius: 12px; cursor: pointer;">
+          <summary style="font-weight: 700; font-size: 1.1rem; color: var(--text-white);">Can AI agents record and
+            transcribe calls?</summary>
+          <p style="margin-top: 10px; color: var(--text-font-color);">Yes, we can enable full recording, real-time
+            transcription, and direct storage of metadata into your CRM for auditing and training.</p>
+        </details>
+      </div>
+    </section>
+
+    <div style="text-align:center; margin-top:80px;">
+      <button class="header-tag-btn" style="padding: 0;"><a href="mailto:reach@huygensoft.com" class="btn-link"
+          style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;">Automate Your
+          PBX</a></button>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <main-footer></main-footer>
-  <script src="../../src/js/component.js"></script>
+
+  <!-- Scripts -->
   <script src="../../src/js/app.js"></script>
+  <script src="../../src/js/component.js"></script>
 </body>
 
 </html>

@@ -2,96 +2,172 @@
 <html lang="en">
 
 <head>
+    <!-- Google Analytics -->
+    <main-analytics></main-analytics>
+
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>3CX Call Flow Designer (CFD) Development | Huygensoft</title>
     <meta name="description"
         content="Expert development of complex IVRs, custom call routing, database dips, and API integrations using 3CX Call Flow Designer.">
+
+    <!-- Open graphs -->
     <meta property="og:title" content="3CX Call Flow Designer (CFD) Development | Huygensoft">
+    <meta property="og:image" content="/src/images/logo.svg">
     <meta property="og:description"
         content="Expert development of complex IVRs, custom call routing, database dips, and API integrations using 3CX Call Flow Designer.">
-    <meta property="og:image" content="/src/images/logo.svg">
     <meta property="og:url" content="https://www.huygensoft.com/services/3cx/c3x-cfd.html">
     <meta property="og:type" content="website">
+
+    <!-- Twitter card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="3CX CFD Experts | Huygensoft">
     <meta name="twitter:description" content="Custom 3CX IVR and flow development.">
     <meta name="twitter:image" content="/src/images/logo.svg">
+
+    <!-- Css -->
     <link rel="stylesheet" href="../../src/css/styles.css">
+    <link rel="stylesheet" href="../../src/css/about.css">
     <link rel="stylesheet" href="../../src/css/footer.css">
+
+    <!-- Favicons -->
     <main-favicon></main-favicon>
 </head>
 
 <body>
-    <nav style="display:flex; align-items:center; justify-content:space-between; padding:0 121px;"><a
-            href="../../index.html"><img src="../../src/images/logo.svg" alt="Huygensoft" style="height:40px;"></a>
-    </nav>
-    <main style="max-width:900px;margin:0 auto;padding:60px 24px;line-height:1.6;">
-        <h1 style="font-size:2.5rem;text-align:center;margin-bottom:24px;">3CX Call Flow Designer (CFD)</h1>
-        <p style="text-align:center;margin-bottom:40px;">We design custom callflows using 3CX's visual CFD
-            tool, automating IVR menus, routing, database queries and dialers without code.</p>
-        <section style="margin-bottom:36px;">
-            <h2 style="font-size:1.75rem;margin-bottom:16px;">Capabilities</h2>
-            <ul style="list-style:disc inside;">
-                <li>Design IVRs, menus, prompts and business workflows visually.</li>
-                <li>Integrate CRMs/ERPs for personalized interactions.</li>
-                <li>Create automatic dialers, time‑based routing, and holiday schedules.</li>
-                <li>Use variables and database components for dynamic behavior.</li>
-                <li>Deploy projects easily via the 3CX Management Console.</li>
-            </ul>
-        </section>
-        <section style="margin-bottom:36px;">
-            <h2 style="font-size:1.75rem;margin-bottom:16px;">Benefits</h2>
-            <ul style="list-style:disc inside;">
-                <li>No coding required for callflow logic.</li>
-                <li>Rapid iteration and deployment.</li>
-                <li>Seamless integration with existing 3CX PBX setup.</li>
-                <li>Supports advanced features like date/time routing and dialers.</li>
-            </ul>
-        </section>
-        <section style="margin-bottom:36px;">
-            <h2 style="font-size:1.75rem;margin-bottom:16px;">Why Choose Our CFD Solutions?</h2>
-            <ul style="list-style:disc inside;">
-                <li>Visual drag‑and‑drop design makes complex IVRs easy.</li>
-                <li>We integrate CFD projects with custom CRM or API middleware.</li>
-                <li>Flexible architecture allows reuse across multiple 3CX installations.</li>
-                <li>Experienced in building projects that include dialers, database lookups and scheduling.</li>
-            </ul>
-        </section>
-        <section style="margin-bottom:36px;">
-            <h2 style="font-size:1.75rem;margin-bottom:16px;">Getting Started</h2>
-            <p>A 3CX PRO license is required to author and deploy CFD projects. Projects are exported from the 3CX
-                Management Console and can be updated at any time; we’ll work with your 3CX admin to import and test
-                configurations.</p>
-        </section>
-        <section style="margin-bottom:36px;">
-            <h2 style="font-size:1.75rem;margin-bottom:16px;">Use Cases</h2>
-            <p>Customer support, automated sales campaigns, notifications, and internal queue management.</p>
-        </section>
-        <section style="margin-bottom:36px;">
-            <h2 style="font-size:1.75rem;margin-bottom:16px;">Service Tiers & Add‑Ons</h2>
-            <p>Choose from starter through advanced packages, each including source code and revisions. Add-ons such as
-                fast delivery and training are available.</p>
-        </section>
-        <section style="margin-bottom:36px;">
-            <h2 style="font-size:1.75rem;margin-bottom:16px;">Frequently Asked Questions</h2>
-            <ul style="list-style:disc inside;">
-                <li>Can callflows be changed after deployment? <strong>Yes, CFD projects can be edited and re‑uploaded
-                        at any time.</strong></li>
-                <li>Do I need a specific 3CX license? <strong>A PRO license is required to run CFD
-                        applications.</strong></li>
-                <li>Can CFD access external databases? <strong>Yes, via database components or HTTP requests.</strong>
-                </li>
-            </ul>
-        </section>
-        <div style="text-align:center; margin-top:40px;">
-            <button class="header-tag-btn"><a href="mailto:reach@huygensoft.com" class="btn-link">Get Started</a>
-            </button>
+
+    <!-- Header section -->
+    <header class="about-header">
+        <nav>
+            <a href='/index.html'><img class="nav-img" src="../../src/images/logo.svg" alt="company's logo"></a>
+            <div class="nav-menu" id="navs">
+                <div class="nav-menu-item"><a href="/pages/services.html" class="top-link menu-link">Our Services</a>
+                </div>
+                <div class="nav-menu-item"><a href="/pages/about.html" class="top-link menu-link">About Us</a></div>
+                <button class="nav-menu-btn"><a href="mailto:reach@huygensoft.com"
+                        class="top-link header-link btn-link">Contact Us</a></button>
+            </div>
+
+            <!-- mobile bars -->
+            <div class="bar-container" id="bar-container">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="about-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">3CX Call Flow Designer (CFD)</h1>
+            <p class="hero-subtitle">Automate complex IVR menus, intelligent call routing, and database integrations
+                visually. No-code efficiency, enterprise-grade logic.</p>
         </div>
-    </main>
+    </section>
+
+    <section class="about-content">
+        <div class="expertise-header">
+            <h2 class="expertise-title">Capabilities & Workflows</h2>
+            <p class="expertise-subtitle">Transform your business communication with visually designed, sophisticated
+                call logic.</p>
+        </div>
+
+        <div class="expertise-features-grid">
+            <div class="expertise-feature">
+                <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/diagram-2.svg" alt="Visual Design"
+                    class="expertise-img">
+                <h3>Visual Routing Design</h3>
+                <p>Design IVRs, menus, and prompts visually. Map your business workflows without writing a single line
+                    of code.</p>
+            </div>
+            <div class="expertise-feature">
+                <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/database-fill-gear.svg"
+                    alt="Data Integration" class="expertise-img">
+                <h3>Dynamic Data Integration</h3>
+                <p>Use variables and database components to create personalized interactions based on real-time CRM or
+                    ERP data.</p>
+            </div>
+            <div class="expertise-feature">
+                <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/calendar-event.svg" alt="Scheduling"
+                    class="expertise-img">
+                <h3>Intelligent Scheduling</h3>
+                <p>Automate time-based routing, holiday schedules, and out-of-hours notifications with ease.</p>
+            </div>
+            <div class="expertise-feature">
+                <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/telephone-outbound.svg"
+                    alt="Dialers" class="expertise-img">
+                <h3>Automated Dialers</h3>
+                <p>Create power dialers and automated notification campaigns to maximize outreach and connectivity.</p>
+            </div>
+        </div>
+
+        <div class="about-intro" style="margin-top: 80px;">
+            <h2>Why Choose Huygensoft for CFD?</h2>
+            <p>We don't just "draw" flows; we engineer them. Our experts integrate CFD projects with custom CRM or API
+                middleware, ensuring your telephony system is a core part of your data ecosystem.</p>
+        </div>
+
+        <div class="mission-vision" style="padding: 0; margin-top: 40px; background: none;">
+            <div class="mv-card">
+                <div class="mv-icon">🚀</div>
+                <h3>Rapid Deployment</h3>
+                <p>CFD projects are exported and deployed directly to the 3CX Management Console for instant updates.
+                </p>
+            </div>
+            <div class="mv-card">
+                <div class="mv-icon">🔗</div>
+                <h3>Seamless Integration</h3>
+                <p>Built-in support for existing 3CX PBX setups, ensuring high compatibility and stability.</p>
+            </div>
+            <div class="mv-card">
+                <div class="mv-icon">🛠️</div>
+                <h3>Flexible Architecture</h3>
+                <p>Modular designs that allow for easy reuse and scaling across multiple 3CX installations.</p>
+            </div>
+        </div>
+
+        <section style="margin-top: 80px; text-align: center; max-width: 800px; margin-left: auto; margin-right: auto;">
+            <h2 class="expertise-title" style="font-size: 2rem;">Frequently Asked Questions</h2>
+            <div style="text-align: left; margin-top: 30px;">
+                <details
+                    style="margin-bottom: 20px; padding: 20px; background: var(--card-bg); border-radius: 12px; cursor: pointer;">
+                    <summary style="font-weight: 700; font-size: 1.1rem; color: var(--text-white);">Can callflows be
+                        changed after deployment?</summary>
+                    <p style="margin-top: 10px; color: var(--text-font-color);">Absolutely. CFD projects can be edited,
+                        refined, and re-uploaded at any time to adapt to your evolving business needs.</p>
+                </details>
+                <details
+                    style="margin-bottom: 20px; padding: 20px; background: var(--card-bg); border-radius: 12px; cursor: pointer;">
+                    <summary style="font-weight: 700; font-size: 1.1rem; color: var(--text-white);">Do I need a specific
+                        3CX license?</summary>
+                    <p style="margin-top: 10px; color: var(--text-font-color);">Authoring and running CFD applications
+                        requires a 3CX PRO or Enterprise license.</p>
+                </details>
+                <details
+                    style="margin-bottom: 20px; padding: 20px; background: var(--card-bg); border-radius: 12px; cursor: pointer;">
+                    <summary style="font-weight: 700; font-size: 1.1rem; color: var(--text-white);">Can CFD access
+                        external databases?</summary>
+                    <p style="margin-top: 10px; color: var(--text-font-color);">Yes, through dedicated database
+                        components or standard HTTP requests (JSON/XML).</p>
+                </details>
+            </div>
+        </section>
+
+        <div style="text-align:center; margin-top:80px;">
+            <button class="header-tag-btn" style="padding: 0;"><a href="mailto:reach@huygensoft.com" class="btn-link"
+                    style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;">Get
+                    Started with CFD</a></button>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <main-footer></main-footer>
-    <script src="../../src/js/component.js"></script>
+
+    <!-- Scripts -->
     <script src="../../src/js/app.js"></script>
+    <script src="../../src/js/component.js"></script>
 </body>
 
 </html>
