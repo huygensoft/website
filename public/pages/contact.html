@@ -126,9 +126,13 @@
     </section>
 
     <div class="contact-form-card">
+        <iframe name="zf_redirect_iframe" id="zf_redirect_iframe" style="display:none;"
+            onload="if(typeof formSubmitted !== 'undefined' && formSubmitted) { window.location.href = '/pages/success.html'; }"></iframe>
+
         <form
             action='https://forms.zohopublic.com/odhuyge1/form/ContactUs/formperma/WVJHhMMDrUo35Bb7T3YONBTOJbZGzNd3t3Tqb3QQmcI/htmlRecords/submit'
-            name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+            name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'
+            target="zf_redirect_iframe" onsubmit="formSubmitted = true;">
             <!-- Zoho Hidden Fields -->
             <input type="hidden" name="zf_referrer_name" value="">
             <input type="hidden" name="zf_redirect_url" value="https://huygensoft.com/pages/success.html">
@@ -198,6 +202,9 @@
 
     <main-footer></main-footer>
 
+    <script>
+        let formSubmitted = false;
+    </script>
     <script src="../src/js/app.js"></script>
     <script src="../src/js/component.js"></script>
 </body>
