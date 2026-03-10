@@ -51,7 +51,7 @@ class Footer extends HTMLElement {
       <a href="/pages/about.html" style="color: var(--text-white); text-decoration: none;">About Us</a>
     </div>
     <div class="footer-content-center">
-      <div class="footer-mail"><a href='mailto:reach@huygensoft.com' style="color: var(--Logo-orange, #F55F1D); text-decoration: none;">reach@huygensoft.com</a></div>
+      <div class="footer-mail"><a href='/pages/contact.html' style="color: var(--Logo-orange, #F55F1D); text-decoration: none;">Contact Us</a></div>
     </div>
     <div class="footer-content-right" style="display: flex; gap: 15px;">
       <a href="https://www.linkedin.com/company/83504608" target="_blank" style="color: var(--text-white); text-decoration: none;">LinkedIn</a>
