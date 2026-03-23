@@ -49,34 +49,44 @@
     </nav>
   </header>
 
-  <section class="about-hero" style="min-height: 200px; padding-top: 50px;">
-    <div class="hero-content">
-      <h1 class="hero-title">Contact Us</h1>
-      <p class="hero-subtitle">Get in touch with us to discuss your software engineering needs.</p>
-    </div>
-  </section>
-
-  <section class="about-content" style="text-align: center; margin-bottom: 80px;">
-    <div class="about-intro" style="max-width: 600px; margin: 0 auto; background: var(--bg-color-main, #f9f9f9); padding: 40px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-       <h2 style="margin-bottom: 20px; color: var(--primary-color);">Reach Out</h2>
-       <p style="color: var(--text-font-color); margin-bottom: 30px;">We are always open to discuss your project, support, or partnership opportunities.</p>
+  <section class="contact-redesign" style="max-width: 1100px; margin: 60px auto 100px auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 60px; padding: 0 20px;">
+    <!-- Left Column: Details -->
+    <div class="contact-left" style="flex: 1; min-width: 320px;">
+       <h1 style="font-size: 3.5rem; color: var(--text-white); margin-bottom: 24px; font-weight: 700;">Contact Us</h1>
+       <p style="color: var(--text-font-color); font-size: 1.15rem; line-height: 1.7; margin-bottom: 48px; max-width: 450px;">
+         If you have any questions or want to get a <strong>free estimate</strong> for your software integration needs, contact us via email or phone call. We will be very happy to help you!
+       </p>
        
-       <div style="line-height: 1.8; font-size: 1.1rem; text-align: left; display: inline-block;">
-         <p style="margin-bottom: 15px;"><strong>Email:</strong> <br><a href="mailto:reach@huygensoft.com" style="color: var(--Logo-orange, #F55F1D); text-decoration: none; font-weight: 500;">reach@huygensoft.com</a></p>
+       <div class="contact-items" style="display: flex; flex-direction: column; gap: 32px;">
+         <!-- Phone -->
+         <div style="display: flex; align-items: center; gap: 20px;">
+           <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/telephone-fill.svg" style="width: 22px; height: 22px; filter: invert(34%) sepia(85%) saturate(2462%) hue-rotate(346deg) brightness(97%) contrast(98%);" alt="Phone" />
+           <span style="font-weight: 500; font-size: 1.1rem; color: var(--text-white);">+44 7350 160965</span>
+         </div>
          
-         <p style="margin-bottom: 15px;"><strong>Phone:</strong> <br><span style="color: var(--text-font-color);">+44 7350 160965</span></p>
+         <!-- Email -->
+         <div style="display: flex; align-items: center; gap: 20px;">
+           <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/envelope-fill.svg" style="width: 22px; height: 22px; filter: invert(34%) sepia(85%) saturate(2462%) hue-rotate(346deg) brightness(97%) contrast(98%);" alt="Email" />
+           <span style="font-weight: 500; font-size: 1.1rem; color: var(--text-white);">reach@huygensoft.com</span>
+         </div>
          
-         <p><strong>Address:</strong><br>
-           <span style="color: var(--text-font-color);">
-             Office 18093<br>
-             182-184 High Street North<br>
-             East Ham<br>
-             London<br>
-             E6 2JA<br>
-             United Kingdom
-           </span>
-         </p>
+         <!-- Address -->
+         <div style="display: flex; align-items: flex-start; gap: 20px;">
+           <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/geo-alt-fill.svg" style="width: 22px; height: 22px; filter: invert(34%) sepia(85%) saturate(2462%) hue-rotate(346deg) brightness(97%) contrast(98%); margin-top: 4px;" alt="Address" />
+           <span style="font-weight: 500; font-size: 1.1rem; color: var(--text-white); line-height: 1.6;">Office 18093<br>182-184 High Street North<br>East Ham, London E6 2JA</span>
+         </div>
+         
+         <!-- Hours -->
+         <div style="display: flex; align-items: flex-start; gap: 20px;">
+           <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/clock-fill.svg" style="width: 22px; height: 22px; filter: invert(34%) sepia(85%) saturate(2462%) hue-rotate(346deg) brightness(97%) contrast(98%); margin-top: 4px;" alt="Hours" />
+           <span style="font-weight: 500; font-size: 1.1rem; color: var(--text-white); line-height: 1.6;">Monday - Friday:<br>9:00 am - 5:00 pm</span>
+         </div>
        </div>
+    </div>
+    
+    <!-- Right Column: Image -->
+    <div class="contact-right" style="flex: 1; min-width: 320px; display: flex; justify-content: flex-end;">
+       <img src="/src/images/contact-hero.png" alt="Contact Us" style="width: 100%; max-width: 550px; border-radius: 4px; object-fit: cover; aspect-ratio: 4/5;" />
     </div>
   </section>
 
