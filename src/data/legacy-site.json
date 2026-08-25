@@ -1,0 +1,1749 @@
+{
+  "categories": [
+    {
+      "id": "3cx",
+      "title": "3CX & Communication Solutions",
+      "summary": "We build tailored API middleware that connects 3CX PBX systems with enterprise CRMs, automated call flows, predictive dialers and AI-powered agents."
+    },
+    {
+      "id": "locker",
+      "title": "Smart Locker & Custom Hardware Solutions",
+      "summary": "Complete software platforms for managing smart locker hardware, kiosks and custom embedded systems, from desktop controllers and cloud APIs to mobile apps."
+    },
+    {
+      "id": "enterprise",
+      "title": "Enterprise Software & Cloud Backend",
+      "summary": "Scalable APIs, secure backend infrastructure and high-performance desktop applications for finance, healthcare and enterprise environments."
+    },
+    {
+      "id": "modernization",
+      "title": "Legacy Software Modernization",
+      "summary": "Practical upgrades for older applications: supported .NET platforms, modern desktop interfaces, profiling and modular service architectures."
+    },
+    {
+      "id": "specialized",
+      "title": "Specialized Engineering Services",
+      "summary": "Targeted solutions for distinctive technical problems, including integration work, Windows utilities, deployment packaging and data synchronisation."
+    }
+  ],
+  "services": [
+    {
+      "category": "3cx",
+      "legacyPath": "/services/3cx/c3x-ai.html",
+      "slug": "ai-agents-automation",
+      "title": "3CX AI Integration & Automation",
+      "description": "Integrate advanced AI Voicebots and conversational assistants directly into your 3CX PBX for automated, intelligent call handling.",
+      "intro": "Implement intelligent voice and chat agents that handle calls, support, and routine tasks using AI and automation.",
+      "sections": [
+        {
+          "heading": "Capabilities",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "AI‑powered virtual agents for handling inbound/outbound calls.",
+                "Speech‑to‑text and natural language understanding for self‑service.",
+                "Automated workflows triggered by call events (e.g., routing, notifications).",
+                "Integration with CRM and third‑party APIs for context-aware responses."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Benefits",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Reduce human workload on routine inquiries.",
+                "Improve response times and customer satisfaction.",
+                "24/7 availability without additional staffing."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our AI & Automation?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "We integrate AI agents directly with 3CX call flows and your CRM for context-aware responses.",
+                "Our implementations support both voice and chat across multiple channels.",
+                "Custom training data and NLP tuning ensure high accuracy for your domain.",
+                "Scalable architectures allow you to start small and expand later."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Getting Started",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We begin by defining the scope of automation and selecting the appropriate AI provider (Azure, Google, or custom models). Access to call recordings or sample dialogues helps accelerate training."
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Can AI agents handle multiple languages? Yes, we support multilingual setups using third‑party NLP services.",
+                "Do agents record conversations? We can enable recording and transcript storage as needed."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "3cx",
+      "legacyPath": "/services/3cx/c3x-api.html",
+      "slug": "custom-3cx-api-development",
+      "title": "Custom 3CX API Development",
+      "description": "Robust RESTful and real-time WebSocket APIs for 3CX call control, logging, and third-party CRM integrations.",
+      "intro": "We build robust RESTful and real-time WebSocket (SignalR) APIs that allow your CRM or application to fully control 3CX PBX functions.",
+      "sections": [
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "HTTP REST backend with endpoints for make/answer/transfer calls, manage IVRs, users, extensions, recordings and more.",
+                "Optional SignalR listener service for real‑time call state updates and event delivery.",
+                "Documentation and well‑commented codebase.",
+                "Support for CDR, CFD and custom softphone integration.",
+                "Source code delivery and deployment guidance."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Built using ASP.NET/C# or Node.js depending on your stack. We focus on performance optimization, security, and maintainability."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Click‑to‑dial from CRM records.",
+                "Real‑time call logging and analysis.",
+                "Automated call routing and IVR control.",
+                "Integration with external databases and services."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Getting Started",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "An 8SC+ Enterprise 3CX license is required. Provide API key obtained from the 3CX Admin Console. We'll handle the integration and provide sample client code."
+            }
+          ]
+        },
+        {
+          "heading": "Service Tiers & Add‑Ons",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We offer multiple tiers to match your needs:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Starter – Basic integration with source code and 3 revisions.",
+                "Standard – Includes detailed comments and up to 5 revisions.",
+                "Advanced – Full customisation, unlimited revisions and priority support."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Add‑ons include:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Click-to-call support (+1 day)",
+                "Call history logging (+800)",
+                "Call recording integration (+500)",
+                "Fast delivery options and training packages"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our 3CX Solutions?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Stable, fast, and extensible APIs built in C# or Node.js.",
+                "Performance and security optimisations suitable for enterprise use.",
+                "Clear documentation and code that you (or future teams) can maintain.",
+                "Flexible architecture supporting CDR, CFD and softphone integrations.",
+                "Requirement gathering, sprint‑based delivery plans, and QA support."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Workflow & Project Approach",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Most projects follow a multi‑sprint plan (8–10 weeks) covering:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "User and call management, core call functionality, in‑call experience.",
+                "Real‑time call logging, monitoring dashboards, agent break management.",
+                "Reporting, escalations, and intervention features.",
+                "Internal QA, bug fixing, followed by UAT and deployment."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "We work closely with your CRM administrators, QA engineers and DevOps staff to align the integration with your business processes and compliance needs."
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Is 3CX deployed on Windows supported? Yes.",
+                "Is 3CX deployed on Linux supported? Yes.",
+                "Do I need an Enterprise license to integrate? No, but an 8SC+ Enterprise license is required for Call Control API.",
+                "Can I get an API for older 3CX versions? We can support most versions; contact us with details.",
+                "Can I listen to SignalR from Node.js or non‑Microsoft stack? Yes, we can design cross-platform listeners.",
+                "Can I automate calls while agents use web clients? Absolutely; our API supports concurrent web client activity."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "3cx",
+      "legacyPath": "/services/3cx/c3x-cfd.html",
+      "slug": "3cx-call-flow-designer",
+      "title": "3CX Call Flow Designer (CFD) Development",
+      "description": "Expert development of complex IVRs, custom call routing, database dips, and API integrations using 3CX Call Flow Designer.",
+      "intro": "We design custom callflows using 3CX's visual CFD tool, automating IVR menus, routing, database queries and dialers without code.",
+      "sections": [
+        {
+          "heading": "Capabilities",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Design IVRs, menus, prompts and business workflows visually.",
+                "Integrate CRMs/ERPs for personalized interactions.",
+                "Create automatic dialers, time‑based routing, and holiday schedules.",
+                "Use variables and database components for dynamic behavior.",
+                "Deploy projects easily via the 3CX Management Console."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Benefits",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "No coding required for callflow logic.",
+                "Rapid iteration and deployment.",
+                "Seamless integration with existing 3CX PBX setup.",
+                "Supports advanced features like date/time routing and dialers."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our CFD Solutions?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Visual drag‑and‑drop design makes complex IVRs easy.",
+                "We integrate CFD projects with custom CRM or API middleware.",
+                "Flexible architecture allows reuse across multiple 3CX installations.",
+                "Experienced in building projects that include dialers, database lookups and scheduling."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Getting Started",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "A 3CX PRO license is required to author and deploy CFD projects. Projects are exported from the 3CX Management Console and can be updated at any time; we’ll work with your 3CX admin to import and test configurations."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Customer support, automated sales campaigns, notifications, and internal queue management."
+            }
+          ]
+        },
+        {
+          "heading": "Service Tiers & Add‑Ons",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Choose from starter through advanced packages, each including source code and revisions. Add-ons such as fast delivery and training are available."
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Can callflows be changed after deployment? Yes, CFD projects can be edited and re‑uploaded at any time.",
+                "Do I need a specific 3CX license? A PRO license is required to run CFD applications.",
+                "Can CFD access external databases? Yes, via database components or HTTP requests."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "3cx",
+      "legacyPath": "/services/3cx/c3x-crm.html",
+      "slug": "custom-crm-applications",
+      "title": "3CX CRM & Helpdesk Integration",
+      "description": "Seamlessly connect your 3CX PBX to CRMs, helpdesks, and custom databases for caller ID dips and automatic journal entries.",
+      "intro": "We develop and integrate custom CRM systems that work hand‑in‑hand with 3CX, providing real‑time call data, logging and user interfaces.",
+      "sections": [
+        {
+          "heading": "Features",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Real‑time call logging and contact lookup within CRM.",
+                "Click‑to‑dial and call pop notifications.",
+                "Integration of CRM events with 3CX call flows.",
+                "Custom dashboards and reporting tools."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Benefits",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Unified view of customer interactions.",
+                "Improved agent productivity and tracking.",
+                "Custom workflows encapsulating telephony and CRM data."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our CRM Solutions?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "We specialise in custom CRMs designed around 3CX call data and agent workflows.",
+                "Our architectures allow for offline caching and seamless sync for field sales agents.",
+                "Encryption at rest and in transit ensures compliance with data protection regulations.",
+                "We can extend existing CRMs or build new ones depending on your requirements."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Getting Started",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We consult on your business processes and design the CRM schema to surface the most relevant call and customer data. Sample wireframes or UI preferences help speed the design phase."
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Can the CRM work offline? Yes, we can implement local caching and sync whenever connectivity returns.",
+                "Is data encrypted? All call logs and personal data are encrypted at rest and in transit."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "3cx",
+      "legacyPath": "/services/3cx/c3x-dialer.html",
+      "slug": "predictive-power-dialers",
+      "title": "Predictive & Power Dialers for 3CX",
+      "description": "Enhance outbound calling with smart predictive and power dialers that analyze agent availability to maximize connect rates.",
+      "intro": "Enhance outbound calling with smart dialers that analyse agent availability and call lists to maximise connect rates.",
+      "sections": [
+        {
+          "heading": "Features",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Predictive algorithm to dial numbers ahead of agent availability.",
+                "Power dialer mode for sequential calling.",
+                "CRM integration for call outcome logging and contact lookup.",
+                "Customisable pacing, drop‑call handling, and retries.",
+                "Reporting dashboards with call statistics."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Benefits",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Maximises agent talk time and productivity.",
+                "Reduces idle time between calls.",
+                "Improves campaign efficiency and ROI."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our Dialer Solutions?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "We design dialers that integrate seamlessly with your CRM or 3CX CFD projects.",
+                "Compliance with local telephony regulations is built in.",
+                "Flexible pacing and reporting ensure campaigns hit targets without penalties.",
+                "Our dialers can work with either our custom 3CX API or existing 3CX features."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Getting Started",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "The system typically requires an 8SC+ Enterprise 3CX license for full Call Control API access. We'll review your contact list and CRM integration points during the planning phase."
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Does predictive dialing comply with regulations? Yes, we can configure legally compliant pacing and abandonment rates.",
+                "Can I export call logs? We provide export capabilities to CSV/CRM systems."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "enterprise",
+      "legacyPath": "/services/enterprise/cloud-devops.html",
+      "slug": "azure-cloud-devops",
+      "title": "Azure Cloud & DevOps",
+      "description": "Design, deploy, and manage CI/CD pipelines and infrastructure automation on Microsoft Azure handling millions of requests.",
+      "intro": "Design, deploy, and manage CI/CD pipelines and infrastructure automation on Microsoft Azure handling millions of requests.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Streamline your deployment processes with our specialized DevOps engineering. We leverage Azure's extensive ecosystem to automate your deployments, monitor infrastructure, and ensure high availability."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Design and implementation of robust CI/CD pipelines (Continuous Integration / Continuous Deployment).",
+                "Infrastructure as Code (IaC) using ARM templates, Bicep, or Terraform.",
+                "Zero-downtime deployment strategies.",
+                "Comprehensive monitoring, alerting, and telemetry configurations.",
+                "Automated database migrations tied to release pipelines."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Deep expertise in the Microsoft Azure ecosystem: Azure App Services, Azure Functions, Azure SQL, KeyVault, and Application Insights. Pipeline automation via Azure DevOps and GitHub Actions. Proficiency in Docker and containerization."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Scaling a successful local application up to a globally distributed cloud environment.",
+                "Replacing error-prone, manual FTP deployments with automated one-click releases.",
+                "Implementing robust disaster recovery and multi-region failover architectures.",
+                "Cost optimization of bloated cloud infrastructure configurations."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our DevOps Engineers?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Proven Scale: Experience architecting platforms that effortlessly handle millions of requests.",
+                "Security Focused: Secret management and least-privilege principles applied to all cloud resources.",
+                "Cost Efficient: We build architectures that scale elastically, so you only pay for what you use."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "enterprise",
+      "legacyPath": "/services/enterprise/database-optimization.html",
+      "slug": "database-optimization",
+      "title": "Database Optimization",
+      "description": "SQL Server and PostgreSQL optimization, handling large datasets with efficient stored procedures and performance tuning.",
+      "intro": "SQL Server and PostgreSQL optimization, handling large datasets with efficient stored procedures and performance tuning.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Resolve slow queries and application bottlenecks. Our deep expertise in database engine internals allows us to index, schema-design, and optimize your data layer to handle massive traffic efficiently."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Comprehensive query profiling and execution plan analysis.",
+                "Structural index optimization (Clustered, Non-Clustered, and Covering Indexes).",
+                "Architectural refactoring (e.g., extracting heavy logic from slow database triggers).",
+                "Tuning Entity Framework Core LINQ queries for optimal SQL generation.",
+                "Bulk insert strategies for massive data ingestion pipelines."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Extensive experience with Microsoft SQL Server and PostgreSQL . We utilize SQL Profiler, Extended Events, and Dynamic Management Views (DMVs) for low-level diagnosis. Proficient in Dapper for micro-optimizations outside standard ORMs."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Sluggish legacy applications struggling under the weight of historical data.",
+                "Reporting dashboards timing out during peak business hours.",
+                "Resolving database deadlocks in high concurrency environments.",
+                "Refactoring database schemas in preparation for a microservices migration."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our DBA Specialists?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Measurable Impact: We frequently achieve 10x to 100x speedups on critical queries.",
+                "Data Integrity First: All optimizations are rigorously tested to ensure zero data corruption or unintended side-effects.",
+                "Holistic Approach: We look beyond the database, optimizing the application layer's data access patterns simultaneously."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "enterprise",
+      "legacyPath": "/services/enterprise/high-performance.html",
+      "slug": "high-performance-desktop-apps",
+      "title": "High-Performance Desktop Apps",
+      "description": "Low-latency WPF applications featuring complex multithreading, advanced audio engineering (WASAPI), and Active Directory integrations.",
+      "intro": "Low-latency WPF applications featuring complex multithreading, advanced audio engineering (WASAPI), and Active Directory integrations.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We architect state-of-the-art Windows desktop applications for scenarios demanding ultra-low latency, such as financial trading platforms and specialized audio engineering tools."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Complex multithreaded desktop systems that easily process massive datasets locally.",
+                "Hardware-accelerated user interfaces ensuring smooth, 60fps interaction.",
+                "Deep integration with Windows OS features and Active Directory.",
+                "Offline-first architectures with robust local data synchronization syncing to cloud backends."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Specialists in C#, WPF (Windows Presentation Foundation), and MVVM patterns . Proficient in the Task Parallel Library (TPL), SQLite for local storage, WASAPI for low-latency audio engineering, and native memory management."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Real-time algorithmic trading terminals requiring nanosecond responsiveness.",
+                "Medical imaging and diagnostics software handling large binary data.",
+                "Industrial control dashboards interfacing with local sensors.",
+                "High-frequency audio streaming and processing utilities."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our Desktop Engineering?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Thread Mastery: We guarantee responsive UI threads regardless of background processing loads.",
+                "Resource Efficiency: Deep understanding of the .NET Garbage Collector to prevent memory leaks in long-running processes.",
+                "Enterprise Stability: Built for 24/7 operation in mission-critical environments."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "enterprise",
+      "legacyPath": "/services/enterprise/secure-apis.html",
+      "slug": "secure-financial-apis",
+      "title": "Secure Financial APIs",
+      "description": "Robust C# ASP.NET Core APIs with JWT authentication, Role-Based Access, FluentValidation, and 100% test coverage.",
+      "intro": "Robust C# ASP.NET Core APIs with JWT authentication, Role-Based Access, FluentValidation, and 100% test coverage.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We build highly secure and performant APIs tailored for the financial sector and enterprise environments. Our solutions ensure data integrity, compliance, and zero-downtime scalability."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "JWT Authentication and Role-Based Access Control (RBAC) securely implemented.",
+                "Input sanitization and validation using FluentValidation patterns.",
+                "Comprehensive endpoint documentation via Swagger/OpenAPI.",
+                "Asynchronous operations for maximum throughput.",
+                "Up to 100% Code Coverage using xUnit for guaranteed stability."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Built primarily on C# and ASP.NET Core Web API utilizing Clean Architecture principles and Domain-Driven Design (DDD). We leverage Entity Framework Core, Dapper, SQL Server, PostgreSQL, and Redis caching."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Fintech integrations requiring strict transactional integrity.",
+                "Payment gateway wrappers and webhooks.",
+                "High-traffic B2B SaaS backends handling millions of monthly requests.",
+                "HealthTech APIs requiring strict data segregation and compliance."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our API Engineering?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Secure-by-Design: Security is never an afterthought; it's baked into the architecture from day one.",
+                "Test-Driven: High unit and integration test coverage means fewer bugs in production.",
+                "Microsoft Certified: Code crafted by certified professionals with years of enterprise experience.",
+                "Clean Codebases: Highly maintainable, abstracted code that your internal teams can easily inherit."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "locker",
+      "legacyPath": "/services/locker/locker-api.html",
+      "slug": "locker-api-services",
+      "title": "Locker API Services",
+      "description": "Develop secure, scalable REST APIs to remotely control smart locker machines, verify codes, and sync telemetry.",
+      "intro": "Implement internal or cloud/back-end REST APIs to remotely control locker machines, verify codes and log actions.",
+      "sections": [
+        {
+          "heading": "Components",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Internal API service exposing locker control methods within local network.",
+                "External cloud API for validation and command with backend security and code verification.",
+                "Optional Windows service (WCF/ASP.NET) ensuring main app uptime and API health checks."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Integration Points",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Connect with mobile apps for OTP generation and parcel notifications.",
+                "Allow third-party logistics systems to send parcel/return commands.",
+                "Integrate with admin dashboards for monitoring and firmware updates."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Benefits",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Remote locker management from anywhere.",
+                "Secure code verification via encrypted API.",
+                "Cloud scalability for large locker networks."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our API Services?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "We tailor APIs to your hardware and deployment model (on‑prem, cloud or hybrid).",
+                "Includes optional Windows service for health checks and auto-restart.",
+                "Secure endpoints with token verification, logging and role-based access.",
+                "Flexible enough to integrate with mobile apps, dashboards or third-party systems."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Getting Started",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We work with your hardware provider to obtain protocol documentation and sample units if needed. From there we design the API schema and authentication model, and plan integration with any mobile or dashboard components."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "locker",
+      "legacyPath": "/services/locker/locker-dashboard.html",
+      "slug": "locker-admin-dashboard",
+      "title": "Locker Admin Dashboard",
+      "description": "Web-based dashboard for managing locker networks, monitoring hardware telemetry, and deploying software updates.",
+      "intro": "A web-based dashboard for managing locker networks, monitoring hardware, and controlling software updates.",
+      "sections": [
+        {
+          "heading": "Dashboard Features",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "View status of each locker and door sensors.",
+                "Receive alerts for door left open or temperature thresholds exceeded.",
+                "Push software updates to lockers remotely.",
+                "Manage users, access codes and integration settings."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Integration Options",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Connect with external logistics platforms, mobile apps and analytical tools through APIs."
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our Admin Dashboard?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Real-time monitoring and alerting keeps locker networks healthy.",
+                "Remote firmware and software updates simplify maintenance.",
+                "Customisable views and reports to suit your operational metrics.",
+                "Designed to integrate easily with your existing infrastructure."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Getting Started",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We typically begin with a discovery session to determine which metrics and controls are most critical. From there we design wireframes and integrate with your locker API and mobile apps."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "locker",
+      "legacyPath": "/services/locker/locker-desktop.html",
+      "slug": "locker-desktop-application",
+      "title": "Locker Desktop Application",
+      "description": "Custom Windows desktop applications to manage locker kiosks, interact with hardware, and secure terminal environments.",
+      "intro": "We develop polished, efficient Windows desktop applications (WPF) to manage locker machines and control hardware components.",
+      "sections": [
+        {
+          "heading": "Core Features",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Visual interface for locker control and status.",
+                "Background Windows service (WCF/ASP.NET worker) to ensure uptime.",
+                "Support for Windows Embedded 7 through Windows 10.",
+                "MVVM architecture, localization, and installer generation."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Optional Extensions",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Internal or external API service for remote management.",
+                "Mobile app integration for OTP and notifications.",
+                "Admin dashboard connectivity and monitoring."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our Desktop App?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Deployment on kiosk hardware with Windows kiosk mode support.",
+                "Secure shell replacement to prevent OS access.",
+                "Configurable via ini files for timeout, encryption keys, etc.",
+                "Experience with Hivebox/Amazon lockers and Chinese OEMs."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Getting Started",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We typically begin by assessing your locker hardware (manufacturer, protocol) and establishing communication channels. Our WPF client can be built alongside a Windows service and integrated with optional APIs and mobile apps."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "locker",
+      "legacyPath": "/services/locker/locker-mobile.html",
+      "slug": "locker-mobile-application",
+      "title": "Locker Mobile App Development",
+      "description": "Custom Android and iOS applications for parcel lockers offering secure OTP token generation and pick-up notifications.",
+      "intro": "Custom Android/iOS apps that notify users of items and generate One-Time Password tokens for accessing specific locker cells.",
+      "sections": [
+        {
+          "heading": "Features",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Receive notifications when a parcel is placed or picked up.",
+                "Generate, display and scan OTP/QR codes for secure access.",
+                "Track locker usage history and provide user settings."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technical Stack",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Built using Flutter, Xamarin or native frameworks depending on client preference. Integrates with locker API for real-time communication."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Parcel delivery, equipment rental, document exchange and other scenarios where secure, unattended access is required."
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our Mobile Apps?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Cross-platform support using Flutter/Xamarin or native code per client needs.",
+                "Tight integration with our locker APIs for real-time updates and secure OTP handling.",
+                "Custom branding and features such as push notifications and usage history.",
+                "Flexible deployment on Android, iOS, or both."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Getting Started",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We start by defining the user workflows and authentication mechanisms, then build the front-end and hook it to your chosen locker API. Sample hardware or mock APIs can be used during early development."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "modernization",
+      "legacyPath": "/services/modernization/framework-upgrades.html",
+      "slug": "dotnet-framework-upgrades",
+      "title": ".NET Framework to .NET 8/9",
+      "description": "Seamless migration of deprecated .NET Framework 4.x applications to the latest long-term support (LTS) .NET Core versions.",
+      "intro": "Seamless migration of deprecated .NET Framework 4.x applications to the latest long-term support (LTS) .NET Core versions.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Modernize your legacy codebase to leverage the performance, cross-platform capabilities, and long-term security support of the modern .NET ecosystem safely and predictably."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Safe, incremental migration paths from .NET Framework (3.5/4.x) to modern .NET 8/9.",
+                "Identification and targeted replacement of deprecated legacy libraries.",
+                "Implementation of modern Dependency Injection (DI) and configuration architectures.",
+                "Setup of cross-platform CI/CD build pipelines."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Experts in the entire Microsoft ecosystem. We handle complex transitions including Entity Framework (EF) to EF Core migrations, migrating WCF services to gRPC or REST, and preparing codebases for Linux containerization."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Securing unsupported, end-of-life legacy systems against modern security vulnerabilities.",
+                "Preparing a Windows-only legacy backend for Linux Docker deployments (saving hosting costs).",
+                "Gaining access to modern C# language features and massive performance improvements inherent in .NET Core."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our Modernization Specialists?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Predictable Execution: We utilize phased migration strategies (like the Strangler Fig pattern) to avoid the immense risk of a \"big bang\" rewrite.",
+                "Business Continuity: Your software remains operational and viable throughout the extensive upgrade process."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "modernization",
+      "legacyPath": "/services/modernization/microservices.html",
+      "slug": "monolith-to-microservices",
+      "title": "Monolith to Microservices",
+      "description": "Refactor large monolithic codebases into modular Clean Architecture systems with portable class libraries.",
+      "intro": "Refactor large monolithic codebases into modular Clean Architecture systems with portable class libraries.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Break down unmanageable, sprawling monoliths into independently deployable, loosely coupled microservices for faster delivery cycles and improved team agility."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Domain-driven architectural refactoring mapping bound contexts.",
+                "Extraction of tight monolith code into independent, loosely coupled services.",
+                "Implementation of robust message brokers for asynchronous inter-service communication.",
+                "Containerization and orchestration strategies for seamless deployment."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Experts in Clean Architecture and CQRS (Command Query Responsibility Segregation). Technologies include .NET 8/9, Docker, Kubernetes, gRPC for internal comms, RESTful public APIs, and Azure Service Bus / RabbitMQ for messaging."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "A massive monolithic application that has become too fragile to deploy frequently safely.",
+                "Scaling specific, high-traffic bottlenecks of a system independently from the rest of the application.",
+                "Organizing large, tangled engineering teams into focused squads working on independent service domains."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our Architects?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Iterative Safety: We employ the Strangler Fig pattern to iteratively carve out microservices from your monolith, avoiding years-long freezes.",
+                "Pragmatic Design: We avoid \"microservice madness\"—we right-size your services to balance agility with deployment complexity."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "modernization",
+      "legacyPath": "/services/modernization/performance-tuning.html",
+      "slug": "memory-performance-tuning",
+      "title": "Memory & Performance Tuning",
+      "description": "Diagnose deep memory leaks, optimize garbage collection, and resolve UI thread blocking issues impacting your software's performance.",
+      "intro": "Diagnose deep memory leaks, optimize garbage collection, and resolve UI thread blocking issues impacting your software's performance.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We utilize advanced profiling tools to uncover hidden bottlenecks and memory leaks in your .NET applications, ensuring smooth performance and lower server costs."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Deep memory profiling and resolution of complex unmanaged resource leaks.",
+                "UI thread unblocking through proper asynchronous (async/await) task scheduling.",
+                "Garbage collection optimization to reduce stuttering and lower overall latency.",
+                "Structural optimizations to drastically reduce server RAM requirements."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We leverage industry-leading diagnostic tools including JetBrains dotMemory, dotTrace, Visual Studio Profiler, and BenchmarkDotNet . Combined with a deep architectural knowledge of the .NET CLR internals."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Desktop applications crashing with `OutOfMemoryException` after days of continuous 24/7 use.",
+                "User Interfaces freezing (hanging) when processing large background data operations.",
+                "Cloud server applications consuming excessive RAM, forcing unnecessary and expensive instance upgrades."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our Performance Experts?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Scientific Precision: We don't guess at performance issues. We use empirical profiling data to identify the exact functions causing bottlenecks.",
+                "High ROI: A single targeted fix by our engineers can often save thousands of dollars in monthly cloud computing costs by optimizing resource usage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "modernization",
+      "legacyPath": "/services/modernization/winforms-wpf.html",
+      "slug": "winforms-to-wpf-transitions",
+      "title": "WinForms to WPF Transitions",
+      "description": "Transform older, clunky WinForms UIs into modern, responsive, and data-bound WPF applications utilizing MVVM patterns.",
+      "intro": "Transform older, clunky WinForms UIs into modern, responsive, and data-bound WPF applications utilizing MVVM patterns.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Revitalize your legacy desktop applications with a modern, hardware-accelerated user interface. Our transition process preserves your core business logic while vastly improving user experience."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Strict separation of User Interface from Business Logic using the MVVM pattern.",
+                "Modern, hardware-accelerated user interfaces designed in XAML.",
+                "Responsive data binding eliminating deeply tangled \"code-behind\" event handlers.",
+                "Comprehensive unit testing coverage enabled by the new, decoupled architecture."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Specialists in C# Windows Presentation Foundation (WPF) . We utilize modern abstraction frameworks like CommunityToolkit.Mvvm to build robust, maintainable presentation layers with advanced styling, templating, and custom user controls."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Upgrading pixelated, unresponsive WinForms applications to scale correctly on high-DPI 4K monitors.",
+                "Untangling massive \"spaghetti code\" monolithic forms to allow for automated unit testing.",
+                "Refreshing the user experience (UX) and branding of a critical internal enterprise tool."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our UI Engineers?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Logic Preservation: We preserve your complex underlying business algorithms while entirely swapping out the presentation layer.",
+                "Modern Feel, Low Risk: We deliver a modern feel and testability without the extreme risk of a ground-up rewrite."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "specialized",
+      "legacyPath": "/services/specialized/cpp-porting.html",
+      "slug": "cpp-to-csharp-porting",
+      "title": "C++ to C# Porting",
+      "description": "Decompilation, analysis, and porting of legacy C++ and undocumented DLLs directly into managed C# code.",
+      "intro": "Decompilation, analysis, and porting of legacy C++ and undocumented DLLs directly into managed C# code.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Need to integrate old unmanaged code into a modern .NET application? We carefully reverse-engineer and rebuild your obsolete DLLs into maintainable, native C# libraries."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Reverse-engineering and analysis of undocumented or lost-source C++ DLLs.",
+                "Creation of safe, robust C# wrappers using P/Invoke for legacy integration.",
+                "Full codebase decompilation and manual porting to native managed C#.",
+                "Rigorous behavioral parity testing ensuring the new code acts exactly like the old."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Our engineers are deeply proficient in both C++ and modern C# focusing on .NET Interop (P/Invoke, COM) . We utilize industry-standard decompilation and analysis tools to safely translate memory-managed pointers into safe, managed types."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Integrating a proprietary hardware scanner whose original manufacturer went bankrupt and source code is lost.",
+                "Updating an ancient, unmanaged cryptography library to run natively in a modern Azure cloud environment.",
+                "Rescuing critical business logic locked in an obsolete binary file format."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our Reverse Engineering?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Bridging the Gap: We specialize in the difficult bridge between unmanaged system memory and modern managed code.",
+                "Asset Rescue: We rescue critical software assets that would otherwise force an incredibly expensive and risky total system total rewrite."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "specialized",
+      "legacyPath": "/services/specialized/data-sync.html",
+      "slug": "data-synchronization-agents",
+      "title": "Data Synchronization Agents",
+      "description": "Build robust middleware to handle large file transfers, bulk database inserts, and automated file system syncs (e.g. Rclone to Google Drive).",
+      "intro": "Build robust middleware to handle large file transfers, bulk database inserts, and automated file system syncs (e.g. Rclone to Google Drive).",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Guarantee data availability with fault-tolerant synchronization agents. We build software that manages off-site backups, cloud storage mirroring, and real-time database replication."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Fault-tolerant data synchronization middleware bridging disparate systems.",
+                "Optimized bulk database insert handlers capable of executing millions of rows rapidly.",
+                "Automated file system mirroring (e.g., executing and wrapping Rclone for cloud backups).",
+                "Real-time database replication and event-driven data streaming."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We leverage C# BackgroundServices, Quartz.NET scheduling, and RabbitMQ message brokers. Our integrations span from Rclone wrapper scripts and SFTP/FTP automations to massive SQL Server Integration Services (SSIS) pipelines."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Nightly syncing of millions of on-premise Oracle ERP transactions to a cloud PostgreSQL data warehouse.",
+                "Mirroring local security camera footage and application logs seamlessly to Google Drive or Azure Blob Storage.",
+                "Acting as a translation bridge between two incompatible, legacy vendor XML/JSON APIs."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our Integration Agents?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Data Consistency Priority: Data consistency is absolutely paramount. We guarantee exactly-once delivery of your critical data payloads.",
+                "Fault-Tolerant: Our synchronization tools handle network drops gracefully, queue data when endpoints are offline, and log extensively for diagnostic visibility."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "specialized",
+      "legacyPath": "/services/specialized/packaging.html",
+      "slug": "application-packaging",
+      "title": "Application Packaging",
+      "description": "Create secure, auto-updating MSI and EXE installers using Advanced Installer with code signing and obfuscation.",
+      "intro": "Create secure, auto-updating MSI and EXE installers using Advanced Installer with code signing and obfuscation.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Ensure seamless deployment of your software with professional installation packages. Features include prerequisites checking, auto-updaters, digital signatures, and custom installer UI."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Professional MSI/EXE Windows installers tailored to your software.",
+                "Automatic prerequisite checking and installation (e.g., specific .NET Frameworks, SQL LocalDB).",
+                "Configured auto-update mechanisms to deploy patches seamlessly.",
+                "EV Code Signing for SmartScreen bypass and publisher verification."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We are experts in leveraging Advanced Installer and the WiX Toolset . We utilize advanced PowerShell scripting for custom pre- and post-installation actions, Authenticode for digital signatures, and Dotfuscator for code obfuscation."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Distributing commercial desktop software to thousands of consumer endpoints securely.",
+                "Deploying internal enterprise tools silently via Active Directory/Group Policy (GPO).",
+                "Wrapping unstable or complex legacy installers into a single, clean, one-click MSI package."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our Deployment Engineering?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Flawless First Impressions: We don't just compress files; we engineer the entire deployment and upgrade lifecycle, ensuring your users have a flawless \"first run\" experience every time.",
+                "Automated Releases: We integrate the packaging process directly into your Azure Pipelines or GitHub Actions CI/CD workflows."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "specialized",
+      "legacyPath": "/services/specialized/windows-utilities.html",
+      "slug": "windows-desktop-utilities",
+      "title": "Windows Desktop Utilities",
+      "description": "Develop background services, Microsoft Outlook add-ins, OCR processors, and Windows Explorer extensions.",
+      "intro": "Develop background services, Microsoft Outlook add-ins, OCR processors, and Windows Explorer extensions.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "We build specialized add-ons and background processes that integrate tightly with the Windows OS ecosystem to automate daily business tasks silently and reliably."
+            }
+          ]
+        },
+        {
+          "heading": "What You Get",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Silent, highly reliable background Windows Services using TopShelf or .NET Worker Services.",
+                "Deeply integrated custom Microsoft Outlook Add-ins enhancing email workflows.",
+                "Windows Explorer context menu extensions for rapid file manipulation.",
+                "Optical Character Recognition (OCR) processors for automated document ingestion."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Technology & Expertise",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Specialists in the C# Windows API ecosystem and VSTO (Visual Studio Tools for Office) . We have extensive experience with Tesseract OCR, Windows Registry manipulation, and building system tray (NotifyIcon) utilities."
+            }
+          ]
+        },
+        {
+          "heading": "Use Cases",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Automating daily scanned invoice parsing via an OCR folder-watcher service.",
+                "Building custom CRM data-entry panels directly inside Microsoft Outlook for sales teams.",
+                "Creating silent system health monitors that report endpoint statuses back to a central cloud dashboard."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Why Choose Our System Utilities?",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Native Feel: We build utilities that act and feel like native parts of the Windows operating system—unobtrusive and highly performant.",
+                "Zero Maintenance: Our background services are designed for 24/7 uptime, featuring automatic crash recovery, logging, and self-healing mechanisms."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "client": "Johnny D.",
+      "project": "Lead Software Engineer",
+      "date": "Apr 23, 2023",
+      "rating": 5,
+      "location": "United States",
+      "feedback": "The Huygensoft team served as lead software engineers on the project. They delivered high‑quality C# solutions and provided architectural guidance throughout the engagement. A consistently reliable, pragmatic partner."
+    },
+    {
+      "client": "Johnny D.",
+      "project": "Enterprise API Migration to C#",
+      "date": "Feb 28, 2021",
+      "rating": 5,
+      "location": "United States",
+      "feedback": "The team provided some of the best C# work we’ve seen. They are technically brilliant, hardworking, and pragmatic. Tough problems were solved quickly and efficiently."
+    },
+    {
+      "client": "Johnny D.",
+      "project": "Print Automation Service",
+      "date": "Oct 19, 2020",
+      "rating": 5,
+      "location": "United States",
+      "feedback": "A fantastic team behind the scenes. They handled remote hardware integration seamlessly and delivered spotless .NET code. Highly recommended for any complex .NET project."
+    },
+    {
+      "client": "Gonzalo M.",
+      "project": "3CX Addons",
+      "date": "Jul 5, 2021",
+      "rating": 5,
+      "location": "Chile",
+      "feedback": "They were highly attentive, maintained a positive attitude throughout the engagement, and executed the work perfectly within our strict deadlines. Muy recomendado."
+    },
+    {
+      "client": "Mario C.",
+      "project": "RSS Reader using Xamarin.Forms",
+      "date": "Jun 18, 2021",
+      "rating": 5,
+      "location": "Portugal",
+      "feedback": "Very easy to work with. The team communicated clearly, understood our complex requirements immediately, and delivered exceptional quality work on schedule. 10/10."
+    },
+    {
+      "client": "Ted H.",
+      "project": "Smart Locker Kiosk Application",
+      "date": "Jun 10, 2021",
+      "rating": 5,
+      "location": "United States",
+      "feedback": "The developers were always willing to make adjustments and accommodate evolving changes. They took the time to explain their processes and provided thorough documentation for rebuilding our application."
+    },
+    {
+      "client": "Bostjan L.",
+      "project": "Custom Web Data Extraction DLL",
+      "date": "Jun 1, 2021",
+      "rating": 5,
+      "location": "Slovenia",
+      "feedback": "A great engineering partner with excellent skills. They were very dedicated and proactive; we will definitely hire them again for similar integration work!"
+    },
+    {
+      "client": "Ted H.",
+      "project": "Smart Locker Backend Integration",
+      "date": "May 25, 2021",
+      "rating": 5,
+      "location": "United States",
+      "feedback": "A perfect fit for our project. We didn’t know exactly what we needed initially; their team took control and guided us to a highly successful application. Technical support was always readily available."
+    },
+    {
+      "client": "Nicolas R.",
+      "project": "Cross-Platform Mobile Feature Development",
+      "date": "Mar 7, 2021",
+      "rating": 5,
+      "location": "Dominican Republic",
+      "feedback": "Fantastic experience; any adjustments were made without question, all in the interest of customer satisfaction. Looking forward to the next engagement."
+    },
+    {
+      "client": "Ghislain B.",
+      "project": "Custom Windows Utility Development",
+      "date": "Aug 6, 2020",
+      "rating": 5,
+      "location": "Belgium",
+      "feedback": "They developed a flawless custom utility application for Windows 10. We were incredibly pleased with the end result, performance, and the built-in localization support."
+    },
+    {
+      "client": "Juan F.",
+      "project": "3CX Automation Socket Integration",
+      "date": "Oct 18, 2020",
+      "rating": 5,
+      "location": "Chile",
+      "feedback": "An excellent technical partner. They fully understood the scope, adapted quickly to changing requirements, and delivered everything precisely in line with the project goals. Definitely recommended."
+    },
+    {
+      "client": "Ahmed Z.",
+      "project": "React SPA & .NET Backend Architecture",
+      "date": "Sep 28, 2020",
+      "rating": 5,
+      "location": "United States",
+      "feedback": "An amazing group of professionals, always finding innovative solutions and doing whatever it took to make complex integrations work smoothly. Resourceful and enjoyable to collaborate with."
+    },
+    {
+      "client": "Noorie Y.",
+      "project": "Real-time Messaging Application",
+      "date": "Sep 1, 2020",
+      "rating": 5,
+      "location": "Bangladesh",
+      "feedback": "A very positive experience working with this team. They did everything to ensure we were happy with the outcome. Hardworking and patient, they also provided highly valuable architectural input. We will definitely rehire them."
+    },
+    {
+      "client": "Aman B.",
+      "project": "Automated Job Alert Tool Verification",
+      "date": "Jun 24, 2020",
+      "rating": 5,
+      "location": "India",
+      "feedback": "A tremendous asset to our project. The team went above and beyond expectations to deliver exceptional results. We are ecstatic to have found such reliable technical partners. Kudos!"
+    },
+    {
+      "client": "Girish M.",
+      "project": "Azure Architecture Review & Mentorship",
+      "date": "Jun 24, 2020",
+      "rating": 5,
+      "location": "India",
+      "feedback": "They did an excellent job, delivering high-quality architectural guidance on time. They communicated exceptionally well and required very minimal direction."
+    },
+    {
+      "client": "Ghislain B.",
+      "project": "Windows 10 Background Service Utility",
+      "date": "Jun 15, 2020",
+      "rating": 5,
+      "location": "Belgium",
+      "feedback": "Very professional and easy to work with. They produced a great result within a very limited time frame. I will certainly return to them for future development needs."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Huygensoft",
+  "short_name": "Huygensoft",
+  "description": "Software development and IT consultancy.",
+  "start_url": "/en",
+  "display": "browser",
+  "background_color": "#f7f8fc",
+  "theme_color": "#5a55e8",
+  "icons": [
+    {
+      "src": "/brand/huygensoft-mark-dark.png",
+      "sizes": "1000x1000",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

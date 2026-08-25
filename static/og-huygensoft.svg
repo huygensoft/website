@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="112" y1="58" x2="1072" y2="600" gradientUnits="userSpaceOnUse"><stop stop-color="#F8F9FF"/><stop offset="1" stop-color="#E8ECFF"/></linearGradient>
+    <linearGradient id="accent" x1="683" y1="109" x2="1076" y2="501" gradientUnits="userSpaceOnUse"><stop stop-color="#6D63FF"/><stop offset=".5" stop-color="#53C7FF"/><stop offset="1" stop-color="#2BD6C4"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="34"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1008" cy="113" r="171" fill="#B9AFFF" fill-opacity=".55" filter="url(#blur)"/>
+  <circle cx="873" cy="476" r="199" fill="#97F1E4" fill-opacity=".43" filter="url(#blur)"/>
+  <rect x="70" y="66" width="1060" height="498" rx="44" fill="#FFF" fill-opacity=".58" stroke="#FFF"/>
+  <rect x="104" y="104" width="72" height="72" rx="22" fill="#101329"/>
+  <path d="M124 123h9v12h14v-12h9v34h-9v-13h-14v13h-9v-34Z" fill="url(#accent)"/>
+  <text x="104" y="274" fill="#11152F" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" letter-spacing="-3">Huygensoft</text>
+  <text x="108" y="351" fill="#454A68" font-family="Arial, Helvetica, sans-serif" font-size="36">Software made simple.</text>
+  <text x="108" y="407" fill="#666D8E" font-family="Arial, Helvetica, sans-serif" font-size="25">Development · Integration · IT Consultancy</text>
+  <g opacity=".94"><rect x="766" y="174" width="252" height="252" rx="43" fill="#FFF" fill-opacity=".67" stroke="#FFF" stroke-width="3"/><circle cx="892" cy="300" r="78" fill="url(#accent)" fill-opacity=".24"/><path d="M817 334C853 286 872 367 911 306C936 268 948 310 981 263" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/><circle cx="851" cy="287" r="13" fill="#6D63FF"/><circle cx="912" cy="306" r="13" fill="#53C7FF"/><circle cx="979" cy="263" r="13" fill="#2BD6C4"/></g>
+</svg>

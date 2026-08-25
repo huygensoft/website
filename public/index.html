@@ -1,148 +1,88 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-
-  <!-- Google Analytics -->
-  <main-analytics></main-analytics>
-  <!-- Google Analytics ends -->
-
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description"
-    content="Huygensoft is a specialized software engineering firm building robust API middleware, desktop applications, VoIP integrations, and smart locker solutions.">
-  <!-- Open graphs -->
-  <meta property="og:title" content="Huygensoft | Custom Software Engineering & Integrations">
-  <meta property="og:image" content="/src/images/logo.svg">
-  <meta property="og:description"
-    content="Huygensoft is a specialized software engineering firm building robust API middleware, desktop applications, VoIP integrations, and smart locker solutions.">
-  <meta property="og:url" content="https://www.huygensoft.com/">
-  <meta property="og:type" content="website">
-
-  <!-- Twitter card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Huygensoft | Custom Software Engineering & Integrations">
-  <meta name="twitter:image" content="/src/images/logo.svg">
-  <meta name="twitter:site" content="@huygensoft">
-  <meta name="twitter:description"
-    content="Specializing in VoIP integrations, smart locker solutions, and enterprise .NET development.">
-
-  <title>Huygensoft | Software Engineering & Tech Integrations</title>
-
-
-  <!-- Favicons -->
-  <main-favicon></main-favicon>
-
-  <!-- update the version number as needed -->
-  <!-- Firebase emulator scripts removed to avoid 404s during local development; add back only if using Firebase. -->
-
-  <!-- Hotjar Tracking Code -->
-  <!-- Hotjar code removed to prevent blocked/script errors; reinstate if tracking is desired. -->
-
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="src/css/styles.css">
-  <link rel="stylesheet" href="src/css/footer.css">
-
-  <!-- jsdelivr -->
-  <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
-</head>
-
-<body>
-  <!-- Header section -->
-  <header>
-    <nav>
-      <a href='./index.html'><img class="nav-img" src="./src/images/logo.svg" alt="company's logo"></a>
-      <div class="nav-menu" id="navs">
-        <div class="nav-menu-item"><a href="/pages/services.html" class="top-link menu-link">Our Services</a></div>
-        <div class="nav-menu-item"><a href="/pages/about.html" class="top-link menu-link">About Us</a></div>
-        <button class="nav-menu-btn"><a href="/pages/contact.html" class="btn-link">Contact</a></button>
-      </div>
-      <div class="bar-container" id="bar-container">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-    </nav>
-    <div class="header-tag-container">
-      <div class="header-inner-container">
-        <h1 class="header-tag">Build. Integrate. Automate.</h1>
-        <p class="header-lead">Custom 3CX, CRM, and AI-powered solutions for modern businesses.</p>
-        <button class="header-tag-btn"><a href="#services" class="btn-link">Our Services</a></button>
-      </div>
-    </div>
-  </header>
-
-  <!-- Simplified Services Section -->
-  <section class="expertise-container" id="services">
-    <div class="expertise-header">
-      <h2 class="expertise-title">Our Services</h2>
-      <p class="expertise-subtitle">
-        We engineer custom software for complex systems, specializing in VoIP integrations, smart hardware, cloud
-        backends, and legacy modernization.
-      </p>
-    </div>
-    <div class="expertise-features-grid">
-      <div class="expertise-feature">
-        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/telephone-inbound.svg" alt="3CX Solutions"
-          class="expertise-img">
-        <h3>3CX & Communication Solutions</h3>
-        <p>Custom 3CX API development, Call Flow Design, Predictive Dialers, and native CRM integrations.</p>
-        <a href="./pages/services.html#expertise" class="expertise-learnmore-btn"
-          style="margin-top:12px; display:inline-block;">Read More</a>
-      </div>
-      <div class="expertise-feature">
-        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/hdd-network.svg" alt="Enterprise Cloud"
-          class="expertise-img">
-        <h3>Enterprise Software & Cloud Backend</h3>
-        <p>Scalable APIs, Azure DevOps infrastructure, DB optimization, and high-performance desktop apps.</p>
-        <a href="./pages/services.html#enterprise" class="expertise-learnmore-btn"
-          style="margin-top:12px; display:inline-block;">Read More</a>
-      </div>
-      <div class="expertise-feature">
-        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/boxes.svg" alt="Legacy Modernization"
-          class="expertise-img">
-        <h3>Legacy Software Modernization</h3>
-        <p>.NET framework upgrades, WinForms to WPF transformations, profiling, and microservice refactoring.</p>
-        <a href="./pages/services.html#modernization" class="expertise-learnmore-btn"
-          style="margin-top:12px; display:inline-block;">Read More</a>
-      </div>
-      <div class="expertise-feature">
-        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/motherboard.svg"
-          alt="Specialized Engineering" class="expertise-img">
-        <h3>Hardware & Specialized Engineering</h3>
-        <p>Smart locker integrations, C++ porting, deployment packaging, and custom Windows subsystem utilities.</p>
-        <a href="./pages/services.html#locker" class="expertise-learnmore-btn"
-          style="margin-top:12px; display:inline-block;">Read More</a>
-      </div>
-    </div>
-    <div style="text-align:center; margin-top:40px;">
-      <button class="header-tag-btn"><a href="./pages/services.html" class="btn-link">View All Services</a></button>
-    </div>
-  </section>
-
-  <!--Testimonial section  -->
-  <section class="test-container">
-    <div class="test-tag-container">
-      <div class="test-tag-left">
-        <h4 class="test-tag1">TESTIMONIALS</h4>
-        <div class="test-tag2">What our clients say</div>
-      </div>
-      <div class="test-tag-right">
-        <span class="test-nav-left">&#60</span>
-        <span class="test-nav-right">&#62</span>
-      </div>
-    </div>
-    <div class="test-card-slide-container" id="testimonial-container"></div>
-    <!-- mobile version uses its own wrapper; desktop CSS hides it and vice versa -->
-    <div class="mobile-test-card-container" id="testimonial-mobile"></div>
-  </section>
-
-  <!-- Footer -->
-  <main-footer></main-footer>
-
-  <script src="./src/js/component.js"></script>
-  <script src="./src/js/app.js"></script>
-</body>
-
+<!doctype html>
+<html lang="en-GB" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f8fc" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="description" content="Huygensoft builds considered software and provides IT consultancy, with a focus on clear, useful digital products." />
+    <link rel="canonical" href="https://huygensoft.com/en" />
+    <link rel="icon" href="/brand/huygensoft-mark-dark.png" type="image/png" sizes="1000x1000" />
+    <link rel="icon" href="/brand/huygensoft-favicon-light-32.png" type="image/png" sizes="32x32" media="(prefers-color-scheme: dark)" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta property="og:site_name" content="Huygensoft" />
+    <meta property="og:title" content="Huygensoft | Software Development &amp; IT Consultancy" />
+    <meta property="og:description" content="Huygensoft builds considered software and provides IT consultancy, with a focus on clear, useful digital products." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://huygensoft.com/en" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:image" content="https://huygensoft.com/og-huygensoft.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Huygensoft — software made simple." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Huygensoft | Software Development &amp; IT Consultancy" />
+    <meta name="twitter:description" content="Huygensoft builds considered software and provides IT consultancy, with a focus on clear, useful digital products." />
+    <meta name="twitter:image" content="https://huygensoft.com/og-huygensoft.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Huygensoft Limited",
+        "alternateName": "Huygensoft",
+        "url": "https://huygensoft.com",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "UK Companies House number",
+          "value": "17250183"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "182-184 High Street North, East Ham",
+          "addressLocality": "London",
+          "postalCode": "E6 2JA",
+          "addressCountry": "GB"
+        },
+        "location": [
+          {
+            "@type": "Place",
+            "name": "Huygensoft United Kingdom office",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "182-184 High Street North, East Ham",
+              "addressLocality": "London",
+              "postalCode": "E6 2JA",
+              "addressCountry": "GB"
+            }
+          },
+          {
+            "@type": "Place",
+            "name": "Huygensoft Nigeria office",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "8 Providence Street, Lekki Phase I",
+              "addressLocality": "Lagos",
+              "postalCode": "105102",
+              "addressCountry": "NG"
+            }
+          }
+        ],
+        "sameAs": [
+          "https://huygensoft.uk",
+          "https://www.linkedin.com/company/83504608",
+          "https://x.com/huygensoft"
+        ]
+      }
+    </script>
+    <title>Huygensoft | Software Development &amp; IT Consultancy</title>
+    <script type="module" crossorigin src="/assets/index-t7zdTL4R.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BhhL-a0k.css">
+  <link rel="alternate" data-huygensoft-alternate="true" hreflang="en-GB" href="https://huygensoft.com/en" /><link rel="alternate" data-huygensoft-alternate="true" hreflang="it-IT" href="https://huygensoft.com/it" /><link rel="alternate" data-huygensoft-alternate="true" hreflang="nl-NL" href="https://huygensoft.com/nl" /><link rel="alternate" data-huygensoft-alternate="true" hreflang="fr-FR" href="https://huygensoft.com/fr" /><link rel="alternate" data-huygensoft-alternate="true" hreflang="de-DE" href="https://huygensoft.com/de" /><link rel="alternate" data-huygensoft-alternate="true" hreflang="es-ES" href="https://huygensoft.com/es" /><link rel="alternate" data-huygensoft-alternate="true" hreflang="pt-PT" href="https://huygensoft.com/pt" /><link rel="alternate" data-huygensoft-alternate="true" hreflang="yo" href="https://huygensoft.com/yo" /><link rel="alternate" data-huygensoft-alternate="true" hreflang="ig" href="https://huygensoft.com/ig" /><link rel="alternate" data-huygensoft-alternate="true" hreflang="ar" href="https://huygensoft.com/ar" /><link rel="alternate" data-huygensoft-alternate="true" hreflang="zh-Hans" href="https://huygensoft.com/zh" /><link rel="alternate" data-huygensoft-alternate="true" hreflang="x-default" href="https://huygensoft.com/en" /></head>
+  <body>
+    <noscript>This site needs JavaScript enabled to present its multilingual experience.</noscript>
+    <div id="root"><div class="seo-fallback"><header><a href="/en">Huygensoft</a><nav aria-label="Primary navigation"><a href="/en">Home</a><a href="/en/services">Services</a><a href="/en/company">Company</a><a href="/en/contact">Contact</a></nav></header><main><h1>Huygensoft | Software Development &amp; IT Consultancy</h1><p>Huygensoft builds considered software and provides IT consultancy, with a focus on clear, useful digital products.</p><section><h2>Software development, integration and IT consultancy</h2><p>Huygensoft helps organisations turn ideas, disconnected tools and difficult workflows into considered digital products.</p></section><section lang="en"><h2>Client testimonials</h2><article><blockquote><p>The Huygensoft team served as lead software engineers on the project. They delivered high‑quality C# solutions and provided architectural guidance throughout the engagement. A consistently reliable, pragmatic partner.</p></blockquote><p><strong>Johnny D.</strong> — Lead Software Engineer · United States · Apr 23, 2023 · ★★★★★</p></article><article><blockquote><p>The team provided some of the best C# work we’ve seen. They are technically brilliant, hardworking, and pragmatic. Tough problems were solved quickly and efficiently.</p></blockquote><p><strong>Johnny D.</strong> — Enterprise API Migration to C# · United States · Feb 28, 2021 · ★★★★★</p></article><article><blockquote><p>A fantastic team behind the scenes. They handled remote hardware integration seamlessly and delivered spotless .NET code. Highly recommended for any complex .NET project.</p></blockquote><p><strong>Johnny D.</strong> — Print Automation Service · United States · Oct 19, 2020 · ★★★★★</p></article><article><blockquote><p>They were highly attentive, maintained a positive attitude throughout the engagement, and executed the work perfectly within our strict deadlines. Muy recomendado.</p></blockquote><p><strong>Gonzalo M.</strong> — 3CX Addons · Chile · Jul 5, 2021 · ★★★★★</p></article><article><blockquote><p>Very easy to work with. The team communicated clearly, understood our complex requirements immediately, and delivered exceptional quality work on schedule. 10/10.</p></blockquote><p><strong>Mario C.</strong> — RSS Reader using Xamarin.Forms · Portugal · Jun 18, 2021 · ★★★★★</p></article><article><blockquote><p>The developers were always willing to make adjustments and accommodate evolving changes. They took the time to explain their processes and provided thorough documentation for rebuilding our application.</p></blockquote><p><strong>Ted H.</strong> — Smart Locker Kiosk Application · United States · Jun 10, 2021 · ★★★★★</p></article><article><blockquote><p>A great engineering partner with excellent skills. They were very dedicated and proactive; we will definitely hire them again for similar integration work!</p></blockquote><p><strong>Bostjan L.</strong> — Custom Web Data Extraction DLL · Slovenia · Jun 1, 2021 · ★★★★★</p></article><article><blockquote><p>A perfect fit for our project. We didn’t know exactly what we needed initially; their team took control and guided us to a highly successful application. Technical support was always readily available.</p></blockquote><p><strong>Ted H.</strong> — Smart Locker Backend Integration · United States · May 25, 2021 · ★★★★★</p></article><article><blockquote><p>Fantastic experience; any adjustments were made without question, all in the interest of customer satisfaction. Looking forward to the next engagement.</p></blockquote><p><strong>Nicolas R.</strong> — Cross-Platform Mobile Feature Development · Dominican Republic · Mar 7, 2021 · ★★★★★</p></article><article><blockquote><p>They developed a flawless custom utility application for Windows 10. We were incredibly pleased with the end result, performance, and the built-in localization support.</p></blockquote><p><strong>Ghislain B.</strong> — Custom Windows Utility Development · Belgium · Aug 6, 2020 · ★★★★★</p></article><article><blockquote><p>An excellent technical partner. They fully understood the scope, adapted quickly to changing requirements, and delivered everything precisely in line with the project goals. Definitely recommended.</p></blockquote><p><strong>Juan F.</strong> — 3CX Automation Socket Integration · Chile · Oct 18, 2020 · ★★★★★</p></article><article><blockquote><p>An amazing group of professionals, always finding innovative solutions and doing whatever it took to make complex integrations work smoothly. Resourceful and enjoyable to collaborate with.</p></blockquote><p><strong>Ahmed Z.</strong> — React SPA &amp; .NET Backend Architecture · United States · Sep 28, 2020 · ★★★★★</p></article><article><blockquote><p>A very positive experience working with this team. They did everything to ensure we were happy with the outcome. Hardworking and patient, they also provided highly valuable architectural input. We will definitely rehire them.</p></blockquote><p><strong>Noorie Y.</strong> — Real-time Messaging Application · Bangladesh · Sep 1, 2020 · ★★★★★</p></article><article><blockquote><p>A tremendous asset to our project. The team went above and beyond expectations to deliver exceptional results. We are ecstatic to have found such reliable technical partners. Kudos!</p></blockquote><p><strong>Aman B.</strong> — Automated Job Alert Tool Verification · India · Jun 24, 2020 · ★★★★★</p></article><article><blockquote><p>They did an excellent job, delivering high-quality architectural guidance on time. They communicated exceptionally well and required very minimal direction.</p></blockquote><p><strong>Girish M.</strong> — Azure Architecture Review &amp; Mentorship · India · Jun 24, 2020 · ★★★★★</p></article><article><blockquote><p>Very professional and easy to work with. They produced a great result within a very limited time frame. I will certainly return to them for future development needs.</p></blockquote><p><strong>Ghislain B.</strong> — Windows 10 Background Service Utility · Belgium · Jun 15, 2020 · ★★★★★</p></article></section></main><footer>Huygensoft Limited · Company No. 17250183<p><a href="https://www.linkedin.com/company/83504608">LinkedIn</a> · <a href="https://x.com/huygensoft">X</a></p></footer></div></div>
+    <script src="/runtime-config.js"></script>
+  </body>
 </html>
