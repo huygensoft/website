@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://huygensoft.com/en</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://huygensoft.com/en/services</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://huygensoft.com/en/company</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://huygensoft.com/en/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://huygensoft.com/en/services/3cx/custom-3cx-api-development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/3cx/3cx-call-flow-designer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/3cx/predictive-power-dialers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/3cx/ai-agents-automation</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/3cx/custom-crm-applications</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/locker/locker-desktop-application</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/locker/locker-api-services</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/locker/locker-mobile-application</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/locker/locker-admin-dashboard</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/enterprise/secure-financial-apis</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/enterprise/azure-cloud-devops</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/enterprise/high-performance-desktop-apps</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/enterprise/database-optimization</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/modernization/dotnet-framework-upgrades</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/modernization/winforms-to-wpf-transitions</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/modernization/memory-performance-tuning</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/modernization/monolith-to-microservices</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/specialized/application-packaging</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/specialized/cpp-to-csharp-porting</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/specialized/windows-desktop-utilities</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://huygensoft.com/en/services/specialized/data-synchronization-agents</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>

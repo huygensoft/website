@@ -6,6 +6,101 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "redirects": [
+      {
+        "source": "/index.html",
+        "destination": "/en",
+        "type": 301
+      },
+      {
+        "source": "/pages/services.html",
+        "destination": "/en/services",
+        "type": 301
+      },
+      {
+        "source": "/pages/about.html",
+        "destination": "/en/company",
+        "type": 301
+      },
+      {
+        "source": "/pages/contact.html",
+        "destination": "/en/contact",
+        "type": 301
+      },
+      {
+        "source": "/pages/privacy-policy.html",
+        "destination": "/en/privacy",
+        "type": 301
+      },
+      { "source": "/services/3cx/c3x-api.html", "destination": "/en/services/3cx/custom-3cx-api-development", "type": 301 },
+      { "source": "/services/3cx/c3x-cfd.html", "destination": "/en/services/3cx/3cx-call-flow-designer", "type": 301 },
+      { "source": "/services/3cx/c3x-dialer.html", "destination": "/en/services/3cx/predictive-power-dialers", "type": 301 },
+      { "source": "/services/3cx/c3x-ai.html", "destination": "/en/services/3cx/ai-agents-automation", "type": 301 },
+      { "source": "/services/3cx/c3x-crm.html", "destination": "/en/services/3cx/custom-crm-applications", "type": 301 },
+      { "source": "/services/locker/locker-desktop.html", "destination": "/en/services/locker/locker-desktop-application", "type": 301 },
+      { "source": "/services/locker/locker-api.html", "destination": "/en/services/locker/locker-api-services", "type": 301 },
+      { "source": "/services/locker/locker-mobile.html", "destination": "/en/services/locker/locker-mobile-application", "type": 301 },
+      { "source": "/services/locker/locker-dashboard.html", "destination": "/en/services/locker/locker-admin-dashboard", "type": 301 },
+      { "source": "/services/enterprise/secure-apis.html", "destination": "/en/services/enterprise/secure-financial-apis", "type": 301 },
+      { "source": "/services/enterprise/cloud-devops.html", "destination": "/en/services/enterprise/azure-cloud-devops", "type": 301 },
+      { "source": "/services/enterprise/high-performance.html", "destination": "/en/services/enterprise/high-performance-desktop-apps", "type": 301 },
+      { "source": "/services/enterprise/database-optimization.html", "destination": "/en/services/enterprise/database-optimization", "type": 301 },
+      { "source": "/services/modernization/framework-upgrades.html", "destination": "/en/services/modernization/dotnet-framework-upgrades", "type": 301 },
+      { "source": "/services/modernization/winforms-wpf.html", "destination": "/en/services/modernization/winforms-to-wpf-transitions", "type": 301 },
+      { "source": "/services/modernization/performance-tuning.html", "destination": "/en/services/modernization/memory-performance-tuning", "type": 301 },
+      { "source": "/services/modernization/microservices.html", "destination": "/en/services/modernization/monolith-to-microservices", "type": 301 },
+      { "source": "/services/specialized/packaging.html", "destination": "/en/services/specialized/application-packaging", "type": 301 },
+      { "source": "/services/specialized/cpp-porting.html", "destination": "/en/services/specialized/cpp-to-csharp-porting", "type": 301 },
+      { "source": "/services/specialized/windows-utilities.html", "destination": "/en/services/specialized/windows-desktop-utilities", "type": 301 },
+      { "source": "/services/specialized/data-sync.html", "destination": "/en/services/specialized/data-synchronization-agents", "type": 301 }
+    ],
+    "headers": [
+      {
+        "source": "/runtime-config.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "/assets/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      },
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Content-Security-Policy",
+            "value": "default-src 'self'; base-uri 'self'; connect-src 'self' https:; font-src 'self'; frame-ancestors 'none'; img-src 'self' data:; object-src 'none'; script-src 'self'; style-src 'self'"
+          },
+          {
+            "key": "Permissions-Policy",
+            "value": "camera=(), geolocation=(), microphone=()"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "DENY"
+          }
+        ]
+      }
+    ],
     "rewrites": [
       {
         "source": "**",
